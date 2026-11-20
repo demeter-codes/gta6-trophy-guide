@@ -49,14 +49,18 @@ export function renderChecklist({ trophies, progress, filters, selectedId, stage
 
   const groups = new Map();
   for (const trophy of filtered) {
-    const key = filters.group === "grade"
+    const key = filters.kind === "missable"
+      ? `${String(trophy.missableStage).padStart(2, "0")} · ${stageNames[trophy.missableStage - 1]}`
+      : filters.group === "grade"
       ? gradeName(trophy.grade)
       : `${String(trophy.roadmapStage).padStart(2, "0")} · ${stageNames[trophy.roadmapStage - 1]}`;
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(trophy);
   }
   const gradeOrder = { Platinum: 0, Gold: 1, Silver: 2, Bronze: 3 };
-  const entries = [...groups.entries()].sort((a, b) => filters.group === "grade"
+  const entries = [...groups.entries()].sort((a, b) => filters.kind === "missable"
+    ? a[0].localeCompare(b[0])
+    : filters.group === "grade"
     ? gradeOrder[a[0]] - gradeOrder[b[0]]
     : a[0].localeCompare(b[0]));
   for (const [label, group] of entries) {

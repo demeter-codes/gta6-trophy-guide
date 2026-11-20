@@ -41,6 +41,14 @@ for (const trophy of trophies) {
   if (!Array.isArray(trophy.sources) || trophy.sources.length === 0) {
     throw new Error(`${trophy.name} has no cited source.`);
   }
+  if (trophy.missable) {
+    if (!trophy.missableNote?.trim() || !Number.isInteger(trophy.missableStage) ||
+        trophy.missableStage < 1 || trophy.missableStage > 9) {
+      throw new Error(`${trophy.name} is missable without a valid note and loss stage.`);
+    }
+  } else if (trophy.missableNote !== null || trophy.missableStage !== null) {
+    throw new Error(`${trophy.name} has missable details but is not marked missable.`);
+  }
   if (!Number.isInteger(trophy.roadmapStage) || trophy.roadmapStage < 1 || trophy.roadmapStage > 9) {
     throw new Error(`${trophy.name} has an invalid roadmap stage.`);
   }

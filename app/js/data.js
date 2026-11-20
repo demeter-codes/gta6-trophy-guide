@@ -22,7 +22,10 @@ export async function loadTrophies() {
   }
   const invalid = data.trophies.find((t) =>
     !t.name?.trim() || !t.description?.trim() || !GRADES.includes(t.grade) ||
-    !t.guide?.trim() || !Array.isArray(t.sources) || !t.sources.length
+    !t.guide?.trim() || !Array.isArray(t.sources) || !t.sources.length ||
+    (t.missable && (!t.missableNote?.trim() || !Number.isInteger(t.missableStage) ||
+      t.missableStage < 1 || t.missableStage > 9)) ||
+    (!t.missable && (t.missableNote !== null || t.missableStage !== null))
   );
   if (invalid) throw new Error(`Trophy data is incomplete: ${invalid.name || "unnamed entry"}.`);
   return data.trophies;

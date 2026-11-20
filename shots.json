@@ -1,6 +1,6 @@
 [
-  { "file": "1-checklist.jpg", "path": "/#view=checklist&trophy=2&spoilers=on", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-roadmap.jpg", "path": "/#view=roadmap&stage=3&spoilers=off", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "1-checklist.jpg", "path": "/#view=checklist&trophy=2&spoilers=off", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-roadmap.jpg", "path": "/#view=roadmap&stage=2&spoilers=off", "viewport": { "width": 1280, "height": 800 } },
   { "file": "3-tracker.jpg", "path": "/#view=tracker&spoilers=on", "viewport": { "width": 1280, "height": 800 } },
   { "file": "4-spoilers.jpg", "path": "/#view=checklist&kind=story&spoilers=on", "viewport": { "width": 1280, "height": 800 } }
 ]

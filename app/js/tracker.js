@@ -28,7 +28,7 @@ export function renderTracker({ trophies, progress, onExport, onImport, onReset,
   const missableMetric = node("div", "metric");
   missableMetric.append(node("span", "", "Missables remaining"));
   missableMetric.append(node("strong", "", String(missablesLeft)));
-  missableMetric.append(node("small", "", "Only confirmed lockouts count"));
+  missableMetric.append(node("small", "", "Finish these before their listed story window closes"));
   summary.append(progressMetric, hoursMetric, missableMetric);
   root.append(summary);
 
@@ -82,8 +82,8 @@ export function renderTracker({ trophies, progress, onExport, onImport, onReset,
   root.append(layout);
 
   const note = node("div", "missable-summary");
-  note.append(node("strong", "", `${missablesLeft} confirmed missables remain`));
-  note.append(node("p", "", "The published trophy conditions do not identify a one-time failure point. This guide leaves unverified lockouts unmarked rather than treating absence of evidence as a guarantee."));
+  note.append(node("strong", "", `${missablesLeft} flagged missables remain`));
+  note.append(node("p", "", "The checklist marks story strands and one-time interactions with a known or prudent cutoff. The roadmap groups them by the point at which to finish them; use a manual save before advancing."));
   root.append(note);
 
   const fileInput = node("input", "import-input");

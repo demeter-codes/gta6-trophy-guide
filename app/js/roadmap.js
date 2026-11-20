@@ -9,7 +9,7 @@ export function renderRoadmap({ trophies, progress, openStage, onOpenTrophy, onO
   title.append(node("span", "eyebrow", "A route through the register"));
   title.append(node("h2", "", "Roadmap to the platinum"));
   heading.append(title);
-  heading.append(node("p", "", "Story markers first, then the state-wide work, then a deliberate cleanup. The descriptions do not establish any one-time lockout, so no trophy is falsely labeled missable."));
+  heading.append(node("p", "", "Take the Chapter 1 meditation before leaving its window, then finish the story, broad completion work, and final cleanup in order."));
   root.append(heading);
 
   const grid = node("div", "stage-grid");
@@ -29,10 +29,10 @@ export function renderRoadmap({ trophies, progress, openStage, onOpenTrophy, onO
     card.lastChild.className = "stage-title";
     card.append(node("p", "", stage.brief));
 
-    const stageMissables = stageTrophies.filter((trophy) => trophy.missable);
+    const stageMissables = trophies.filter((trophy) => trophy.missable && trophy.missableStage === stage.id);
     if (stageMissables.length) {
       for (const trophy of stageMissables) {
-        card.append(node("div", "stage-missable", `Missable here · ${trophy.name}: ${trophy.missableNote}`));
+        card.append(node("div", "stage-missable", `Missable before this stage closes · ${trophy.name}: ${trophy.missableNote}`));
       }
     } else {
       card.append(node("div", "stage-missable is-clear", "No confirmed missable in this stage"));
