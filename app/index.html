@@ -1,112 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f2e8">
-  <title>Leonida Field Guide: GTA VI</title>
-  <link rel="stylesheet" href="style.css">
-<style id="gesso-text-wrap">h1,h2,h3{text-wrap:balance}p,li,figcaption,blockquote{text-wrap:pretty}</style>
-<style id="gesso-font-smoothing">html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA VI trophy checklist</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-frame">
-    <header class="masthead">
-      <a class="wordmark" href="#view=checklist" aria-label="Leonida Field Guide home">
-        <span class="wordmark-mark" aria-hidden="true">LF</span>
-        <span>Leonida<br>Field Guide</span>
-      </a>
-      <div class="masthead-title">
-        <h1>The road to<br><span class="accent-title">Leonida Legend.</span></h1>
-        <p class="eyebrow">Grand Theft Auto VI <span>·</span> PlayStation 5</p>
-      </div>
-      <div class="masthead-progress">
-        <span class="eyebrow">Your field record</span>
-        <strong id="header-progress">0 <small>/ 55</small></strong>
-        <span id="header-percent">0% complete</span>
-      </div>
-    </header>
-
-    <nav class="tabs" aria-label="Guide views">
-      <a class="tab is-active" data-view="checklist" href="#view=checklist">Checklist</a>
-      <a class="tab" data-view="roadmap" href="#view=roadmap">Roadmap</a>
-      <a class="tab" data-view="tracker" href="#view=tracker">Tracker</a>
-      <span class="tab-note">55 trophies <i>·</i> 1 platinum</span>
-    </nav>
-
-    <section class="view view-checklist" id="checklist-view">
-      <div class="control-deck">
-        <div class="filter-field search-field">
-          <label for="search">Search the register</label>
-          <input id="search" type="search" placeholder="Name, clue or chapter" autocomplete="off">
-        </div>
-        <div class="filter-field">
-          <label for="kind-filter">Kind</label>
-          <select id="kind-filter" data-slop-allow="overstuffed-row">
-            <option value="all">All kinds</option>
-            <option value="story">Story</option>
-            <option value="missable">Missable</option>
-            <option value="collectibles">Collectibles</option>
-            <option value="activities">Activities</option>
-            <option value="combat">Combat</option>
-            <option value="exploration">Exploration</option>
-            <option value="online">Online</option>
-          </select>
-        </div>
-        <div class="filter-field">
-          <label for="grade-filter">Grade</label>
-          <select id="grade-filter" data-slop-allow="overstuffed-row">
-            <option value="all">All grades</option>
-            <option value="platinum">Platinum</option>
-            <option value="gold">Gold</option>
-            <option value="silver">Silver</option>
-            <option value="bronze">Bronze</option>
-          </select>
-        </div>
-        <div class="filter-field">
-          <label for="group-filter">Arrange by</label>
-          <select id="group-filter">
-            <option value="stage">Roadmap stage</option>
-            <option value="grade">Grade</option>
-          </select>
-        </div>
-        <label class="check-filter"><input id="remaining-filter" type="checkbox"><span>Remaining only</span></label>
-        <label class="switch-control" for="spoiler-toggle">
-          <span><strong>Spoilers</strong><small>Reveal story names</small></span>
-          <input id="spoiler-toggle" type="checkbox" checked>
-          <i aria-hidden="true"></i>
-        </label>
-      </div>
-
-      <div class="progress-strip">
-        <div><span class="eyebrow">Completion</span><strong id="list-progress-label">0 of 55 earned</strong></div>
-        <div class="progress-track" role="progressbar" aria-label="Trophy completion" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0">
-          <span id="list-progress-bar"></span>
-        </div>
-        <span class="progress-number" id="list-progress-percent">00%</span>
-      </div>
-
-      <div class="checklist-layout">
-        <section class="trophy-register" aria-label="Trophy checklist">
-          <div class="register-heading">
-            <span class="eyebrow">The register</span>
-            <span id="result-count">55 entries</span>
-          </div>
-          <div id="trophy-list"></div>
-          <p class="empty-state" id="empty-state" hidden>No entries match these filters.</p>
-        </section>
-        <aside class="detail-panel" id="detail-panel" aria-live="polite"></aside>
-      </div>
-    </section>
-
-    <section class="view alternate-view" id="roadmap-view" hidden></section>
-    <section class="view alternate-view" id="tracker-view" hidden></section>
-    <p class="toast" id="notice" role="status" aria-live="polite"></p>
-    <footer class="page-footer">
-      <span>FIELD NOTES <b>·</b> VICE CITY &amp; LEONIDA</span>
-      <span>Offline by design <b>·</b> Progress stays on this device</span>
-    </footer>
-  </div>
-  <script type="module" src="js/app.js"></script>
+<header>
+  <h1>GTA VI trophy checklist</h1>
+  <p id="progress">0 of 55 earned</p>
+</header>
+<div class="controls">
+  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+  <button id="export" type="button">Export progress</button>
+  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+</div>
+<table>
+  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<script type="module" src="app.js"></script>
 </body>
 </html>

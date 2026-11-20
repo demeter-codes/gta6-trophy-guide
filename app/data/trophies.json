@@ -1,2101 +1,392 @@
 {
-  "game": "Grand Theft Auto VI",
-  "platform": "PlayStation 5",
-  "list": "the official 55 trophies, 2026-11-18",
-  "trophies": [
-    {
-      "id": 1,
-      "name": "Vice Got a Price!",
-      "description": "Congratulations! You're a Leonida Legend.",
-      "grade": "platinum",
-      "guide": "Think of the platinum as the receipt for the other 54 entries, not a separate activity to hunt. Leave this row selected while cleaning up: the checklist and grade filters make the remaining requirements visible, and the tracker records each earned date locally. Story trophies can be covered until earned, so a spoiler-safe run does not require opening their details. PSNProfiles and Exophase both list the full PS5 set; GTA Base splits its route between the story, the completion checklist, and final cleanup. Use those phases as a queue, then verify every grade is checked before expecting this award, once the checklist is complete.",
-      "hidden": false,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Review the outstanding rows.",
-        "Complete each remaining condition.",
-        "Confirm the platinum notification."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 2,
-      "name": "Just Like Paradise",
-      "description": "Complete Gone Fishing.",
-      "grade": "bronze",
-      "guide": "Gone Fishing is the opening job, so there is no reason to delay it or detour for a trophy setup. Follow the mission to its end and let the completion result settle before moving into optional errands; the register describes no medal, score, or alternate approach. GTA Base places this among the first Chapter 1 missions, while PSNProfiles gives the exact completion condition. The useful habit here is simply to notice when a named mission is the whole requirement and avoid adding invented objectives. It is not marked missable: play it as the story opens, then confirm the bronze appears.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 1,
-      "steps": [
-        "Start Gone Fishing.",
-        "Complete the mission.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 3,
-      "name": "Paradise Lost",
-      "description": "Complete Chapter 1.",
-      "grade": "bronze",
-      "guide": "This is a chapter marker, not a medal challenge. Keep advancing the main story through Chapter 1 and watch for its completion award as the next chapter begins; GTA Base notes the handoff occurs after the opening Chapter 2 mission, What's in the Bag? That timing is useful if the notification arrives later than expected. PSNProfiles confirms the condition is simply Chapter 1 completion, so optional sightseeing does not belong on this checklist item. A manual save before major story transitions is still sensible, but this chapter trophy itself is not flagged as missable. Finish the next mission before beginning an optional detour.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": "Chapter 1",
-      "roadmapStage": 2,
-      "steps": [
-        "Continue the main story.",
-        "Complete Chapter 1.",
-        "Confirm the chapter marker."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 4,
-      "name": "T**s Ass Drug Money",
-      "description": "Complete Chapter 2.",
-      "grade": "bronze",
-      "guide": "The second chapter award can arrive at the transition rather than on the last Chapter 2 mission screen. GTA Base places the handoff as Chapter 3 opens, after Welcome to Vice City, so keep following the main markers until the story has crossed that boundary. The PSNProfiles entry confirms this is a chapter-completion trophy; it does not demand a particular route or medal. Check the trophy list after the opening Chapter 3 sequence instead of replaying earlier missions in search of a missing pop. This is a story milestone, not an optional window, and is left unflagged as missable. Then continue with the campaign.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": "Chapter 2",
-      "roadmapStage": 3,
-      "steps": [
-        "Continue the main story.",
-        "Complete Chapter 2.",
-        "Confirm the chapter marker."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 5,
-      "name": "Vice City, Baby!",
-      "description": "Complete Chapter 3.",
-      "grade": "bronze",
-      "guide": "Expect this trophy at the Chapter 3 to Chapter 4 handoff, not necessarily when a mission called Chapter 3 ends. GTA Base says the award follows the first two Chapter 4 missions, Ocean Beach and Another Life. Keep that pair in mind if the completion marker seems late. The trophy description on PSNProfiles only asks for Chapter 3, so there is no separate performance target to chase. Save optional collectibles for a later sweep and let the story carry you through the transition. This is an automatic chapter milestone, not a missable side objective. No action beyond story progress is required.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": "Chapter 3",
-      "roadmapStage": 4,
-      "steps": [
-        "Continue the main story.",
-        "Complete Chapter 3.",
-        "Confirm the chapter marker."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 6,
-      "name": "Top Of The World, Ma",
-      "description": "Complete Chapter 4.",
-      "grade": "bronze",
-      "guide": "Chapter 4 completion is a quiet milestone, so keep following the main missions until the game marks the chapter complete. GTA Base places Top Of The World, Ma at the Chapter 4 endpoint, and PSNProfiles confirms the trophy is for completing that chapter, not for earning a medal. If the award does not appear mid-mission, finish the objective and let the next story transition load before checking again. Side collectibles can wait for free roam; this row is simply a reminder to finish the campaign chapter. It is not marked missable and requires no separate choice or score. Wait for the chapter transition.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": "Chapter 4",
-      "roadmapStage": 5,
-      "steps": [
-        "Continue the main story.",
-        "Complete Chapter 4.",
-        "Confirm the chapter marker."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 7,
-      "name": "You Gotta Know When to Get Off",
-      "description": "Complete the final mission.",
-      "grade": "gold",
-      "guide": "Treat this as the last main-story checkpoint on the list. Finish the campaign's Chapter 4 progression and continue into the final mission when you are ready; no medal or optional objective appears in the published condition. GTA Base's roadmap says free roam continues after the credits, so the finale need not be your last play session. Before launching it, make a deliberate pass over every flagged side strand and one-time interaction in this guide. PSNProfiles records the condition as the final mission, which is clearer than guessing at the mission title. This story trophy is not flagged as missable. Confirm it on the next save-screen check.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": "Final mission",
-      "roadmapStage": 6,
-      "steps": [
-        "Review other story rows.",
-        "Complete the final mission.",
-        "Verify the gold award."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 8,
-      "name": "Trust",
-      "description": "Complete Breakfast Run.",
-      "grade": "bronze",
-      "guide": "Breakfast Run is a named mission trophy, so use the mission marker and finish the full job rather than assuming a start or checkpoint is enough. GTA Base lists it with the story missions and its walkthrough points to the mission record; PSNProfiles confirms completion is the unlock condition. No approach, score, or optional target is stated in the trophy entry, so do not slow the run chasing a self-imposed gold medal. Let the completion screen return control before changing characters or activities, then check the award. The story route is the reliable way to reach it, and this one is not marked missable.",
-      "hidden": false,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 2,
-      "steps": [
-        "Locate Breakfast Run in the story flow.",
-        "Complete the mission.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 9,
-      "name": "Break the Bank",
-      "description": "Complete The Cartel Heist.",
-      "grade": "bronze",
-      "guide": "The Cartel Heist is the target, not a general requirement to rob any bank. Wait until its story marker is available, complete the entire heist, and verify the mission result. GTA Base's roadmap keeps named story jobs in the campaign pass; PSNProfiles supplies the exact heist name and condition, but neither clue calls for a particular crew or medal. If the job offers choices, pick the approach you prefer rather than assuming the trophy depends on an unlisted option. This is cleaner than trying unrelated robberies first. It is a standard story unlock and is not included in the missables filter.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 3,
-      "steps": [
-        "Start The Cartel Heist.",
-        "Complete the heist.",
-        "Confirm its result."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 10,
-      "name": "Family Matters",
-      "description": "Complete Child's Play.",
-      "grade": "bronze",
-      "guide": "Child's Play is completed through the named mission, not through an unrelated family activity. Follow its story marker to the end and wait for the mission-complete state before leaving the area. PSNProfiles records the short requirement, while GTA Base's list gives the story context; neither adds a score or alternate ending condition. That distinction matters because a trophy title can sound broader than its actual trigger. Keep the chapter flow moving, and use the register to confirm the bronze rather than repeating optional objectives. This is a story trophy with no separate missable window identified in the guide. Check after each finish rather than trusting an auto-save.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 4,
-      "steps": [
-        "Find Child's Play in the story flow.",
-        "Complete the mission.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 11,
-      "name": "DWNFALL",
-      "description": "Complete Headliners.",
-      "grade": "bronze",
-      "guide": "Headliners is a straightforward mission completion entry despite its stylized all-caps name. Take the main story marker, complete the mission, and let the result register before moving on. GTA Base places it in the campaign list and PSNProfiles gives the literal unlock condition; neither source supports a medal, stealth grade, or bonus objective. If the job ends with a transition, wait until control returns and then check the trophy list. There is no need to change your route around an imagined performance requirement. It remains in the ordinary story group, not the missables group. Check the board before leaving the district.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 5,
-      "steps": [
-        "Start Headliners.",
-        "Complete the mission.",
-        "Confirm the award."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 12,
-      "name": "Hi-Jacked",
-      "description": "Complete VCIA Takedown.",
-      "grade": "bronze",
-      "guide": "For Hi-Jacked, the trophy cares about finishing VCIA Takedown. Follow the story mission as presented and complete its end sequence; do not treat the title's hyphen as a separate hint about a vehicle or optional target. PSNProfiles lists the exact mission condition, and GTA Base includes it in the main-story route. A useful checkpoint is the mission-complete notice after the action, since a partial objective is not the same as finishing the job. Keep this in the campaign sweep and return to the open-world counters afterward. It is not flagged as missable. Do not replay an earlier chapter to force it.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 5,
-      "steps": [
-        "Start VCIA Takedown.",
-        "Complete the mission.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 13,
-      "name": "Snow Storm",
-      "description": "Complete Operation Savage Glory.",
-      "grade": "bronze",
-      "guide": "Operation Savage Glory is another named mission, so finish the operation itself before checking off Snow Storm. GTA Base's trophy guide places the operation in the later story route, and PSNProfiles confirms its exact name; the published condition does not specify a chosen tactic or medal. Use the mission result as your confirmation and avoid substituting any other snow or weather activity. The story roadmap is sufficient to reach it, while the separate open-world counter work can wait. Nothing in the trophy condition describes a one-time branch, so this is not marked missable. Wait for the mission-end screen to clear.",
-      "hidden": true,
-      "kind": "story",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 6,
-      "steps": [
-        "Start Operation Savage Glory.",
-        "Complete the operation.",
-        "Confirm the award."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 14,
-      "name": "A Long Road",
-      "description": "Attain 100% Completion.",
-      "grade": "gold",
-      "guide": "A Long Road is the broad completion audit, not a demand to clear every icon on the map. After the campaign, open the in-game completion checklist and work from its remaining requirements; earlier progress counts. GTA Base's roadmap recommends this as its second pass, after the story, and details which categories need only a subset. That is the important time-saver: follow the actual 100% tracker instead of treating every collectible total as mandatory. Its route describes free roam continuing after the credits, so this can be a cleanup trophy. PSNProfiles gives the overall condition, while the game checklist is the authority for your remaining count.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 100,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Open the completion tracker.",
-        "Finish every requirement it lists.",
-        "Confirm the total reaches 100 percent."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 15,
-      "name": "Cunning Stunts",
-      "description": "Complete 250 Stunts.",
-      "grade": "silver",
-      "guide": "The 250-stunt target is only the trophy threshold; the 100% checklist asks for more. PSNProfiles tracks this one at 250, and GTA Base's completion breakdown says to continue to 300 if you are also chasing A Long Road. Pick a stunt type you can repeat consistently and log progress in batches rather than sweeping the whole map without a counter. The descriptions do not demand a perfect landing or a particular category, so use whichever opportunities suit your vehicle and skill. This is a free-roam total with no story window; leave it false in the missable filter and return after the campaign if that is more convenient.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 250,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Use the in-game stunt opportunities.",
-        "Complete 250 stunts.",
-        "Check the counter before stopping."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 16,
-      "name": "Master of None",
-      "description": "Try each type of activity once.",
-      "grade": "bronze",
-      "guide": "Master of None rewards breadth, so build a nine-item checklist and deliberately try one example of each activity instead of grinding a favorite. PSNProfiles shows the tracked total as nine; GTA Base describes the activity categories, including sports, races, combat-adjacent challenges, and arcade play. The game menu is the sensible place to verify that each type has registered. If a counter stalls, sample a genuinely different activity rather than repeating the same one with another character. Most entries can be folded into exploration and story breaks, making this a good early side goal. It is cumulative and not marked missable.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 9,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "List each activity type as you find it.",
-        "Try every type once.",
-        "Compare the list with the counter."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 17,
-      "name": "The Shootist",
-      "description": "Earn a gold medal in all Shooting Range challenges.",
-      "grade": "silver",
-      "guide": "The Shootist is an accuracy grind: every Shooting Range challenge needs a gold medal, not merely a pass. PSNProfiles tracks 42 challenges, and GTA Base's breakdown places them across a dozen ranges. Clear them one board at a time and retry only the challenges that fall short; the range menu gives a better checklist than memory. GTA Base also notes range work builds Focus, which can help with Gunslinger, so this is a useful pairing rather than isolated cleanup. No story chapter closes access to this total, so save it for a focused free-roam session if the early medals feel slow.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 42,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Open the Shooting Range.",
-        "Earn gold in all 42 challenges.",
-        "Recheck the challenge board."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 18,
-      "name": "Top Fun",
-      "description": "Win a Top Fun Drone Race at every location.",
-      "grade": "bronze",
-      "guide": "Top Fun is location coverage, not a requirement to win every drone event. PSNProfiles lists 14 locations; GTA Base notes there are more individual trials than this trophy needs. Win once at each distinct site and keep a simple location list so a second victory at a familiar course does not disguise a missing stop. If you also want A Long Road, the wider checklist calls for additional drone trials, so stay at a location until its own board is clear. This combines well with mapping new areas. It is a repeatable free-roam goal and is not treated as missable.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 14,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Find each Top Fun race.",
-        "Win once at every location.",
-        "Check the location record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 19,
-      "name": "Earn Cash, Not Kudos",
-      "description": "Win 20 different races.",
-      "grade": "bronze",
-      "guide": "The word different does real work here: twenty wins at one favorite course will not satisfy the register. PSNProfiles tracks a 20-race target, while GTA Base says the full race pool is larger, leaving room to choose courses that suit you. Record each event name as you win and avoid counting rematches. Racing can also help with the activity-type trophy, so start a fresh event when that checklist still needs a race. Nothing in the trophy description ties the result to story progression. This is an easy counter to monitor in free roam and should remain outside the missables list.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 20,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Keep a list of race events.",
-        "Win 20 different races.",
-        "Review the race record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 20,
-      "name": "Baited My Tackle",
-      "description": "Beat Cal in a fishing challenge.",
-      "grade": "bronze",
-      "guide": "Cal is the named opponent, so a generic fishing trip is not enough. GTA Base places his challenge after the Chapter 1 mission Feng Shui: meet him, follow the text or activity marker, and finish the contest ahead of him. PSNProfiles confirms the trophy is for beating Cal, not for catching a particular species. Keep the challenge entry on your task list when the prompt appears, and check the result before leaving the spot. A loss is a reason to retry the activity, not to reset the story. The guide does not establish a lockout, so this remains an ordinary activity trophy.",
-      "hidden": true,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Find Cal's fishing challenge.",
-        "Beat Cal in the challenge.",
-        "Confirm the result."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 21,
-      "name": "Stick Fiddler",
-      "description": "Complete an arcade game.",
-      "grade": "bronze",
-      "guide": "Stick Fiddler needs one completed arcade game, not a high score across every cabinet. Choose a cabinet when you pass an arcade, start a full round, and stay through the game's end state; merely interacting with the machine is not a completion. GTA Base lists four video games in the broader 100% checklist, so finishing one here can contribute to that sweep without turning this trophy into a four-game requirement. PSNProfiles states the one-game condition. Pick a short game you enjoy, record the bronze, then move on; it is a repeatable cleanup task with no missable story window. Keep the scorecard as proof.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Choose an arcade game.",
-        "Finish one game.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 22,
-      "name": "Road to Rehabilitation",
-      "description": "Complete the final mission for Andy.",
-      "grade": "bronze",
-      "guide": "Andy has a separate strand and the award sits at its final mission, so meeting him or starting his quest chain is not enough. Track the strand as its own line and complete the last job as soon as the endpoint appears. GTA Base and KeenGamer both recommend keeping side-character missions in the platinum route; the latter also notes there is no mission replay. Use the final story mission as a conservative cutoff, save beforehand, and do not assume an unfinished strand will reopen later. PSNProfiles confirms the endpoint condition. This entry is flagged at Stage 6 so it stays visible before the story closes.",
-      "hidden": true,
-      "kind": "story",
-      "missable": true,
-      "missableNote": "The final-story cutoff is the safe deadline; there is no mission replay. Finish Andy's entire strand when its final mission appears and make a manual save before advancing.",
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 7,
-      "steps": [
-        "Follow Andy's mission strand.",
-        "Complete his final mission.",
-        "Confirm the result."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 23,
-      "name": "This Was No Boat Accident",
-      "description": "Complete the final mission for Kenton.",
-      "grade": "bronze",
-      "guide": "Kenton's strand is a multi-step commitment; the trophy arrives only at its final mission. Follow his jobs in sequence and mark the strand complete only after the endpoint, not after collecting an intermediate item or meeting him once. The GTA Base roadmap separates campaign progress from stranger cleanup, while KeenGamer warns that mission replay is unavailable. For a safe platinum file, finish Kenton's chain before the final story mission and keep a manual save ahead of the cutoff. PSNProfiles provides the exact final-mission condition. This is a Stage 6 missable reminder, even if the earlier missions seem optional. Do not wait for an assumed replay option.",
-      "hidden": true,
-      "kind": "story",
-      "missable": true,
-      "missableNote": "The final-story cutoff is the safe deadline; there is no mission replay. Finish Kenton's entire strand when its final mission appears and make a manual save before advancing.",
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 7,
-      "steps": [
-        "Follow Kenton's mission strand.",
-        "Complete his final mission.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 24,
-      "name": "The Lone Rider",
-      "description": "Complete the final mission for Billy.",
-      "grade": "bronze",
-      "guide": "Billy's trophy is tied to the final mission of his own strand. Do not confuse an early encounter with the award: keep returning to the character's mission thread until its last job is completed. GTA Base places character work in the cleanup route and PSNProfiles names the final mission as the trigger. Because KeenGamer notes no mission replay, the cautious plan is to finish Billy's chain before starting the campaign finale, with a manual save before advancing. There is no need to invent a medal or specific combat method absent from the published requirement. The roadmap flags this chain at the Stage 6 story cutoff.",
-      "hidden": true,
-      "kind": "story",
-      "missable": true,
-      "missableNote": "The final-story cutoff is the safe deadline; there is no mission replay. Finish Billy's entire strand when its final mission appears and make a manual save before advancing.",
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 7,
-      "steps": [
-        "Follow Billy's mission strand.",
-        "Complete his final mission.",
-        "Confirm the result."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 25,
-      "name": "Strangers & Freaks",
-      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-      "grade": "silver",
-      "guide": "Eight completed stranger strands means eight separate quest chains, not eight individual missions from one chain. Start each available strand, follow it to its own conclusion, and keep a written tally; a partially advanced strand should not count as complete. GTA Base's route puts stranger cleanup after the main story, but the article also warns some optional missions can disappear during story progression. Since KeenGamer says there is no mission replay, do not leave all eight until the credits: finish them as they become available and keep a manual save before the finale. PSNProfiles shows the eight-strand counter. This is flagged for the Stage 6 cutoff.",
-      "hidden": true,
-      "kind": "story",
-      "missable": true,
-      "missableNote": "Some stranger strands can disappear as the story advances, and there is no mission replay. Complete eight full strands as they become available, before starting the final mission.",
-      "count": 8,
-      "chapter": null,
-      "roadmapStage": 7,
-      "steps": [
-        "Find stranger strands across Leonida.",
-        "Complete eight different strands.",
-        "Check the strand tracker."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 26,
-      "name": "Supply & Demand",
-      "description": "Complete the final mission for Randy.",
-      "grade": "bronze",
-      "guide": "Randy's award is at the end of his character strand, so the preparation is to keep the chain moving rather than stop after its first mission. Follow the missions attached to Randy until the final one resolves, then check that the trophy registers. PSNProfiles states the final-mission requirement, and GTA Base includes character quests in its route. Because KeenGamer says the game has no mission replay and some optional work can be time-limited, use a manual save and finish Randy's chain before the final story mission. That cutoff is a safety rule, not a claim about a hidden medal condition. The missables view places it at Stage 6.",
-      "hidden": true,
-      "kind": "story",
-      "missable": true,
-      "missableNote": "The final-story cutoff is the safe deadline; there is no mission replay. Finish Randy's entire strand when its final mission appears and make a manual save before advancing.",
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 7,
-      "steps": [
-        "Follow Randy's mission strand.",
-        "Complete his final mission.",
-        "Confirm the result."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 27,
-      "name": "Spin On This!",
-      "description": "Complete the final mission for Tyrone.",
-      "grade": "bronze",
-      "guide": "Tyrone's final mission is the finish line for Spin On This!, not the start of his contact thread. Keep his mission marker in view and finish the complete sequence before the story endgame. GTA Base's guide describes a chain of jobs rather than a single random encounter; PSNProfiles confirms the trophy checks its endpoint. The exact cutoff is easy to protect: KeenGamer says mission replay is unavailable, so save before major story advancement and clear Tyrone's last mission before the campaign finale. Avoid chasing unrelated gang activities for this item. It is flagged as a Stage 6 risk so this story strand is not forgotten during the 100% grind.",
-      "hidden": true,
-      "kind": "story",
-      "missable": true,
-      "missableNote": "The final-story cutoff is the safe deadline; there is no mission replay. Finish Tyrone's entire strand when its final mission appears and make a manual save before advancing.",
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 7,
-      "steps": [
-        "Follow Tyrone's mission strand.",
-        "Complete his final mission.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 28,
-      "name": "Positive Mental Attitude",
-      "description": "Meditate at every spot across Leonida.",
-      "grade": "bronze",
-      "guide": "This is the one meditation counter that deserves early attention. KeenGamer's location guide says Lucia invites Jason to a balcony session at Jason's house in Key Lento the morning after Down to Earth; complete it before Chapter 1 ends, because that scene disappears. Follow Lucia from the kitchen, accept the invitation, and make sure the meditation count rises. Then finish the remaining spots with both characters where available until the register reaches 18. PSNProfiles confirms the full trophy counter, and KeenGamer explains the 100% checklist needs fewer sessions than this trophy. The roadmap marks the Chapter 1 close as Stage 2.",
-      "hidden": false,
-      "kind": "exploration",
-      "missable": true,
-      "missableNote": "Chapter 1 ending closes Lucia's unmarked balcony invitation. After Down to Earth, follow her from the kitchen to Jason's balcony, accept the meditation, and confirm the counter rises before leaving the chapter.",
-      "count": 18,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Find a meditation spot.",
-        "Meditate at all 18 spots.",
-        "Review the spot counter."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        },
-        {
-          "label": "KeenGamer · meditation spots and Chapter 1 session",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-meditation-spots-all-18-locations-and-rewards/"
-        }
-      ],
-      "missableStage": 2
-    },
-    {
-      "id": 29,
-      "name": "Fair Game",
-      "description": "Hunt a unique animal for Bret.",
-      "grade": "bronze",
-      "guide": "Bret's unique-animal request is the start of a specific hunting thread, not permission to hunt any wildlife. GTA Base says Bret's jobs begin after Coffee Break in Chapter 2 and that Jason's Target Decks are the relevant route; follow the request's in-game clue to the unique animal rather than guessing a species or map pin. PSNProfiles confirms the trophy's wording but does not identify which animal triggers it. The practical choice is to take Bret's first prompt when it arrives and keep hunting jobs together, since they also feed the broader completion checklist. Save the exact target in your notes if the game supplies one. No missable cutoff is established here.",
-      "hidden": true,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Take Bret's hunting request.",
-        "Hunt the unique animal.",
-        "Confirm the request is complete."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 30,
-      "name": "Don't Touch My Deck",
-      "description": "Complete 3 Collectible Card sets.",
-      "grade": "silver",
-      "guide": "Three complete card sets is the threshold; three loose cards are not. Open the collection tracker, finish each chosen set in full, and use its set-level completion marks to avoid counting duplicates. PSNProfiles lists the set target as three, while GTA Base's 100% route requires more card sets than the trophy alone, so keep collecting if A Long Road is still open. A focused sweep is better than picking cards at random because incomplete sets are hard to audit. This is a collection counter, not a story branch, and the roadmap deliberately leaves it for free-roam cleanup. It is not marked missable.",
-      "hidden": false,
-      "kind": "collectibles",
-      "missable": false,
-      "missableNote": null,
-      "count": 3,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Open the card-set tracker.",
-        "Complete three sets.",
-        "Verify all three are marked complete."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 31,
-      "name": "You WAiNKer!",
-      "description": "WAiNK It at 100 locations.",
-      "grade": "silver",
-      "guide": "WAiNK progress is about distinct locations, so revisiting a place should not be your strategy. Use the app while naturally crossing Leonida, then check the location counter after a batch; PSNProfiles records the 100-location target. GTA Base's roadmap also recommends scanning new places and vehicles during the story, which turns routine travel into progress. If you wait until the end, work from a map and favor unvisited districts instead of repeating familiar streets. This target is independent of the 100% checklist's other collection tasks and can be finished in free roam. No one-time window is named, so it remains unflagged.",
-      "hidden": false,
-      "kind": "collectibles",
-      "missable": false,
-      "missableNote": null,
-      "count": 100,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Open WAiNK It.",
-        "Use it at 100 locations.",
-        "Check the location total."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 32,
-      "name": "One Last Thing",
-      "description": "Complete 50 Challenges.",
-      "grade": "bronze",
-      "guide": "Fifty completed challenges is the trophy target, not the entire challenge catalog. Keep the Challenges screen open as a checklist and take the quick wins that overlap with driving, combat, and exploration. PSNProfiles shows a tracked count of 50; GTA Base says its 100% route asks for more, so do not stop at the trophy threshold if A Long Road remains. Favor challenges that your current activity naturally satisfies rather than grinding one at a time. This counter is cumulative and can be returned to after the story, which is why it is not in the missables group. Check the counter before wrapping up.",
-      "hidden": false,
-      "kind": "collectibles",
-      "missable": false,
-      "missableNote": null,
-      "count": 50,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Open the Challenges list.",
-        "Complete 50 challenges.",
-        "Verify the total."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 33,
-      "name": "Hot Together",
-      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
-      "grade": "bronze",
-      "guide": "Hot Together asks for a clean escape while your partner is still with you, so set up the pair before raising the wanted level. Build the chase to four stars, then break pursuit without letting the partner condition drop; confirm the trophy once the heat is gone. PSNProfiles confirms the four-star and partner requirements, and GTA Base lists it as a specific side objective rather than a story milestone. Treat the final story mission as the conservative cutoff for partner-dependent actions: complete this earlier, with a manual save before risky setup. Do not confuse reaching four stars with escaping them. This is flagged at Stage 6.",
-      "hidden": true,
-      "kind": "combat",
-      "missable": true,
-      "missableNote": "The partner-action window may close when the final story mission begins. While your partner is available, reach four Wanted stars and escape together; save before starting the finale.",
-      "count": 4,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Bring your partner along.",
-        "Reach four stars and escape the heat.",
-        "Confirm the trophy after evasion."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 34,
-      "name": "Retail Therapy",
-      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
-      "grade": "bronze",
-      "guide": "Retail Therapy is a continuous sequence: three shops, your partner present, and no loss of wanted status between stops. Plan a short route before starting so you are not improvising while the chase cools. PSNProfiles confirms the back-to-back condition; the GTA Base roadmap recommends clearing optional actions while the story and partner setup are active. Make the first robbery only when ready to chain all three, and verify the wanted level stays active after each. Use the final story mission as the safe cutoff for this partner-dependent run, and make a manual save first. It is grouped among Stage 6 missables.",
-      "hidden": false,
-      "kind": "combat",
-      "missable": true,
-      "missableNote": "The partner-action window may close when the final story mission begins. While your partner is available, rob three shops in one uninterrupted Wanted Level chain; save before starting the finale.",
-      "count": 3,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Start with your partner present.",
-        "Rob three shops without losing the Wanted Level.",
-        "Check the result after the third shop."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 35,
-      "name": "Whip It Good",
-      "description": "Discover 100 vehicles.",
-      "grade": "bronze",
-      "guide": "Discovering vehicles is different from buying or keeping them. Make a habit of recording unfamiliar models as you explore, then use the trophy counter to see how far the collection has moved. PSNProfiles gives the 100-vehicle target; GTA Base's 100% list has a larger base-model scan requirement, so continuing past the bronze can serve both goals. The source does not name a must-have vehicle or location, so do not waste time hunting a particular car without an in-game clue. This is a roaming cumulative count, ideal for the story drive and later cleanup, and it has no stated lockout. Log it when the counter changes.",
-      "hidden": false,
-      "kind": "exploration",
-      "missable": false,
-      "missableNote": null,
-      "count": 100,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Encounter unfamiliar vehicles.",
-        "Discover 100 vehicles.",
-        "Check the vehicle counter."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 36,
-      "name": "Gunslinger",
-      "description": "Take down 5 enemies in a single use of Combat Focus.",
-      "grade": "bronze",
-      "guide": "The phrase single use is the constraint: all five takedowns must happen within one Combat Focus activation. Build Focus before attempting the challenge, then choose a safe encounter with a tight group so you do not spend the effect crossing the room. PSNProfiles tracks five enemies for one activation; the counter will not combine separate bursts. GTA Base's list treats the target as a combat cleanup trophy, so pair the attempt with a mission that already gathers enemies rather than starting a needless fight. Check the notification immediately. There is no one-time story condition attached, so this can wait until you are comfortable with the mechanic.",
-      "hidden": true,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": 5,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Build a safe group of enemies.",
-        "Use Combat Focus and take down five.",
-        "Confirm it registered in one use."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 37,
-      "name": "Catch Me If You Can",
-      "description": "Make an unscheduled departure at VCIA.",
-      "grade": "bronze",
-      "guide": "VCIA is the only location named by this clue, but the description does not tell you which runway or vehicle to use. GTA Base's trophy entry describes stealing a departing passenger aircraft; go to the airport, watch for an active departure, and use the first clear opportunity rather than inventing a trigger. PSNProfiles preserves the shorter official wording, so keep the trophy open until the game confirms it. Airports are hazardous, so make a manual save before experimenting and avoid mixing this with a wanted-level escape objective. The exact opportunity is a gameplay discovery, not something the trophy text settles. It is not flagged as a story missable.",
-      "hidden": true,
-      "kind": "exploration",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Go to VCIA.",
-        "Make an unscheduled departure.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 38,
-      "name": "Challenging Tank",
-      "description": "Kinda hot in these Rhinos.",
-      "grade": "bronze",
-      "guide": "Challenging Tank is intentionally cryptic in the public list. GTA Base interprets the Rhino clue as taking a military tank and using it in combat, but its short name alone does not establish where the vehicle appears or what enemy is required. Treat the in-game challenge prompt as the final authority: locate a Rhino, satisfy the stated challenge, and wait for the award. PSNProfiles reproduces the one-line clue without a count, so no extra threshold should be invented. This is best attempted after you understand the combat controls and have a safe save, not during a mission you care about. No campaign cutoff is identified.",
-      "hidden": true,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Find the Rhino-related challenge prompt.",
-        "Complete the prompted requirement.",
-        "Verify the trophy notification."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 39,
-      "name": "Sneakthief",
-      "description": "Rob a jewelry store without being detected.",
-      "grade": "bronze",
-      "guide": "The stealth condition is about avoiding detection during the jewelry-store robbery, not simply escaping with the goods. Pick a jewelry store when the area is calm, observe any in-game prompts, and complete the entire job without triggering the alert. PSNProfiles gives that constraint; GTA Base's trophy list includes the robbery among miscellaneous objectives but does not establish a universal store or loadout. If the attempt is detected, regroup and try another opportunity rather than assuming the whole save is spoiled. Keep this separate from wanted-level robbery trophies so one setup does not interfere with the other. It is repeatable cleanup and is not marked missable.",
-      "hidden": true,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Choose a jewelry store.",
-        "Complete the robbery undetected.",
-        "Confirm the escape and award."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 40,
-      "name": "Maximum Withdrawal",
-      "description": "Rob 5 Bank Vaults and escape.",
-      "grade": "silver",
-      "guide": "Five successful vault robberies with an escape is the whole target. GTA Base's roadmap says the bank-vault jobs open through the Chapter 4 optional mission That's Where The Money Is, and its completion list contains eight vaults overall; unlock the activity before attempting to grind it. PSNProfiles records five for the trophy, so track successful getaways, not starts. Because the broader checklist needs every vault, completing all eight once the activity opens avoids a second sweep. Prepare a route and use separate saves before experimenting. This is a free-roam count after its unlock, not a one-time chapter condition, and it stays outside the missables filter.",
-      "hidden": true,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": 5,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Find a bank vault opportunity.",
-        "Rob it and escape.",
-        "Repeat until five are recorded."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 41,
-      "name": "A Classic Blitz Play",
-      "description": "Rob an Armored Truck and escape.",
-      "grade": "bronze",
-      "guide": "An Armored Truck robbery only counts when you get away with it. GTA Base lists the activity as a separate open-world job; PSNProfiles confirms the trophy's two-part condition, robbery and escape. Wait for a clear opportunity, finish the truck robbery, and keep moving until the pursuit is over before checking the trophy. Do not mix this with the five-bank-vault counter, because the register treats the truck as its own target. The sources do not name a required truck or escape route, so follow the live activity prompts instead of using an unverified map pin. This is repeatable cleanup and not missable.",
-      "hidden": true,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Locate an Armored Truck opportunity.",
-        "Rob the truck.",
-        "Escape and check the record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 42,
-      "name": "The Goodtime State",
-      "description": "Explore all of Leonida.",
-      "grade": "bronze",
-      "guide": "Explore all of Leonida by checking the map's area record, not by judging how much road you have driven. PSNProfiles lists 52 tracked areas; visit each region until the undiscovered shading or counter clears. GTA Base's route recommends collecting map discoveries during travel, which makes the story commute useful without requiring a full map sweep up front. Recheck the state map before the final pass and move toward its remaining gaps rather than revisiting the city center. The description gives no area names, so the map is the proper location source. This is a free-roam count and cannot be lost by advancing the story.",
-      "hidden": false,
-      "kind": "exploration",
-      "missable": false,
-      "missableNote": null,
-      "count": 52,
-      "chapter": null,
-      "roadmapStage": 8,
-      "steps": [
-        "Open the state map.",
-        "Visit every area.",
-        "Confirm all 52 are recorded."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 43,
-      "name": "Pest Control",
-      "description": "Rob an Illegal Operation belonging to each gang.",
-      "grade": "bronze",
-      "guide": "Pest Control is a coverage checklist: one Illegal Operation for each of the nine gangs, not nine robberies from the same group. GTA Base's guide identifies gang operations as repeatable open-world work, while PSNProfiles shows the required count of nine. Keep a gang-by-gang tally and confirm the owner before starting each operation; the trophy does not name the organizations in its short description. If an operation looks familiar, verify that its gang is still unchecked rather than relying on memory. This can be paired with the broader robbery completion route after the story. No one-time trigger is stated, so it is intentionally left unflagged.",
-      "hidden": true,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": 9,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Identify the gangs in the game.",
-        "Rob one operation per gang.",
-        "Confirm all nine are represented."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 44,
-      "name": "In The Beginning…",
-      "description": "Enjoy a cocktail with a view on Ocean Beach.",
-      "grade": "bronze",
-      "guide": "The location is explicit, but the exact venue or angle is not: be on Ocean Beach and enjoy a cocktail where the game recognizes a view. PSNProfiles preserves that wording, and GTA Base includes the clue in its trophy list without a confirmed trigger. Use the area's bars or waterfront prompts, try the interaction that clearly offers a drink, and check for the trophy before leaving. Avoid promising a particular time or building unless the game reveals it; neither source establishes one. This is a low-pressure free-roam experiment, best done during an Ocean Beach visit rather than a special story run. It is not flagged missable.",
-      "hidden": false,
-      "kind": "exploration",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Go to Ocean Beach.",
-        "Order and enjoy a cocktail with a view.",
-        "Check the trophy notification."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 45,
-      "name": "Capital Offense",
-      "description": "Smash your way out of a vehicle showroom in classic style.",
-      "grade": "bronze",
-      "guide": "The trophy's 'classic style' points to the exit itself: smash out of a vehicle showroom rather than completing a normal purchase. GTA Base's list describes a getaway through the showroom, but the public condition does not name a particular business, car, or entry point. Find a showroom with an in-game interaction or open frontage, make a manual save, and try the conspicuous smash-through approach only when ready for the resulting attention. PSNProfiles confirms the trophy wording, not a guaranteed route. Treat the exact trigger as unverified until the game awards it; do not use a mission replay plan to undo a failed attempt. No chapter lockout is established.",
-      "hidden": false,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Find a vehicle showroom.",
-        "Smash your way out.",
-        "Confirm the award."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 46,
-      "name": "Let’s Go Bowling",
-      "description": "Follow-through at the Kolt & Associates' bowling alley.",
-      "grade": "bronze",
-      "guide": "Kolt & Associates' bowling alley is the named place; 'follow-through' is a clue, not a standard bowling score requirement. GTA Base's trophy solution points to taking the key valuables and escaping, so explore the alley interaction and finish the prompted sequence instead of merely rolling a ball. PSNProfiles lists the original cryptic wording, while the guide supplies the robbery interpretation. Make a manual save before testing the approach and leave time to complete the whole sequence. If the game presents a different prompt, follow it rather than forcing an unverified checklist. This is a specific action that can be easy to overlook, so the missables filter reminds you to clear it before the endgame.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Go to Kolt & Associates' alley.",
-        "Complete the bowling interaction.",
-        "Check the trophy record."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 47,
-      "name": "Personal Best",
-      "description": "A partnership with mass appeal.",
-      "grade": "bronze",
-      "guide": "Personal Best is framed as a partnership, and GTA Base's entry interprets it as raising Strength for both Jason and Lucia. Build each character's stat as their activities open; do not assume progress with one transfers to the other. The trophy description itself is too cryptic to name the exact stat, so check the in-game profile and wait for the award rather than relying on a guess. Because the characters' shared story choices may be one-time, finish the partnership requirement before the final story mission and keep a manual save before committing to story decisions. PSNProfiles supplies the official clue and GTA Base the proposed solution. This is flagged at Stage 6 as a cautious cutoff.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": true,
-      "missableNote": "The story's final decision is the safe cutoff for the partnership requirement. Raise Strength for both Jason and Lucia and verify the profile before committing to the finale.",
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Review available partnership activities.",
-        "Complete the activity that matches the clue.",
-        "Verify the trophy rather than guessing."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 48,
-      "name": "Actions Speak Louder",
-      "description": "Choices made (for better or worse).",
-      "grade": "bronze",
-      "guide": "The published clue centers on choices, and GTA Base's entry interprets the unlock as 500 actions affecting the Criminal Profile. Treat that count as cumulative evidence, not permission to replay one choice over and over; check the profile after varied decisions and keep the result visible. PSNProfiles shows the original short description, while GTA Base provides the 500-action explanation. Choice outcomes can be irreversible, so make a manual save before major story decisions and finish any outstanding profile-related choices before starting the final mission. The exact qualifying action list is not specified in the trophy text; follow the game's own counter. The guide flags it at Stage 6 to protect the choice window.",
-      "hidden": true,
-      "kind": "activities",
-      "missable": true,
-      "missableNote": "Major story decisions are irreversible, so the final mission is the safe cutoff. Build the Criminal Profile count and complete outstanding choices first; make a manual save before each consequential decision.",
-      "count": 500,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Make choices as the story presents them.",
-        "Continue until the tracked choice total reaches 500.",
-        "Confirm the trophy notification."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": 6
-    },
-    {
-      "id": 49,
-      "name": "Bad Luck, I Guess",
-      "description": "Second time's the charm.",
-      "grade": "bronze",
-      "guide": "Bad Luck, I Guess is a hidden entry whose public line only hints that a second attempt matters. GTA Base and KeenGamer both leave its exact trigger unconfirmed, so this note does not pretend a particular minigame or mission is verified. When an activity fails, remember what it was and try again immediately; if an in-game challenge identifies the relevant attempt, follow that prompt and check the trophy record. Do not burn time repeating unrelated activities on a guess. Keep the entry open until the source or game provides a concrete trigger, and make a manual save before any irreversible story branch. The current evidence supports caution, not a guaranteed walkthrough.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Identify the activity tied to this clue.",
-        "Fail once, then succeed on attempt two.",
-        "Confirm the trophy notification."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 50,
-      "name": "The Truth Is Out There",
-      "description": "What the hell just happened?",
-      "grade": "bronze",
-      "guide": "The Truth Is Out There gives atmosphere, not an actionable location. Neither PSNProfiles' short clue nor the current GTA Base and KeenGamer trophy lists name a confirmed event, so watch for a deliberate unusual encounter and let its own prompt guide the response. Avoid treating every random surprise as the solution; check the trophy screen after a scene that feels distinctly scripted. Save before an unexplained story choice if one appears, since a later replay is not available according to KeenGamer's roadmap. This is intentionally a bounded note: it separates the verified wording from guesses and leaves the exact trigger open until a source supports it.",
-      "hidden": false,
-      "kind": "exploration",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Explore normally and watch for an unusual event.",
-        "Complete the event if it prompts an interaction.",
-        "Check for the award before leaving."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 51,
-      "name": "Ten Pin",
-      "description": "Bowl 'em over with a melee drive-by.",
-      "grade": "bronze",
-      "guide": "Ten Pin calls for a melee drive-by, which is an attack from a moving vehicle rather than a bowling score. Find a safe moving-traffic opportunity, line up beside a target, and use a melee action as you pass; check that the hit registers before repeating. GTA Base's list treats this as the unlock clue, while PSNProfiles preserves its short wording. Do not use a firearm or stop beside the target, since either changes the defining action. Practice away from a mission that could fail if the vehicle is damaged. The list does not set a specific target type or story chapter, so this remains a repeatable cleanup attempt.",
-      "hidden": false,
-      "kind": "combat",
-      "missable": false,
-      "missableNote": null,
-      "count": null,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Find a safe moving-vehicle opportunity.",
-        "Land a melee drive-by on a target.",
-        "Confirm the knockdown registered."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 52,
-      "name": "Dime on the Dollar",
-      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
-      "grade": "bronze",
-      "guide": "Marked Bills are the important qualifier here: ordinary earnings do not count toward the $250,000 total. GTA Base describes laundering them through contacts, and PSNProfiles' counter supplies the finish line. Keep the bills and laundering activity together in your routine, use the contact interaction that records the transaction, and recheck the total after each batch. This amount is also relevant to the broader completion route, so the same work can serve two goals. The trophy gives no particular contact or mission name, so rely on the in-game prompt rather than picking a source of funds by guesswork. It is a cumulative free-roam target and not missable.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 250000,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Collect marked bills.",
-        "Launder them through contacts.",
-        "Check the total reaches $250,000."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 53,
-      "name": "Treat Yo Self",
-      "description": "Spend $100,000 across all shops.",
-      "grade": "bronze",
-      "guide": "This is cumulative spend across shops, so vary purchases as you go and let the game's total do the accounting. PSNProfiles tracks $100,000; GTA Base includes shop spending among the side objectives, but the clue does not require a particular item or store. If the meter updates only after leaving a shop, check it between transactions rather than assuming a purchase failed. Save this for later if cash is tight, and avoid spending on a single expensive item until you know it counts. The trophy is a free-roam money sink, not a one-time choice, so it remains available for cleanup after the story.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 100000,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Visit shops and make purchases.",
-        "Reach $100,000 spent across shops.",
-        "Check the spending counter."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 54,
-      "name": "Little Boxes",
-      "description": "Purchase all garage properties.",
-      "grade": "bronze",
-      "guide": "Little Boxes is a property checklist, not a trophy for owning any garage. GTA Base lists eight garage properties, and PSNProfiles records the complete-all requirement; compare your owned locations against the in-game purchase list before spending. Buy each eligible garage once, then return to the property menu to confirm nothing remains. This can overlap with cash trophies, so plan purchases after earning money from activities rather than repeatedly checking the same listing. The short description does not name prices or addresses, so the game's property interface is the reliable guide. Purchases remain in free roam and are not marked missable.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 8,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Review purchasable garage properties.",
-        "Buy all eight.",
-        "Confirm the property list is complete."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    },
-    {
-      "id": 55,
-      "name": "On the Spot",
-      "description": "Register 10 vehicles to the Scooter Bros app.",
-      "grade": "bronze",
-      "guide": "Registration is the key verb: discovering a vehicle or driving it does not prove it has been added to Scooter Bros. Open the app, complete its registration interaction, and check that each vehicle appears before moving on. PSNProfiles lists ten registrations, while GTA Base's roadmap recommends scanning and discovering vehicles during ordinary travel; do not confuse that separate counter with the app's register. Keep a short list of registered models so you do not repeat one. If the app rejects a vehicle, try another and follow its eligibility prompt. This is a repeatable collection task, suitable for post-story cleanup and not marked missable.",
-      "hidden": false,
-      "kind": "activities",
-      "missable": false,
-      "missableNote": null,
-      "count": 10,
-      "chapter": null,
-      "roadmapStage": 9,
-      "steps": [
-        "Open Scooter Bros.",
-        "Register 10 vehicles.",
-        "Check the app's registered list."
-      ],
-      "sources": [
-        {
-          "label": "PSNProfiles · PS5 trophy list",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
-        },
-        {
-          "label": "Exophase · PS5 trophy list",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
-        },
-        {
-          "label": "GTA Base · trophy guide & roadmap",
-          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
-        },
-        {
-          "label": "KeenGamer · trophy guide & roadmap",
-          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
-        }
-      ],
-      "missableStage": null
-    }
-  ]
+ "game": "Grand Theft Auto VI",
+ "platform": "PlayStation 5",
+ "list": "the official 55 trophies, 2026-11-18",
+ "trophies": [
+  {
+   "id": 1,
+   "name": "Vice Got a Price!",
+   "description": "Congratulations! You're a Leonida Legend.",
+   "grade": "platinum",
+   "guide": "Earn the other 54 trophies."
+  },
+  {
+   "id": 2,
+   "name": "Just Like Paradise",
+   "description": "Complete Gone Fishing.",
+   "grade": "bronze",
+   "guide": "Finish the opening mission, Gone Fishing."
+  },
+  {
+   "id": 3,
+   "name": "Paradise Lost",
+   "description": "Complete Chapter 1.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 1."
+  },
+  {
+   "id": 4,
+   "name": "T**s Ass Drug Money",
+   "description": "Complete Chapter 2.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 2."
+  },
+  {
+   "id": 5,
+   "name": "Vice City, Baby!",
+   "description": "Complete Chapter 3.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 3."
+  },
+  {
+   "id": 6,
+   "name": "Top Of The World, Ma",
+   "description": "Complete Chapter 4.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 4."
+  },
+  {
+   "id": 7,
+   "name": "You Gotta Know When to Get Off",
+   "description": "Complete the final mission.",
+   "grade": "gold",
+   "guide": "Finish the final mission (gold)."
+  },
+  {
+   "id": 8,
+   "name": "Trust",
+   "description": "Complete Breakfast Run.",
+   "grade": "bronze",
+   "guide": "Finish the mission Breakfast Run."
+  },
+  {
+   "id": 9,
+   "name": "Break the Bank",
+   "description": "Complete The Cartel Heist.",
+   "grade": "bronze",
+   "guide": "Finish the mission The Cartel Heist."
+  },
+  {
+   "id": 10,
+   "name": "Family Matters",
+   "description": "Complete Child's Play.",
+   "grade": "bronze",
+   "guide": "Finish the mission Child's Play."
+  },
+  {
+   "id": 11,
+   "name": "DWNFALL",
+   "description": "Complete Headliners.",
+   "grade": "bronze",
+   "guide": "Finish the mission Headliners."
+  },
+  {
+   "id": 12,
+   "name": "Hi-Jacked",
+   "description": "Complete VCIA Takedown.",
+   "grade": "bronze",
+   "guide": "Finish the mission VCIA Takedown."
+  },
+  {
+   "id": 13,
+   "name": "Snow Storm",
+   "description": "Complete Operation Savage Glory.",
+   "grade": "bronze",
+   "guide": "Finish the mission Operation Savage Glory."
+  },
+  {
+   "id": 14,
+   "name": "A Long Road",
+   "description": "Attain 100% Completion.",
+   "grade": "gold",
+   "guide": "Reach 100% completion (gold)."
+  },
+  {
+   "id": 15,
+   "name": "Cunning Stunts",
+   "description": "Complete 250 Stunts.",
+   "grade": "silver",
+   "guide": "Pull off 250 stunts (silver)."
+  },
+  {
+   "id": 16,
+   "name": "Master of None",
+   "description": "Try each type of activity once.",
+   "grade": "bronze",
+   "guide": "Try all 9 activity types once."
+  },
+  {
+   "id": 17,
+   "name": "The Shootist",
+   "description": "Earn a gold medal in all Shooting Range challenges.",
+   "grade": "silver",
+   "guide": "Gold all 42 Shooting Range challenges (silver)."
+  },
+  {
+   "id": 18,
+   "name": "Top Fun",
+   "description": "Win a Top Fun Drone Race at every location.",
+   "grade": "bronze",
+   "guide": "Win a Top Fun drone race at all 14 locations."
+  },
+  {
+   "id": 19,
+   "name": "Earn Cash, Not Kudos",
+   "description": "Win 20 different races.",
+   "grade": "bronze",
+   "guide": "Win 20 different races."
+  },
+  {
+   "id": 20,
+   "name": "Baited My Tackle",
+   "description": "Beat Cal in a fishing challenge.",
+   "grade": "bronze",
+   "guide": "Beat Cal in a fishing challenge."
+  },
+  {
+   "id": 21,
+   "name": "Stick Fiddler",
+   "description": "Complete an arcade game.",
+   "grade": "bronze",
+   "guide": "Finish one arcade game."
+  },
+  {
+   "id": 22,
+   "name": "Road to Rehabilitation",
+   "description": "Complete the final mission for Andy.",
+   "grade": "bronze",
+   "guide": "Finish Andy's last mission."
+  },
+  {
+   "id": 23,
+   "name": "This Was No Boat Accident",
+   "description": "Complete the final mission for Kenton.",
+   "grade": "bronze",
+   "guide": "Finish Kenton's last mission."
+  },
+  {
+   "id": 24,
+   "name": "The Lone Rider",
+   "description": "Complete the final mission for Billy.",
+   "grade": "bronze",
+   "guide": "Finish Billy's last mission."
+  },
+  {
+   "id": 25,
+   "name": "Strangers & Freaks",
+   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+   "grade": "silver",
+   "guide": "Finish 8 stranger strands (silver)."
+  },
+  {
+   "id": 26,
+   "name": "Supply & Demand",
+   "description": "Complete the final mission for Randy.",
+   "grade": "bronze",
+   "guide": "Finish Randy's last mission."
+  },
+  {
+   "id": 27,
+   "name": "Spin On This!",
+   "description": "Complete the final mission for Tyrone.",
+   "grade": "bronze",
+   "guide": "Finish Tyrone's last mission."
+  },
+  {
+   "id": 28,
+   "name": "Positive Mental Attitude",
+   "description": "Meditate at every spot across Leonida.",
+   "grade": "bronze",
+   "guide": "Meditate at all 18 spots."
+  },
+  {
+   "id": 29,
+   "name": "Fair Game",
+   "description": "Hunt a unique animal for Bret.",
+   "grade": "bronze",
+   "guide": "Hunt the unique animal for Bret."
+  },
+  {
+   "id": 30,
+   "name": "Don't Touch My Deck",
+   "description": "Complete 3 Collectible Card sets.",
+   "grade": "silver",
+   "guide": "Complete 3 collectible card sets (silver)."
+  },
+  {
+   "id": 31,
+   "name": "You WAiNKer!",
+   "description": "WAiNK It at 100 locations.",
+   "grade": "silver",
+   "guide": "WAiNK It at 100 locations (silver)."
+  },
+  {
+   "id": 32,
+   "name": "One Last Thing",
+   "description": "Complete 50 Challenges.",
+   "grade": "bronze",
+   "guide": "Finish 50 challenges."
+  },
+  {
+   "id": 33,
+   "name": "Hot Together",
+   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+   "grade": "bronze",
+   "guide": "Lose a 4-star wanted level with your partner."
+  },
+  {
+   "id": 34,
+   "name": "Retail Therapy",
+   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "grade": "bronze",
+   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+  },
+  {
+   "id": 35,
+   "name": "Whip It Good",
+   "description": "Discover 100 vehicles.",
+   "grade": "bronze",
+   "guide": "Discover 100 vehicles."
+  },
+  {
+   "id": 36,
+   "name": "Gunslinger",
+   "description": "Take down 5 enemies in a single use of Combat Focus.",
+   "grade": "bronze",
+   "guide": "Down 5 enemies in one Combat Focus."
+  },
+  {
+   "id": 37,
+   "name": "Catch Me If You Can",
+   "description": "Make an unscheduled departure at VCIA.",
+   "grade": "bronze",
+   "guide": "Leave VCIA in an unscheduled way."
+  },
+  {
+   "id": 38,
+   "name": "Challenging Tank",
+   "description": "Kinda hot in these Rhinos.",
+   "grade": "bronze",
+   "guide": "Deal with Rhinos (tanks)."
+  },
+  {
+   "id": 39,
+   "name": "Sneakthief",
+   "description": "Rob a jewelry store without being detected.",
+   "grade": "bronze",
+   "guide": "Rob a jewelry store without being seen."
+  },
+  {
+   "id": 40,
+   "name": "Maximum Withdrawal",
+   "description": "Rob 5 Bank Vaults and escape.",
+   "grade": "silver",
+   "guide": "Rob 5 bank vaults and escape (silver)."
+  },
+  {
+   "id": 41,
+   "name": "A Classic Blitz Play",
+   "description": "Rob an Armored Truck and escape.",
+   "grade": "bronze",
+   "guide": "Rob an armored truck and escape."
+  },
+  {
+   "id": 42,
+   "name": "The Goodtime State",
+   "description": "Explore all of Leonida.",
+   "grade": "bronze",
+   "guide": "Explore all 52 areas of Leonida."
+  },
+  {
+   "id": 43,
+   "name": "Pest Control",
+   "description": "Rob an Illegal Operation belonging to each gang.",
+   "grade": "bronze",
+   "guide": "Rob one illegal operation of each of the 9 gangs."
+  },
+  {
+   "id": 44,
+   "name": "In The Beginning…",
+   "description": "Enjoy a cocktail with a view on Ocean Beach.",
+   "grade": "bronze",
+   "guide": "Have a cocktail with a view on Ocean Beach."
+  },
+  {
+   "id": 45,
+   "name": "Capital Offense",
+   "description": "Smash your way out of a vehicle showroom in classic style.",
+   "grade": "bronze",
+   "guide": "Smash out of a vehicle showroom in style."
+  },
+  {
+   "id": 46,
+   "name": "Let’s Go Bowling",
+   "description": "Follow-through at the Kolt & Associates' bowling alley.",
+   "grade": "bronze",
+   "guide": "Play bowling at the Kolt & Associates alley."
+  },
+  {
+   "id": 47,
+   "name": "Personal Best",
+   "description": "A partnership with mass appeal.",
+   "grade": "bronze",
+   "guide": "A partnership moment with mass appeal."
+  },
+  {
+   "id": 48,
+   "name": "Actions Speak Louder",
+   "description": "Choices made (for better or worse).",
+   "grade": "bronze",
+   "guide": "Make choices (PSN tracks a count to 500)."
+  },
+  {
+   "id": 49,
+   "name": "Bad Luck, I Guess",
+   "description": "Second time's the charm.",
+   "grade": "bronze",
+   "guide": "Succeed on a second try."
+  },
+  {
+   "id": 50,
+   "name": "The Truth Is Out There",
+   "description": "What the hell just happened?",
+   "grade": "bronze",
+   "guide": "Witness something strange."
+  },
+  {
+   "id": 51,
+   "name": "Ten Pin",
+   "description": "Bowl 'em over with a melee drive-by.",
+   "grade": "bronze",
+   "guide": "Knock someone down with a melee drive-by."
+  },
+  {
+   "id": 52,
+   "name": "Dime on the Dollar",
+   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+   "grade": "bronze",
+   "guide": "Launder $250,000 of marked bills."
+  },
+  {
+   "id": 53,
+   "name": "Treat Yo Self",
+   "description": "Spend $100,000 across all shops.",
+   "grade": "bronze",
+   "guide": "Spend $100,000 in shops."
+  },
+  {
+   "id": 54,
+   "name": "Little Boxes",
+   "description": "Purchase all garage properties.",
+   "grade": "bronze",
+   "guide": "Buy all 8 garage properties."
+  },
+  {
+   "id": 55,
+   "name": "On the Spot",
+   "description": "Register 10 vehicles to the Scooter Bros app.",
+   "grade": "bronze",
+   "guide": "Register 10 vehicles in the Scooter Bros app."
+  }
+ ]
 }
