@@ -1,30 +1,5 @@
 [
-  {
-    "file": "1-checklist.jpg",
-    "caption": "Checklist with Paradise Lost open: official name, description and grade, its sources, the written guide, and the step by step",
-    "path": "#trophy=3&spoilers=off",
-    "state": "9 trophies earned",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "2-roadmap.jpg",
-    "caption": "The nine-stage roadmap to the platinum, with the Chapter 1 missable called out and the next-up card naming the next unearned trophy",
-    "path": "#view=roadmap&spoilers=off",
-    "state": "9 trophies earned",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "3-tracker.jpg",
-    "caption": "Tracker: trophies earned, estimated hours left, the unearned missables, per-grade progress and export, import and reset",
-    "path": "#view=tracker&spoilers=off",
-    "state": "9 trophies earned",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "4-spoilers.jpg",
-    "caption": "Spoiler mode on with the story kind filter and remaining-only on: story trophies read as hidden until earned",
-    "path": "#view=checklist&kind=story&remaining=1&trophy=4",
-    "state": "9 trophies earned, spoilers on",
-    "viewport": { "width": 1280, "height": 800 }
-  }
+  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
 ]
