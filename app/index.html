@@ -11,22 +11,27 @@
 <body>
 
 <header class="masthead">
-  <div class="masthead-top">
-    <div>
-      <p class="kicker">PlayStation 5 trophy field guide</p>
+  <div class="masthead-brand">
+    <div class="title-lockup">
+      <p class="kicker">PlayStation 5 / field guide 01</p>
       <h1>Leonida Field Guide</h1>
+      <p class="tagline">A complete route through all 55 trophies.</p>
     </div>
-    <nav class="tabs" aria-label="Sections">
-      <a href="#view=checklist" data-tab="checklist">Checklist</a>
-      <a href="#view=roadmap" data-tab="roadmap">Roadmap</a>
-      <a href="#view=tracker" data-tab="tracker">Tracker</a>
-    </nav>
+    <div class="earned-block">
+      <div class="earned-line">
+        <strong id="meter-text" class="figure">0 of 55 earned</strong>
+        <button type="button" id="btn-next" class="route-btn">Next on the route <span aria-hidden="true">→</span></button>
+      </div>
+      <div id="meter-bar" class="meter-bar" role="progressbar" aria-label="Trophies earned" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0"><span></span></div>
+      <div id="grade-counters" class="grade-counters" aria-label="Progress by grade"></div>
+    </div>
   </div>
-  <div class="meter">
-    <strong id="meter-text" class="figure">0 of 55</strong>
-    <div id="meter-bar" class="meter-bar" role="progressbar" aria-label="Trophies earned" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0"><span></span></div>
-    <button type="button" id="btn-next" class="plain-btn">Next on the route</button>
-  </div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#view=checklist" data-tab="checklist">Checklist</a>
+    <a href="#view=missables" data-tab="missables">Missables <span id="missable-count" class="tab-count">11</span></a>
+    <a href="#view=roadmap" data-tab="roadmap">Roadmap</a>
+    <a href="#view=tracker" data-tab="tracker">Tracker</a>
+  </nav>
 </header>
 
 <main id="main">
@@ -84,10 +89,22 @@
     <div id="tracker"></div>
   </section>
 
+  <section id="view-missables" hidden>
+    <div class="intro missables-intro">
+      <div>
+        <p class="kicker">Close-out list</p>
+        <h2>Missables</h2>
+      </div>
+      <a class="back-link" href="#view=checklist">Back to checklist →</a>
+    </div>
+    <div id="missables"></div>
+  </section>
+
 </main>
 
 <footer class="colophon">
-  <p>An unofficial fan guide. Names, descriptions and grades are the official PlayStation 5 list; the guidance is my own summary of the pages each entry cites. It loads nothing over the network.</p>
+  <p>An unofficial fan guide. Names, descriptions and grades are official; guidance cites the sources behind it. Nothing loads from the network.</p>
+  <p class="shortcuts"><button type="button" id="shortcut-help" class="footer-link">Keyboard shortcuts</button> · <kbd>J</kbd>/<kbd>K</kbd> move · <kbd>Space</kbd> ticks · <kbd>/</kbd> search · <kbd>G</kbd> then <kbd>C</kbd>/<kbd>M</kbd>/<kbd>R</kbd>/<kbd>T</kbd> views · <kbd>?</kbd> sheet</p>
 </footer>
 
 <script type="module" src="app.js"></script>
