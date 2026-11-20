@@ -78,6 +78,17 @@ submitted. `repo_public`, `repo_created_after_open` and `commit_in_repo` are che
 site at submission, and the standing rule is not to re-submit to a make.fun competition from
 here.
 
+**The transcript gate is not satisfied by this build.** `record` watches the agent's session
+store, and a Superbot session is reported as "4 recorded working directory(ies) no longer
+exist and match no repository (pass those sessions with `--session`)" and then left out of the
+seal. The only sessions in the sealed recording `01a1fb0a` are the two `codex` rollouts from
+before the guide was written, so the guide's files are unexplained to the gate and a
+submission with it is near-certain to fail `thinking_reproduces` / `transcripts_witnessed`.
+To pass, the guide has to be written inside a session whose recording starts first: run
+`node cli/makefun.mjs record --competition gta6-trophy-guide-01 --source <repo>` and then build
+in a codex session begun after it. This repository's committed build is the reference for
+what to produce, not something a recorded agent may copy in.
+
 ## Build, check, finish
 
 - Work in `app/`: `index.html`, `app.js` (or a few modules), `style.css`, `app/data/trophies.json`. Split the code into files with one job each and name functions for what they do.
