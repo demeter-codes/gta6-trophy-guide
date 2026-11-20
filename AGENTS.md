@@ -5,13 +5,13 @@ Entry for make.fun's bounty **"Build the best GTA 6 trophy guide"** (`gta6-troph
 ## State: what is already done
 
 - The make.fun account is connected. `node cli/makefun.mjs login` from the kit prints `Connected: entries now go in as @lively-tapir-18-3261`; there is nothing left to approve, so do not start a login.
-- This repository is the entry. It already holds the kit's starter: `main.ts`, `serve.ts`, `vendor/makefun-frontend.ts`, `app/`, `screenshots/`, `shots.json`, `LICENSE`, plus the make.fun `README.md` and `.makefun/owner.json`.
+- **The guide is built.** `app/` is a finished offline guide and tracker (see Build notes below), `screenshots/` holds four real renders, and `main.ts` checks the guide data before it hands anything in. `node cli/makefun.mjs check` passes its four local checks; the five `at submission` checks need the push and the submission, which are the repository owner's to do.
 - The kit is unpacked at `../gta6-trophy-guide-01-kit`. Read `../gta6-trophy-guide-01-kit/RULES.txt` before you start: it is the full, authoritative specification (the gate, the dossier, the judge, the screenshot rules).
 - A recording of this session is already running for this repository. Do not start another, do not create another repository, and never rewrite git history. Do not run `makefun submit`: that happens outside this session.
 
 ## Your job
 
-The starter is only plumbing: a plain checklist with a one-line hint per trophy. Replace it with a real guide and tracker. The judge sees one sheet of screenshots plus an outline of the source, and ranks by, in order:
+Build in `app/`. The starter's checklist has already been replaced by the guide described in Build notes below; extend that rather than starting over. The judge ranks by, in order:
 
 1. **Tracker and data.** Every trophy with its official name, description and grade; progress saved in the browser; export and import; filters; a spoiler setting that hides story trophies until they are earned.
 2. **Roadmap and missables.** A roadmap to the platinum in order, and a missable flag on every trophy that can be missed, both built from the official descriptions.
@@ -45,6 +45,38 @@ Take 4 real renders of the app in Chrome at 1280x800 (or 1280x720), JPEG quality
 
 Replace the starter's screenshots. Use `node serve.ts` (it serves `app/` at http://localhost:8080) plus headless Chrome, e.g.
 `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu --hide-scrollbars --window-size=1280,800 --screenshot=screenshots/1-checklist.jpg --virtual-time-budget=2000 "http://localhost:8080/#trophy=2"`.
+
+## Build notes
+
+Built as the "Leonida field guide": an editorial field manual on paper stock, not a game
+skin. Vanilla ES modules, no framework, no bundler, no network at run time.
+
+- `app/data/trophies.json` — the official 55 with their names, descriptions and grades
+  unchanged, plus `kind`, `chapter`, `roadmapStage`, `missable`, a `count` where PlayStation
+  tracks one, a written guide of 90 to 180 words, `steps`, and 1 to 3 `sources` each.
+  `hidden` is true on the 28 that give the story away; `Positive Mental Attitude` is the one
+  `missable`, with the Chapter 1 balcony note.
+- `app/js/data.js` — loads the file once, owns the nine-stage roadmap copy, and answers pure
+  questions (grade order, count labels, search text, hours left).
+- `app/js/ui.js` — the checklist, the grouped sticky headers, the row badges and the detail
+  panel. `isHiddenTrophy` is the one place the spoiler rule lives.
+- `app/js/roadmap.js` — the stage plan and the next-up card, which names the first unearned
+  trophy in roadmap order.
+- `app/js/tracker.js` — per-grade and per-kind bars, the hours estimate, the missable list and
+  the export, import and reset controls.
+- `app/js/app.js` — the save (one versioned localStorage key), the hash route, the filters and
+  the tab switching.
+- `main.ts` — checks the guide data before it copies anything: 55 trophies, 90-word guides,
+  https sources, one missable, grades 1/2/6/46.
+
+Screenshots come from headless Chrome driven over CDP at 1280x800, seeded with nine earned
+trophies through the same localStorage key the app uses. `shots.json` records which hash each
+one opened.
+
+**Not done, and left to the person running this:** nothing is pushed to GitHub and nothing is
+submitted. `repo_public`, `repo_created_after_open` and `commit_in_repo` are checked by the
+site at submission, and the standing rule is not to re-submit to a make.fun competition from
+here.
 
 ## Build, check, finish
 
