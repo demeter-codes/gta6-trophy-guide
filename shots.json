@@ -1,6 +1,6 @@
 [
   { "file": "1-checklist.jpg", "path": "/#trophy=28&spoilers=off", "note": "checklist with a guide open and seeded earned progress", "viewport": { "width": 1280, "height": 800 } },
   { "file": "2-roadmap.jpg", "path": "/#view=roadmap&stage=8", "note": "roadmap with the earliest unearned stage and planner line", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-missables.jpg", "path": "/#view=missables", "note": "the 11-trophy missables view with stages and close-out actions", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-tracker.jpg", "path": "/#view=missables", "note": "the 11-trophy missables view with stages and close-out actions", "viewport": { "width": 1280, "height": 800 } },
   { "file": "4-spoilers.jpg", "path": "/#trophy=2&kind=story&spoilers=on", "note": "spoiler guard with a masked story guide and sources visible", "viewport": { "width": 1280, "height": 800 } }
 ]
