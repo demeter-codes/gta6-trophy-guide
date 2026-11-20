@@ -71,3 +71,7 @@ Keep the starter's behaviour and add a real validation of your own: read `app/da
 - `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`, then confirm `out/dossier.json` exists and its Totals line is small (first load well under 100 KB gzip-9).
 - Commit as you go and push to `origin main`.
 - At the end rewrite the description in `README.md` and the "Build notes" here to match what you built.
+
+## Build notes
+
+Built as a three-file static app (checklist, roadmap, tracker, detail panel) over `app/data/trophies.json`; see README for design, sources and limits. Screenshots are Playwright renders at 1280x800.
