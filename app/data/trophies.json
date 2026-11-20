@@ -835,6 +835,404 @@
       "sources": [
         { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
       ]
+    },
+    {
+      "id": 38,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "grade": "bronze",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "count": null,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "The official description is a joke rather than an instruction, so read it literally: Rhino is the series' nickname for the tank, and the trophy is about getting your hands on one. Tanks turn up in the heaviest set pieces and at the military sites, and the trophy is for taking one rather than for any particular fight. Treat it as a free-roam errand after the credits: go looking when nothing is on a timer, save first, and expect a wanted level the moment you take it. Do not try this mid-mission. Because the description says nothing about location, this guide deliberately does not name one.",
+      "steps": [
+        "Save before you go looking, since taking a tank starts a fight.",
+        "Find a tank in free roam rather than during a story mission.",
+        "Take it and get clear of the immediate response."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Sneakthief",
+      "description": "Rob a jewelry store without being detected.",
+      "grade": "bronze",
+      "hidden": true,
+      "kind": "activities",
+      "missable": false,
+      "count": null,
+      "chapter": "After the story",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "One jewelry store, robbed without being detected. Detection means no wanted level at any point, not just no shots fired, so this is a stealth job rather than a fast one. Scout the store on foot first with nothing in your hands, note where the staff stand and which entrance is out of sight, then do the robbery in one quiet pass and leave the same way you came in. If a star appears, reload your save rather than fighting out of it. Robbery trophies like this one are free-roam work, and doing them after the credits means nothing else is putting police on the street.",
+      "steps": [
+        "Scout the jewelry store first and note staff positions and a quiet entrance.",
+        "Rob it in one pass without being seen; any wanted level means a reload.",
+        "Leave the way you came in and get clear before stopping."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Maximum Withdrawal",
+      "description": "Rob 5 Bank Vaults and escape.",
+      "grade": "silver",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "count": 5,
+      "chapter": "After the story",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "Five bank vaults, each one escaped rather than just cracked. GTAside lists this among the silvers that reward long-haul work, and it is exactly that: five separate robberies, each of which has to end with you clear of the police. Story heists do not count, so plan on free roam. Bank vaults are also a category in the 100% checklist per GTA Base, which means the five are not wasted effort. Do them one at a time with a save between each, and treat the escape as the skill test rather than the vault: a planned route out is worth more than a fast drill.",
+      "steps": [
+        "Plan an escape route for each vault before you start it.",
+        "Rob five bank vaults in free roam and escape clean each time.",
+        "Save between robberies so a failed escape costs you one, not five."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
+        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "A Classic Blitz Play",
+      "description": "Rob an Armored Truck and escape.",
+      "grade": "bronze",
+      "hidden": true,
+      "kind": "activities",
+      "missable": false,
+      "count": null,
+      "chapter": "After the story",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "One armoured truck, robbed, and you away clean. The escape is the trophy, not the hit: an armoured truck robbery that ends with you in a hospital does not count. Trucks are moving targets, so the practical approach is to force one to stop somewhere you have already chosen, rather than starting the robbery wherever you happen to catch it. Have a second vehicle waiting and switch to it, because the truck itself is not an escape car. Save first, and do this after the credits when the streets are quiet and no mission is waiting on you.",
+      "steps": [
+        "Pick a stretch of road with a clear exit before you stop a truck.",
+        "Rob the armoured truck and switch to a waiting vehicle.",
+        "Break line of sight and lose the wanted level completely."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "The Goodtime State",
+      "description": "Explore all of Leonida.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "count": 52,
+      "chapter": "Any chapter",
+      "roadmapStage": 9,
+      "missableNote": null,
+      "guide": "Every named area of Leonida has to be visited, and PlayStation tracks 52 of them. The map reveals districts as you enter them, so this is a driving trophy rather than a collecting one: take a fast car, work outward from where you are, and go down every dead end that looks like it belongs to a district. It arrives close to naturally if you have been doing the rest of the list, because the 100% sweep takes you almost everywhere. Check the map for fogged edges when you think you are done; the last few are usually the ones behind the airport or out past the coast road.",
+      "steps": [
+        "Open the map and look for districts still shaded out.",
+        "Drive the perimeter and the dead ends rather than the highways.",
+        "Cross-check against 100% Completion, which takes you to nearly all of them anyway."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Pest Control",
+      "description": "Rob an Illegal Operation belonging to each gang.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "count": 9,
+      "chapter": "After the story",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "One illegal operation from every gang, and the game has nine of them. That is the whole difficulty: nine different robberies rather than nine of the same. Gang operations are also a 100% category per GTA Base, so this trophy is part of the gold rather than an extra. Work them gang by gang and keep a list, because the game does not present this as a single checklist and it is easy to hit the same gang twice. Each operation ends with a wanted level, so plan the exit before you go in and save between operations.",
+      "steps": [
+        "List the nine gangs and mark which operation belongs to each.",
+        "Rob one operation per gang, ticking each off as you go.",
+        "Plan an exit for every operation and save between them."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "count": null,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "Ocean Beach is on the Vice City side of the map, and the trophy wants a cocktail somewhere with a view. The description is the whole instruction: go to Ocean Beach, find a bar with a view and order a drink. It is a five-minute trophy and one of the easiest on the list, but it is also one people forget, because it is not part of the 100% checklist. This is a good early trophy to clear while the story has you in the city anyway, and a good excuse to open the map properly for the exploration trophies at the same time.",
+      "steps": [
+        "Drive to Ocean Beach when the story has you nearby.",
+        "Find a bar with a view of the beach or the water.",
+        "Order a cocktail and let the trophy register."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "count": null,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "A vehicle showroom, a car, and the front window. The description asks for the exit to be a smash rather than a door, so drive a car through the glass and leave that way. It is a joke trophy in the series' own tradition, and it does not take planning beyond finding a showroom with a window you can reach at speed. Do it in free roam after the credits so the wanted level it starts has nothing to interrupt. Save first, since a showroom full of glass tends to come with a response, and you only need the one exit to register.",
+      "steps": [
+        "Go to a vehicle showroom with a street-facing window in free roam.",
+        "Get a car up to speed and drive it through the glass.",
+        "Keep going until you are clear of the forecourt and the trophy registers."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "count": null,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "Kolt & Associates run a bowling alley, and the trophy is for bowling there. Follow-through is the description's word for it: throw the ball rather than walking away. Bowling is also one of the activity types Master of None counts, so a single visit can clear two trophies. It is an easy one to leave at the bottom of the list, and it should not be, because it takes a few minutes and does not depend on anything else being finished. Visit after the credits if you have not been near the alley earlier in the story.",
+      "steps": [
+        "Find the Kolt & Associates bowling alley on the map.",
+        "Start a game and throw a ball through to the follow-through.",
+        "Count the visit toward Master of None as one of the activity types tried."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "grade": "bronze",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "count": null,
+      "chapter": "Story",
+      "roadmapStage": 6,
+      "missableNote": null,
+      "guide": "The description is deliberately vague, which is the series' way of hiding a story moment: this is a partnership trophy, and it is earned by a choice or scene between Jason and Lucia rather than by a task. Because the official wording gives no instruction, this guide does not invent one. Play the story and keep your saves spread across the chapters; if you reach the credits without it, an older save is the only route back, since GTA 6 has no mission replay. Its companion trophies in the same hidden group, Actions Speak Louder and Bad Luck I Guess, are earned the same way.",
+      "steps": [
+        "Play the story with manual saves at the start and end of each chapter.",
+        "Keep an eye on the hidden trophies group as you go.",
+        "If it has not appeared by the credits, load an earlier save rather than starting over."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
+        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "grade": "bronze",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "count": 500,
+      "chapter": "Story and free roam",
+      "roadmapStage": 6,
+      "missableNote": null,
+      "guide": "The description says choices, and PlayStation tracks a count of 500 behind it. That number is high enough that it is not a single story decision: it is the running total of the small choices the game records as you play. The practical reading is that it accumulates from ordinary play and from the decisions the story puts in front of you, so the answer is to play naturally rather than to hunt for it. Do not reload to farm a choice, since a reloaded decision is usually the same decision. It is one of the last hidden trophies most players see.",
+      "steps": [
+        "Play the story and make the choices it offers rather than avoiding them.",
+        "Keep playing in free roam after the credits; the count continues there.",
+        "Do not farm a single decision by reloading, which repeats rather than adds."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "grade": "bronze",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "count": null,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "The second time's the charm: this is a retry trophy, earned by failing something and then succeeding on the next attempt. The official description does not say which activity, and this guide will not pretend to know. What it does tell you is that you should not reload after a failure: the trophy wants the second attempt, and a reload usually resets the state that would have counted. Play the activities you are bad at, miss once, and go again. It is in the hidden group with Personal Best and Actions Speak Louder, and it tends to arrive without being chased.",
+      "steps": [
+        "Pick an activity you are likely to fail on the first attempt.",
+        "Fail it once, then retry immediately instead of reloading.",
+        "Succeed on the second attempt and let the trophy register."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "grade": "bronze",
+      "hidden": true,
+      "kind": "exploration",
+      "missable": false,
+      "count": null,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "A hidden trophy whose description is a reaction rather than an instruction, which in this series usually means a strange encounter somewhere in the world. The honest answer is that the official wording does not name a location, and this guide will not invent one. What it supports is the shape: something odd happens, you witness it, the trophy pops. Play in free roam after the credits, follow the stranger markers you have not cleared, and do not reload when something strange starts, since witnessing it is the trophy. Load an older save if you think you missed the moment.",
+      "steps": [
+        "Play free roam after the credits and follow the stranger markers you have left.",
+        "When something strange starts happening, stay with it instead of reloading.",
+        "Keep manual saves spread out in case the moment passes."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "combat",
+      "missable": false,
+      "count": null,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "A melee drive-by means hitting someone with a melee weapon from a moving vehicle, not shooting them. Get a car, get a melee weapon, and swing at a pedestrian as you pass. The bowling name is the joke: you are the ball. It costs a wanted level, so do it in free roam after the credits and save first. Aim for someone on the pavement rather than in traffic, and keep the car moving so the swing registers as a drive-by rather than a standing attack. One clean hit is all it takes.",
+      "steps": [
+        "Get a car and equip a melee weapon.",
+        "Drive past a pedestrian and swing the weapon from the vehicle.",
+        "Save first, since the hit starts a wanted level."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Dime on the Dollar",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "count": 250000,
+      "chapter": "After the story",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "Marked Bills are the currency you launder, and the target is $250,000 earned through contacts rather than carried. The distinction is the trophy: you need the money to have gone through a contact, so robbing shops and keeping the cash does not count. Marked Bills come from robberies, so the two halves of this trophy are the same loop: rob, then launder. Work it alongside Maximum Withdrawal and Pest Control, which also produce Bills, and run the laundering side whenever a contact is available. Chasing the count deliberately is slower than letting the robberies feed it.",
+      "steps": [
+        "Rob shops, vaults and gang operations to build up Marked Bills.",
+        "Launder them through a contact rather than keeping the cash.",
+        "Track the earned total against $250,000 and keep the loop running."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Treat Yo Self",
+      "description": "Spend $100,000 across all shops.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "count": 100000,
+      "chapter": "After the story",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "Spend $100,000 in shops, counted across all of them rather than in one. That is a lot of money and it is deliberately spread: the game wants you to shop widely, not buy one expensive thing. By the end of the story and a few robberies you will have the cash, so this is a late trophy rather than a hard one. Buy what you actually want and let the total build; clothes, weapons and vehicle upgrades all count. Pair it with Little Boxes, since the garage properties are a large purchase that also carries a trophy.",
+      "steps": [
+        "Wait until the story and a few robberies have left you with spare cash.",
+        "Buy across several shops rather than one, since the total is what counts.",
+        "Include the garage properties, which also feed Little Boxes."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Little Boxes",
+      "description": "Purchase all garage properties.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "collectibles",
+      "missable": false,
+      "count": 8,
+      "chapter": "After the story",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "Buy every garage property, and the count PlayStation tracks is eight. This is the most expensive trophy on the list in cash terms, so it belongs after the story and after a few good robberies. Buy them one at a time and use each purchase toward Treat Yo Self, which wants $100,000 spent across all shops; between them the two trophies share most of their cost. Garages also give you vehicle storage, which is useful for Whip It Good and for keeping the cars you need for the driving events. Do not buy them early at the expense of weapons you need for the shooting ranges.",
+      "steps": [
+        "Bank enough from the story and robberies to cover eight properties.",
+        "Buy the garages one at a time, counting them against eight.",
+        "Let the same purchases count toward Treat Yo Self's $100,000."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "On the Spot",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
+      "grade": "bronze",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "count": 10,
+      "chapter": "Any chapter",
+      "roadmapStage": 8,
+      "missableNote": null,
+      "guide": "Scooter Bros is an in-game app, and the trophy wants ten vehicles registered to it. Registering is a phone action, not a purchase, so the cost is time rather than money: you need ten distinct vehicles to add. That makes it a natural companion to Whip It Good, which asks you to discover 100 vehicles in the first place. Register each new vehicle as you discover it and the count rises while you are doing something else. Keep scooters and small vehicles in mind, since the app's name points at them and they are easy to overlook.",
+      "steps": [
+        "Open the Scooter Bros app on the phone and find the register action.",
+        "Register a vehicle each time you discover a new one.",
+        "Pair it with Whip It Good so the same driving serves both counts."
+      ],
+      "sources": [
+        { "label": "GTA Base trophy list and roadmap", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+      ]
     }
   ]
 }
