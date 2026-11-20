@@ -3,106 +3,94 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leonida field guide: the 55 trophies of Grand Theft Auto VI</title>
-<meta name="description" content="An offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI.">
+<title>Leonida Field Guide: Grand Theft Auto VI trophies on PlayStation 5</title>
+<meta name="description" content="Offline checklist, roadmap and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23b4442e'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header class="masthead">
-  <div class="title">
-    <p class="folio">Field guide, PlayStation 5</p>
-    <h1>Leonida field guide</h1>
+  <div class="masthead-top">
+    <div>
+      <p class="kicker">PlayStation 5 trophy field guide</p>
+      <h1>Leonida Field Guide</h1>
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#view=checklist" data-tab="checklist">Checklist</a>
+      <a href="#view=roadmap" data-tab="roadmap">Roadmap</a>
+      <a href="#view=tracker" data-tab="tracker">Tracker</a>
+    </nav>
   </div>
-  <nav class="tabs" aria-label="Views">
-    <a href="#view=checklist" data-view="checklist">Checklist</a>
-    <a href="#view=roadmap" data-view="roadmap">Roadmap</a>
-    <a href="#view=tracker" data-view="tracker">Tracker</a>
-  </nav>
-  <div class="summary">
-    <span id="head-count" class="num" aria-live="polite"></span>
-    <span
-      class="bar"
-      role="progressbar"
-      aria-label="Trophies earned"
-      aria-valuemin="0"
-      aria-valuemax="55"
-      aria-valuenow="0"
-    ><i id="head-bar"></i></span>
-    <button
-      id="next-unearned"
-      class="jump"
-      type="button"
-      aria-controls="view-checklist"
-      aria-keyshortcuts="N"
-    >
-      Next unearned
-    </button>
-    <span id="jump-status" class="sr-only" role="status" aria-live="polite"></span>
+  <div class="meter">
+    <strong id="meter-text" class="figure">0 of 55</strong>
+    <div id="meter-bar" class="meter-bar" role="progressbar" aria-label="Trophies earned" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0"><span></span></div>
+    <button type="button" id="btn-next" class="plain-btn">Next on the route</button>
   </div>
 </header>
 
-<main id="main" tabindex="-1">
-  <section id="view-checklist" class="view" hidden>
-    <div class="controls">
-      <label class="field grow">
-        <span>Search <kbd aria-hidden="true">/</kbd></span>
-        <input
-          id="q"
-          type="search"
-          placeholder="Name or description"
-          autocomplete="off"
-          aria-label="Search trophy names and descriptions"
-          aria-keyshortcuts="/"
-        >
+<main id="main">
+
+  <section id="view-checklist" hidden>
+    <form class="filters" id="filters" onsubmit="return false">
+      <label class="control wide">
+        <span class="control-label">Search</span>
+        <input id="f-search" type="search" placeholder="Name, description or chapter" autocomplete="off">
       </label>
-      <label class="field"><span>Grade</span>
-        <select id="grade">
-          <option value="all">All grades</option>
+      <label class="control">
+        <span class="control-label">Grade</span>
+        <select id="f-grade">
+          <option value="all">Every grade</option>
           <option value="platinum">Platinum</option>
           <option value="gold">Gold</option>
           <option value="silver">Silver</option>
           <option value="bronze">Bronze</option>
         </select>
       </label>
-      <label class="field"><span>Arrange by</span>
-        <select id="arrange">
+      <label class="control">
+        <span class="control-label">Arrange by</span>
+        <select id="f-arrange">
           <option value="stage">Roadmap stage</option>
           <option value="grade">Grade</option>
         </select>
       </label>
-      <label class="check"><input id="remaining" type="checkbox"> Remaining only</label>
-      <label class="check switch"><input id="spoilers" type="checkbox" role="switch" aria-label="Hide unearned story trophy spoilers"> <span>Spoilers: hide unearned story trophies</span></label>
-    </div>
-    <div id="kinds" class="chips" role="group" aria-label="Filter trophies by kind"></div>
-    <p id="kind-note" class="note" aria-live="polite" hidden></p>
-    <div class="split">
-      <div>
-        <p id="result-count" class="num meta" aria-live="polite"></p>
-        <ol id="list" class="list"></ol>
+      <label class="toggle"><input type="checkbox" id="f-remaining"><span>Remaining only</span></label>
+      <label class="toggle"><input type="checkbox" id="f-spoilers" role="switch"><span>Spoiler guard (hide unearned story trophies)</span></label>
+    </form>
+    <div id="kind-bar" class="kind-bar" role="group" aria-label="Kind"></div>
+
+    <div class="columns">
+      <div class="list-col">
+        <p id="shown" class="shown"></p>
+        <div id="rows"></div>
       </div>
-      <aside id="detail" class="detail" aria-label="Selected trophy details" aria-live="polite"></aside>
+      <aside id="panel" class="panel" aria-label="Trophy detail" aria-live="polite"></aside>
     </div>
   </section>
 
-  <section id="view-roadmap" class="view" hidden>
-    <div class="lede">
+  <section id="view-roadmap" hidden>
+    <div class="intro">
       <h2>Roadmap to the platinum</h2>
-      <p>Nine stages, in the order the sources suggest. Each trophy sits in the stage where it is first worth chasing; missables are flagged where their window closes.</p>
+      <p>Nine stages in the order GTABase and the KeenGamer roadmap suggest, adjusted so nothing that can close is left until later.</p>
     </div>
     <div id="stages"></div>
   </section>
 
-  <section id="view-tracker" class="view" hidden>
-    <div class="lede"><h2>Tracker</h2><p>Progress is stored in this browser only, under one versioned key.</p></div>
+  <section id="view-tracker" hidden>
+    <div class="intro">
+      <h2>Tracker</h2>
+      <p>Everything here is kept in this browser under a single versioned key. Nothing is sent anywhere.</p>
+    </div>
     <div id="tracker"></div>
   </section>
+
 </main>
 
-<footer class="foot">
-  <p>Unofficial fan guide. Trophy names and descriptions are the official PlayStation 5 list; guidance is summarised from the pages it names. Works offline, loads nothing from the network.</p>
+<footer class="colophon">
+  <p>An unofficial fan guide. Names, descriptions and grades are the official PlayStation 5 list; the guidance is my own summary of the pages each entry cites. It loads nothing over the network.</p>
 </footer>
 
 <script type="module" src="app.js"></script>
-<noscript><p class="note">This guide needs JavaScript to read its data file.</p></noscript>
+<noscript><p class="notice">The guide reads its data with JavaScript; please enable it.</p></noscript>
 </body>
 </html>

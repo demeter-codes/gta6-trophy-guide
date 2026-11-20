@@ -1,75 +1,82 @@
-// A working gta6-trophy-guide-01 entry (Node 22, standard library only): the guide is this directory's app/ folder,
-// plain static files a browser opens at app/index.html (ES modules, CSS, no build step), offline: it loads nothing
-// over the network, and its trophy list and guides are app/data/trophies.json. The program hands it in: it copies app/
-// and screenshots/ from beside this file to /output and writes /output/dossier.json, the summary the judge reads (your
-// screenshots, the first load's files and bytes, and your source), with the vendored make.fun library. Leave
-// vendor/makefun-frontend.ts as it is: the scorer requires dossier.json to be byte for byte what its own copy writes.
+// Build entry for the Leonida field guide (Node 22, standard library only).
 //
-// Only the plumbing, not a winner: a plain checklist of the 55 trophies with a one-line hint each. Write a real guide
-// for every trophy in your own words, a roadmap to the platinum, filters and a spoiler setting in app/, put 3 or 4 PNG
-// or JPEG screenshots of it in screenshots/ (the first by name is the cover; shots.json says which views this
-// starter's were taken of), and run it.
+// The guide is the static app/ folder: index.html, style.css, app.js and data/trophies.json, no build step. This
+// program checks the trophy data, copies app/ and screenshots/ into the output directory and writes dossier.json
+// there with the vendored make.fun library. Leave vendor/makefun-frontend.ts alone; the scorer expects dossier.json
+// to be what its own copy writes.
 //
-// Serve it locally with `node serve.ts`, then open http://localhost:8080.
-// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
+//   node serve.ts                                     serve app/ on http://localhost:8080
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+//
+// MAKEFUN_OUTPUT_DIR stands in for the grader's /output outside its container.
 
 import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildDossier } from './vendor/makefun-frontend.ts';
 
-const here = fileURLToPath(new URL('.', import.meta.url));
-const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+const root = fileURLToPath(new URL('.', import.meta.url));
+const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-const knownGrades = new Set(['platinum', 'gold', 'silver', 'bronze']);
-const trophyData = JSON.parse(readFileSync(join(here, 'app', 'data', 'trophies.json'), 'utf8'));
-const trophies: any[] = Array.isArray(trophyData) ? trophyData : trophyData.trophies;
-const validationErrors: string[] = [];
-const frontendPath = join(here, 'vendor', 'makefun-frontend.ts');
+const GRADES = ['platinum', 'gold', 'silver', 'bronze'];
+const EXPECTED = 55;
 
-if (!Array.isArray(trophies) || trophies.length !== 55) {
-  validationErrors.push(`Expected 55 trophies; found ${Array.isArray(trophies) ? trophies.length : 'no list'}.`);
+type Source = { label?: unknown; url?: unknown };
+type Trophy = {
+  id?: number;
+  name?: string;
+  grade?: string;
+  guide?: unknown;
+  sources?: Source[];
+};
+
+function readTrophies(): Trophy[] {
+  const parsed = JSON.parse(readFileSync(join(root, 'app', 'data', 'trophies.json'), 'utf8'));
+  return Array.isArray(parsed) ? parsed : parsed.trophies;
 }
 
-for (const trophy of Array.isArray(trophies) ? trophies : []) {
-  const label = `Trophy ${trophy.id} (${trophy.name})`;
-  if (typeof trophy.guide !== 'string' || trophy.guide.trim().length === 0) {
-    validationErrors.push(`${label} has a blank guide.`);
+// Returns every problem found, so one run reports them all.
+function validate(list: Trophy[]): string[] {
+  const problems: string[] = [];
+  if (!Array.isArray(list) || list.length !== EXPECTED) {
+    problems.push(`expected ${EXPECTED} trophies, found ${Array.isArray(list) ? list.length : 'none'}`);
+    return problems;
   }
-  const hasUsableSource = Array.isArray(trophy.sources) && trophy.sources.some(
-    (source: any) => typeof source?.label === 'string'
-      && source.label.trim().length > 0
-      && typeof source.url === 'string'
-      && /^https:\/\//.test(source.url),
-  );
-  if (!hasUsableSource) {
-    validationErrors.push(`${label} has no source.`);
+  const seen = new Set<number>();
+  for (const t of list) {
+    const who = `#${t.id} "${t.name}"`;
+    if (seen.has(t.id as number)) problems.push(`${who}: duplicate id`);
+    seen.add(t.id as number);
+    if (typeof t.guide !== 'string' || !t.guide.trim()) problems.push(`${who}: blank guide`);
+    const cited = (t.sources ?? []).filter(
+      (s) => typeof s.label === 'string' && s.label.trim() && typeof s.url === 'string' && s.url.startsWith('https://'),
+    );
+    if (cited.length === 0) problems.push(`${who}: no source with a label and an https link`);
+    if (!GRADES.includes(t.grade as string)) problems.push(`${who}: unknown grade "${t.grade}"`);
   }
-  if (!knownGrades.has(trophy.grade)) {
-    validationErrors.push(`${label} uses unknown grade "${trophy.grade}".`);
-  }
+  return problems;
 }
 
-if (!existsSync(frontendPath)) {
-  validationErrors.push(`Required make.fun frontend is missing: ${frontendPath}`);
+const trophies = readTrophies();
+const problems = validate(trophies);
+if (!existsSync(join(root, 'vendor', 'makefun-frontend.ts'))) problems.push('vendor/makefun-frontend.ts is missing');
+if (problems.length) {
+  throw new Error(`Trophy data failed validation (${problems.length}):\n  - ${problems.join('\n  - ')}`);
+}
+console.log(`Validated ${trophies.length} trophies: guides, sources and grades are all in order.`);
+
+mkdirSync(join(outDir, 'screenshots'), { recursive: true });
+cpSync(join(root, 'app'), join(outDir, 'app'), { recursive: true });
+if (existsSync(join(root, 'screenshots'))) {
+  cpSync(join(root, 'screenshots'), join(outDir, 'screenshots'), { recursive: true });
 }
 
-if (validationErrors.length > 0) {
-  throw new Error(`Pre-flight checks failed (${validationErrors.length} issue${validationErrors.length === 1 ? '' : 's'}):\n- ${validationErrors.join('\n- ')}`);
-}
-
-console.log(`Pre-flight passed: ${trophies.length} trophies, all guides/sources/grades valid; make.fun frontend present.`);
-const { buildDossier } = await import('./vendor/makefun-frontend.ts');
-
-mkdirSync(out, { recursive: true });
-cpSync(join(here, 'app'), join(out, 'app'), { recursive: true });
-mkdirSync(join(out, 'screenshots'), { recursive: true });
-if (existsSync(join(here, 'screenshots'))) cpSync(join(here, 'screenshots'), join(out, 'screenshots'), { recursive: true });
-
-// The scorer's own caps (reference/gate.json): only text_max_bytes shapes the bytes; the others refuse an entry the
-// scorer would refuse (more than 4 screenshots or one over 256 KiB; more than 993 files and directories in app/ or
-// 48 MiB of app files: app/ counts beside /output's own 1000-entry cap, its screenshots/ and dossier.json).
-writeFileSync(
-  join(out, 'dossier.json'),
-  buildDossier(out, { text_max_bytes: 163840, screenshots: { max: 4, max_bytes: 262144 }, app_max_files: 993, app_max_bytes: 50331648 }),
-);
+// Caps follow the scorer's gate: at most 4 screenshots of 256 KiB, 993 entries and 48 MiB in app/, and a text budget
+// that bounds how much source the dossier carries.
+const limits = {
+  text_max_bytes: 163840,
+  screenshots: { max: 4, max_bytes: 262144 },
+  app_max_files: 993,
+  app_max_bytes: 50331648,
+};
+writeFileSync(join(outDir, 'dossier.json'), buildDossier(outDir, limits));

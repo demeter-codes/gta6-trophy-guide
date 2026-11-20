@@ -1,7 +1,7 @@
 {
   "game": "Grand Theft Auto VI",
   "platform": "PlayStation 5",
-  "hoursNote": "Hours are this guide's own planning split of the roughly 200 hours that GTABase and the KeenGamer roadmap give for the platinum. They are not per-trophy figures from either source.",
+  "hoursNote": "Hours are my own planning split of the roughly 200 hours that GTABase and the KeenGamer roadmap quote for the platinum. Neither source gives a per-trophy figure.",
   "trophies": [
     {
       "id": 1,
@@ -16,16 +16,12 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 0,
-      "guide": "Nothing is done to earn Vice Got a Price!; it lands on its own once the other 54 trophies sit on your profile. The official list on Exophase gives it a one-line congratulation as its description, so the real instructions live in the other entries. GTABase and the KeenGamer roadmap both plan on a single playthrough of about 200 hours with no difficulty setting, no New Game Plus, no mission replay and no online or DLC trophies. Most of those hours go into A Long Road, the 100% checklist. Two habits protect the run. Keep cheats off, because both guides say a cheat switches off trophies and saving for that session. And keep manual saves at the start and end of each chapter, since nothing can be replayed. Treat this one as the last tick on the sheet, never as something to chase directly.",
-      "steps": [
-        "Work the roadmap stages in order and tick each trophy as it pops.",
-        "Keep cheats off for the whole run.",
-        "Check the trophy list for gaps once A Long Road is earned."
-      ],
+      "guide": "This is the platinum, and it pops by itself when the other fifty-four trophies are on your profile. The official list on Exophase gives it only a word of congratulation, so the real planning sits in the other entries. GTABase's trophy guide and the KeenGamer roadmap both describe a single playthrough of around 200 hours: there is no difficulty setting, no New Game Plus, no mission replay, and no online or DLC trophies standing in the way. Most of those hours belong to A Long Road, the 100% checklist. Two habits protect the run. Keep cheats off, because both sources say using one disables trophies and saving for that session. And save manually at the start and end of every chapter, since a mission cannot be replayed once it is behind you. Never chase this one directly; it is simply the last tick on the sheet.",
+      "steps": ["Earn the other 54 trophies.", "Keep cheats off for the whole run.", "Save manually at each chapter boundary."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" },
-        { "label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"},
+        {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
       ]
     },
     {
@@ -41,14 +37,11 @@
       "chapter": "Chapter 1",
       "roadmapStage": 1,
       "hours": 1,
-      "guide": "This is the opening mission paying out. GTABase describes Gone Fishing as one of the first missions of Chapter 1 and says the trophy cannot be missed, and the official list on Exophase attaches nothing to it beyond finishing. There is no side choice, collectible or timer to prepare. It is hidden on PlayStation, so a player avoiding spoilers sees only a blank entry until the mission ends. The KeenGamer roadmap's advice for the early hours is general: you do not need gold medals in story missions, and you should start the habit of manual saves because there is no mission replay. Make your first manual save right after Gone Fishing, then carry on into the rest of Chapter 1, where the balcony meditation and the first side strands begin to appear.",
-      "steps": [
-        "Play the opening missions through to the end of Gone Fishing.",
-        "Make a manual save as soon as the mission ends."
-      ],
+      "guide": "Gone Fishing is one of the first missions of Chapter 1, and GTABase's trophy guide says this bronze cannot be missed. The official list on Exophase attaches nothing to it beyond finishing the mission, so there is no side choice, timer or collectible to prepare. It is hidden on PlayStation, which means a spoiler-averse player sees a blank entry until the mission ends. The KeenGamer roadmap's advice for the opening hours is general but useful: story missions do not demand gold medals, and the game offers no mission replay, so manual saves are your only way back. Make your first manual save the moment Gone Fishing ends, then carry on through Chapter 1, where the balcony meditation and the first side strands begin to show up. Nothing about this trophy deserves more planning than that.",
+      "steps": ["Play the opening missions through Gone Fishing.", "Make a manual save as the mission ends."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -64,15 +57,11 @@
       "chapter": "Chapter 1",
       "roadmapStage": 1,
       "hours": 6,
-      "guide": "Chapter 1 is the first of the five chapters, and the trophy does not appear when its last mission ends. GTABase says it pops once you have played the first mission of Chapter 2, What's in the Bag?, so do not worry if the screen stays quiet at the chapter break. The trophy itself cannot be lost, but the chapter is where three other things need your attention before you leave it. The KeenGamer roadmap calls out Lucia's balcony meditation the morning after the mission Down to Earth. GTABase adds that Kenton's treasure strand begins here and that he drops out of view after the chapter, and it says to steer clear of the permanent Irredeemable criminal profile. Take those first, make a manual save, finish the story missions, then let the next chapter's opener deliver Paradise Lost.",
-      "steps": [
-        "Bank the balcony meditation and start Kenton's treasure work before the chapter ends.",
-        "Finish the last Chapter 1 mission and save.",
-        "Play What's in the Bag? to see the trophy pop."
-      ],
+      "guide": "Do not worry if the screen stays quiet when Chapter 1 ends. GTABase's trophy guide says Paradise Lost only pops after the first mission of Chapter 2, What's in the Bag?, so the chapter break is not the moment to check. The trophy itself cannot be lost, but the chapter holds three things worth handling before you leave it. The KeenGamer roadmap points to Lucia's balcony meditation on the morning after the mission Down to Earth. GTABase adds that Kenton's treasure strand starts here and that he drops out of sight once the chapter closes, and it tells players to stay clear of the permanent Irredeemable criminal profile. Take those first, make a manual save, finish the story missions, and let the next chapter's opener hand over the bronze. It is the longest early stretch of the main road.",
+      "steps": ["Accept Lucia's balcony meditation after Down to Earth.", "Take Kenton's job before the chapter ends.", "Finish the missions, then start What's in the Bag?."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -88,15 +77,11 @@
       "chapter": "Chapter 2",
       "roadmapStage": 2,
       "hours": 8,
-      "guide": "Finishing Chapter 2 is all the official wording asks, and GTABase says the trophy is awarded as Chapter 3 begins, after the mission Welcome to Vice City. The chapter matters for the rest of the list more than for this entry. According to GTABase, Coffee Break is the point after which Jason and Lucia can act together, which opens Hot Together, Billy's jobs, Bret's hunting and the second half of the meditation counter. Daily Driver unlocks the Vice City Real Estate app for garages, and Moses hands over the Scooter Bros app in a Chapter 2 mission. None of that has to be finished here, but note where each one starts. The KeenGamer roadmap's rule applies: save at the start and end of the chapter, and do not rush past optional missions.",
-      "steps": [
-        "Play Chapter 2 through Coffee Break so your partner unlocks.",
-        "Finish the chapter, then play Welcome to Vice City.",
-        "Make a manual save before and after the chapter."
-      ],
+      "guide": "The official wording asks only for Chapter 2 to be finished, and GTABase's trophy guide says the bronze arrives as Chapter 3 begins, after the mission Welcome to Vice City. The chapter matters more for what it opens than for this entry. GTABase names Coffee Break as the point after which Jason and Lucia can act together, which is what Hot Together, Billy's jobs, Bret's hunting and the second half of the meditation counter all wait for. Daily Driver unlocks the Vice City Real Estate app used for garages, and Moses hands over the Scooter Bros app in a Chapter 2 mission. None of that has to be finished here, but note where each starts. The KeenGamer roadmap's rule fits well: save at the start and end of the chapter and do not sprint past optional missions.",
+      "steps": ["Finish Coffee Break to unlock your partner.", "Note Daily Driver and the Moses mission for later.", "Complete the chapter and save."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -112,15 +97,11 @@
       "chapter": "Chapter 3",
       "roadmapStage": 3,
       "hours": 9,
-      "guide": "The city opens up in Chapter 3, and this trophy is the receipt for finishing it. GTABase says it arrives after the first two missions of Chapter 4, Ocean Beach and Another Life, so expect a short delay after the chapter break. Chapter 3 is also where many optional threads begin: GTABase puts the start of Andy's quests, Yasmani's Jewelry Jobs, the Key Cloner missions behind Randy's list, Raul's crew and the Dye Pack Jammer, and the Tyrone job Here, Kitty Kitty here. The KeenGamer roadmap warns that some optional missions disappear during certain story sections, though more than the 100 needed for completion exist. Accept new strands as they appear, finish the story missions at your own pace, and save before the chapter closes.",
-      "steps": [
-        "Take up Andy, Yasmani, Randy and Tyrone's openers as they arrive.",
-        "Finish the story missions of Chapter 3 and save.",
-        "Play Ocean Beach and Another Life to see it pop."
-      ],
+      "guide": "Chapter 3 is where the city opens up, and this bronze is the receipt for finishing it. GTABase's trophy guide says it appears after the first two missions of Chapter 4, Ocean Beach and Another Life, so expect a short delay after the chapter break. Many optional threads begin here. GTABase places the start of Andy's quests, Yasmani's Jewelry Jobs, the Key Cloner missions behind Randy's list, Raul's crew with the Dye Pack Jammer, and the Tyrone job Here, Kitty Kitty in this chapter. The KeenGamer roadmap warns that some optional missions vanish during certain story sections, even though more than the 100 needed for completion exist. Accept strands as they appear, take the story missions at your own pace, and save before the chapter closes.",
+      "steps": ["Accept new strands as they appear.", "Finish the Chapter 3 story missions.", "Save, then play Ocean Beach and Another Life."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -136,14 +117,11 @@
       "chapter": "Chapter 4",
       "roadmapStage": 4,
       "hours": 9,
-      "guide": "Chapter 4 holds three of the named story trophies, and this one marks the whole chapter's end. GTABase flags it as unmissable and gives no delay or condition. The KeenGamer roadmap points at one optional mission worth doing inside the chapter, That's Where The Money Is…, which unlocks the eight bank vaults used by Maximum Withdrawal and the 100% checklist. Since the same guide warns that some optional missions close during certain story sections, play that mission before you push into the chapter's last missions rather than after. Other than that, there is no collectible, choice or gold-medal requirement tied to the trophy. Save when the chapter finishes, because Chapter 5 is the last one before the credits and nothing can be replayed.",
-      "steps": [
-        "Play That's Where The Money Is… before the last Chapter 4 missions.",
-        "Finish the chapter and make a manual save."
-      ],
+      "guide": "Chapter 4 carries three of the named story trophies, and this one marks the end of the whole chapter. GTABase's trophy guide calls it unmissable and gives no delay or condition. The KeenGamer roadmap singles out one optional mission worth playing inside the chapter, That's Where The Money Is..., which opens the eight bank vaults that Maximum Withdrawal and the 100% checklist both use. Because the same roadmap warns that some optional missions close during certain story sections, play that one before pushing into the chapter's final missions, not afterwards. Beyond that, no collectible, choice or gold medal is attached, and the trophy has no count to track. Save when the chapter finishes: Chapter 5 is the last stretch before the credits and nothing can be replayed.",
+      "steps": ["Play That's Where The Money Is... early in the chapter.", "Finish the last Chapter 4 mission.", "Save before Chapter 5."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -159,16 +137,12 @@
       "chapter": "Chapter 5",
       "roadmapStage": 5,
       "hours": 5,
-      "guide": "The first of the two gold trophies is simply the end of the campaign. GTABase says to finish the last mission of the story, and adds the reassurance that matters: free roam carries on afterwards, so everything else on the list can be cleaned up after the credits, and no trophy depends on how you play a mission. GTAside's list agrees that this is one of the two golds, the other being A Long Road. The KeenGamer roadmap suggests that this is the point to switch from story to the 100% checklist under Progress, Stats, 100% Completion. Before the finale, make a manual save, because mission replay does not exist, and check that you have started the character strands that you want to finish at your own pace afterwards.",
-      "steps": [
-        "Make a manual save before the final mission.",
-        "Finish the final mission and sit through the credits.",
-        "Open Progress, Stats, 100% Completion to see what remains."
-      ],
+      "guide": "The first of the two golds is simply the end of the campaign. GTABase's trophy guide says to finish the last mission of the story and adds the reassurance that matters: free roam continues afterwards, so everything else can be cleaned up after the credits, and no trophy depends on how well you play a mission. The GTAside list confirms this as one of the two golds, the other being A Long Road. The KeenGamer roadmap treats the credits as the moment to swap the story for the 100% checklist under Progress, Stats, 100% Completion. Before the finale, make a manual save because mission replay does not exist, and check which character strands you started and want to finish at your own pace in the free-roam hours that follow.",
+      "steps": ["Make a manual save before the finale.", "Play the final mission to the end.", "Open Progress, Stats, 100% Completion."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -184,14 +158,11 @@
       "chapter": "Chapter 2",
       "roadmapStage": 2,
       "hours": 1,
-      "guide": "Breakfast Run is a named Chapter 2 mission, and Trust unlocks when you finish it. GTABase files it under the story trophies and points readers to its missions list; the official list on Exophase gives no condition beyond completing it. No source mentions a second requirement, a timer or a choice that would change the outcome, so the sensible reading is that playing the mission through to its end is enough. The KeenGamer roadmap notes that story missions do not need gold medals, which means a sloppy run still counts. This is a trophy to forget about while you play: it will pop on its own, and the only planning it asks for is the chapter-level habit of saving before and after each mission, since mission replay is not available and a manual save is your only way back.",
-      "steps": [
-        "Start Breakfast Run when the Chapter 2 story reaches it.",
-        "Finish the mission without worrying about medals."
-      ],
+      "guide": "Breakfast Run is a named Chapter 2 mission, and Trust unlocks when you finish it. GTABase's trophy guide files it with the story trophies, and the official list on Exophase gives no condition beyond completing the mission. No source mentions a second requirement, a timer or a choice that changes the outcome, so playing it through to the end is the whole job. The KeenGamer roadmap notes that story missions need no gold medals, so a messy run still counts. This is a trophy to forget about while you play. The only planning it asks for is the chapter-level habit of saving before and after each mission, because replay is not available and a manual save is your single way back if something goes wrong.",
+      "steps": ["Start Breakfast Run in Chapter 2.", "Play it through to the end.", "Save once it is done."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
       ]
     },
     {
@@ -207,14 +178,11 @@
       "chapter": "Chapter 3",
       "roadmapStage": 3,
       "hours": 2,
-      "guide": "The Cartel Heist is the Chapter 3 story mission that carries this trophy, according to GTABase's trophy guide, and nothing else is attached to it. It is one of six named story missions with their own bronze, alongside Breakfast Run, Child's Play, Headliners, VCIA Takedown and Operation Savage Glory. The KeenGamer roadmap's wording for these is that story trophies unlock automatically as you play through the five chapters. There is no count and no optional bonus objective you must meet. Where it helps to think ahead is Chapter 3 as a whole: GTABase places Yasmani's Jewelry Jobs, the Key Cloner and Raul's crew in this chapter, so the heist is a good moment to step away from the main road and pick up the strands those missions open before the chapter closes.",
-      "steps": [
-        "Reach The Cartel Heist in the Chapter 3 mission order.",
-        "Finish it, then return to the side strands that Chapter 3 opens."
-      ],
+      "guide": "The Cartel Heist is the Chapter 3 story mission carrying this trophy, according to GTABase's trophy guide, and nothing else is attached to it. It is one of six named story missions with a bronze of their own, alongside Breakfast Run, Child's Play, Headliners, VCIA Takedown and Operation Savage Glory. The KeenGamer roadmap says story trophies simply unlock as you progress through the five chapters. There is no count and no optional objective to meet. Where thinking ahead helps is the chapter as a whole: GTABase places Yasmani's Jewelry Jobs, the Key Cloner and Raul's crew in Chapter 3, so the heist is a good moment to step off the main road and pick up the strands those missions open before the chapter closes behind you.",
+      "steps": ["Play The Cartel Heist to completion.", "Pick up Chapter 3 side strands before moving on."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -230,14 +198,11 @@
       "chapter": "Chapter 4",
       "roadmapStage": 4,
       "hours": 1,
-      "guide": "Child's Play belongs to Chapter 4, per GTABase, and finishing it is the whole requirement for Family Matters. The mission name is the only detail the official list on Exophase gives, and neither GTABase nor the KeenGamer roadmap describes what it involves, so this guide will not guess at its objectives. What the sources do support is the way to treat it: it is a story trophy that unlocks automatically, it is not tied to a medal or a choice, and it sits in the chapter that GTABase says also delivers Headliners and VCIA Takedown. Because spoilers are the main reason the trophy is hidden, a spoiler-averse player can simply play Chapter 4 in order and let it pop. Keep a manual save between missions, as the KeenGamer roadmap advises.",
-      "steps": [
-        "Play Chapter 4's story missions in order until Child's Play.",
-        "Finish it and make a manual save."
-      ],
+      "guide": "Child's Play belongs to Chapter 4, per GTABase's trophy guide, and finishing it is the entire requirement for Family Matters. The mission name is all the official list on Exophase offers, and neither GTABase nor the KeenGamer roadmap describes its objectives, so this entry will not guess at them. What the sources do support is how to treat it: a story trophy that unlocks automatically, with no medal or choice attached, in the same chapter as Headliners and VCIA Takedown. Because the hidden flag exists to protect spoilers, a player who wants to stay surprised can simply play Chapter 4 in order and let the bronze pop. Keep a manual save between missions, as the KeenGamer roadmap advises, since you cannot go back and replay.",
+      "steps": ["Reach Child's Play in Chapter 4.", "Finish the mission.", "Save before the next one."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
       ]
     },
     {
@@ -253,15 +218,12 @@
       "chapter": "Chapter 4",
       "roadmapStage": 4,
       "hours": 1,
-      "guide": "DWNFALL is tied to Headliners, a story mission in Chapter 4 that GTABase lists next to Child's Play and VCIA Takedown. Beating the mission is the entire condition on the official list at Exophase; none of the sources I read describes its objectives, so there is nothing here about how to play it. The practical advice is about its surroundings. Chapter 4 is also where the KeenGamer roadmap says the optional mission That's Where The Money Is… unlocks the bank vaults, and where GTABase places the Ocean Beach opener that releases Vice City, Baby!. The trophy is not flagged as missable anywhere. If the pop seems late, finish the mission's closing cutscene and wait for the next objective before checking the trophy list, and save once the mission is behind you.",
-      "steps": [
-        "Play the Chapter 4 story until Headliners starts.",
-        "Finish the mission and let the closing scene play out."
-      ],
+      "guide": "DWNFALL belongs to Headliners, a Chapter 4 story mission that GTABase's trophy guide lists beside Child's Play and VCIA Takedown. Finishing the mission is the whole condition on the official list at Exophase, and none of the pages I read describes its objectives, so nothing here tells you how to play it. The useful advice concerns its surroundings. Chapter 4 is where the KeenGamer roadmap says the optional That's Where The Money Is... unlocks the bank vaults, and where GTABase puts the Ocean Beach opener that releases Vice City, Baby!. The trophy is not marked missable anywhere. If the pop seems late, sit through the closing cutscene and wait for the next objective before checking the list, then save once the mission is behind you.",
+      "steps": ["Play Headliners in Chapter 4.", "Sit through the closing cutscene.", "Save afterwards."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -277,14 +239,11 @@
       "chapter": "Chapter 4",
       "roadmapStage": 4,
       "hours": 1,
-      "guide": "VCIA Takedown is the third named Chapter 4 mission with its own bronze, and Hi-Jacked unlocks when it ends. GTABase's trophy guide files it as a story trophy and, like the official list on Exophase, says nothing more about it, so this entry keeps to what is supported: complete the mission and the trophy follows. Do not confuse it with Catch Me If You Can, the separate hidden trophy that GTABase ties to stealing a passenger jet from a departure gate at Vice City International; that one is free roam work for after the credits and has no stated link to this mission in the sources. Hi-Jacked is not listed as missable, so keep it simple, play the chapter in order and save between story missions.",
-      "steps": [
-        "Reach VCIA Takedown in the Chapter 4 mission order.",
-        "Complete it and save before moving on."
-      ],
+      "guide": "VCIA Takedown is the third named Chapter 4 mission with its own bronze, and Hi-Jacked unlocks when it ends. GTABase's trophy guide files it as a story trophy and, like the official list on Exophase, says nothing further, so this entry keeps to what is supported: finish the mission and the trophy follows. Do not mix it up with Catch Me If You Can, the separate hidden trophy that GTABase ties to stealing a passenger jet at Vice City International. That one is free-roam work for after the credits, and the sources give no link between the two. Hi-Jacked is not listed as missable, so keep it simple: play the chapter in order and save between story missions, and let the notification arrive on its own schedule.",
+      "steps": ["Play VCIA Takedown in Chapter 4.", "Finish it and save."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"}
       ]
     },
     {
@@ -300,15 +259,12 @@
       "chapter": "Chapter 5",
       "roadmapStage": 5,
       "hours": 2,
-      "guide": "Operation Savage Glory is the Chapter 5 story mission behind Snow Storm, according to GTABase, which makes it the last of the six named mission trophies. The official list on Exophase gives only its name, and neither guide I read describes how it plays, so expect to learn it as you go. What the sources do give is the surrounding plan. Chapter 5 is the last stretch before You Gotta Know When to Get Off, and GTABase says free roam carries on after the credits with every remaining trophy still reachable. So spend this chapter on the story only, leaving the side strands you have not finished until afterwards. Save before and after the mission, because the KeenGamer roadmap points out that mission replay does not exist.",
-      "steps": [
-        "Play Chapter 5 in order until Operation Savage Glory.",
-        "Complete it and make a manual save before the finale."
-      ],
+      "guide": "Operation Savage Glory is the Chapter 5 mission behind Snow Storm, according to GTABase's trophy guide, which makes it the last of the six named mission trophies. The official list on Exophase gives only the name, and neither guide I read explains how it plays, so expect to learn it as you go. The surrounding plan is better documented. Chapter 5 is the last run before You Gotta Know When to Get Off, and GTABase says free roam continues after the credits with every remaining trophy still reachable. So spend this chapter on the story and leave any unfinished strands for afterwards. Save before and after the mission, because the KeenGamer roadmap points out that missions cannot be replayed, and keep that save slot separate from your earlier ones.",
+      "steps": ["Save before Operation Savage Glory.", "Complete the mission.", "Hold unfinished strands for after the credits."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -324,15 +280,11 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 10,
-      "guide": "This is the longest trophy on the sheet, and both GTABase and the KeenGamer roadmap name it the hardest. The checklist lives under Progress, Stats, 100% Completion and appears after the story, but GTABase says everything you did earlier already counts and nothing on it is missable. KeenGamer's tables give the real targets: 100 optional tasks, 39 gang operations, 22 bank jobs, all 8 bank vaults, 42 shooting range golds, 42 drone time trials, 300 stunts, 70 of 80 challenges, 100 WAiNK scans, 200 vehicles and 100 animals. Many of those also feed smaller trophies, so work the ones that overlap first. Both guides advise skipping what the checklist does not ask for, such as most of the 255 animals. Expect roughly 100 hours here, and treat it as the capstone after Stage 8.",
-      "steps": [
-        "Open Progress, Stats, 100% Completion after the credits.",
-        "Clear each line that also feeds another trophy first.",
-        "Stop each category at its checklist number, not at everything."
-      ],
+      "guide": "This is the longest trophy on the sheet, and both GTABase and the KeenGamer roadmap call it the hardest. The checklist sits under Progress, Stats, 100% Completion and appears once the story is over, but GTABase says earlier progress already counts and nothing on it can be missed. KeenGamer's tables give the real targets: 100 optional tasks, 39 gang operations, 22 bank jobs, all 8 bank vaults, 42 shooting range golds, 42 drone time trials, 300 stunts, 70 of 80 challenges, 100 WAiNK scans, 200 vehicles and 100 animals. Many of these also feed smaller trophies, so do the overlapping lines first. Both sources advise skipping what the checklist does not ask for, such as most of the 255 animals. Budget around 100 hours and treat it as the capstone after Stage 8.",
+      "steps": ["Open Progress, Stats, 100% Completion after the credits.", "Clear lines that also feed other trophies first.", "Stop each category at its checklist number."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -348,15 +300,11 @@
       "chapter": "After the story",
       "roadmapStage": 7,
       "hours": 10,
-      "guide": "Any 250 of the 397 stunts across Leonida count, in any mix, says GTABase: 130 stunt jumps, 202 under-the-bridge flights, 40 knife flights and 25 base jumps. Under-the-bridge flights are the quickest bulk, and the optional challenge attached to each stunt is not needed. Check your tally in Progress, Activities, Stunts, and use the map's Stunt Spot markers to route yourself. Plan beyond the target, because the KeenGamer roadmap's checklist table wants 300 stunts for 100% completion, so the extra 50 you do now save a second trip later. Nothing here is time-limited or tied to the story, which makes it a good filler for after the credits when you want a task with a clear counter and no combat. Do not spend time on the optional challenges attached to each spot; they add nothing to the count.",
-      "steps": [
-        "Open the map and show every Stunt Spot.",
-        "Chain under-the-bridge flights for the cheapest counts.",
-        "Keep going to 300 for the 100% checklist."
-      ],
+      "guide": "Any 250 of the 397 stunts across Leonida count, in whatever mix you like, says GTABase's trophy guide: 130 stunt jumps, 202 under-the-bridge flights, 40 knife flights and 25 base jumps. The under-the-bridge flights make the quickest bulk, and the optional challenge attached to each stunt does not matter. Your tally lives in Progress, Activities, Stunts, and the map's Stunt Spot markers give you a route. Aim past the target, because the KeenGamer roadmap's checklist table wants 300 stunts for 100% completion, so the extra 50 now save a second trip. Nothing here is time-limited or tied to the story, which makes it good filler for after the credits when you want a clear counter and no combat. Because the target is a count of any kind, you can mix the four stunt types freely.",
+      "steps": ["Check Progress, Activities, Stunts for your tally.", "Chain nearby Stunt Spot markers on the map.", "Carry on to 300 for the checklist."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -372,15 +320,11 @@
       "chapter": "Chapter 2 onward",
       "roadmapStage": 2,
       "hours": 1,
-      "guide": "One try of each of the nine activity types is the target, and GTABase lists them: fishing, hunting, golf, a shooting range, pool, basketball (sink a single basket), an arcade game, winning a race and performing a stunt. A car race, a race challenge or a Top Fun drone race each satisfy the race slot. Progress, Activities shows which are still untouched, so check it rather than relying on memory. The KeenGamer roadmap repeats the nine-activity figure and tells players to complete optional content as it opens, which is how most of these arrive naturally. Treat this as a cheap early trophy: the stunt and the race are easy wins while you roam, and the arcade and fishing slots tie in with Stick Fiddler and Baited My Tackle.",
-      "steps": [
-        "Open Progress, Activities and note which types are missing.",
-        "Try one fishing, hunting, golf, range, pool, basketball and arcade session.",
-        "Win one race and land one stunt."
-      ],
+      "guide": "One attempt at each of nine activity types is the target, and GTABase's trophy guide lists them: fishing, hunting, golf, a shooting range, pool, basketball (sinking a single basket), an arcade game, winning a race and performing a stunt. A car race, a race challenge or a Top Fun drone race each fill the race slot. Progress, Activities shows which types are still untouched, so check it rather than trusting memory. The KeenGamer roadmap repeats the nine-activity figure and tells players to take optional content as it opens, which is how most of these arrive without effort. Treat it as a cheap early bronze: a stunt and a race are easy wins while you roam, and the arcade and fishing slots overlap with Stick Fiddler and Baited My Tackle.",
+      "steps": ["Open Progress, Activities to see what is missing.", "Try one of each type as it unlocks.", "Count any race type for the race slot."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -396,15 +340,11 @@
       "chapter": "After the story",
       "roadmapStage": 7,
       "hours": 6,
-      "guide": "Forty-two gold medals across twelve ranges is the job, per GTABase, and the KeenGamer roadmap's 100% checklist asks for exactly the same 42 of 42, so none of this effort is wasted. Medals only count when they are gold, which means repeating each challenge until it clears its gold threshold. The useful side effect is noted by GTABase: ranges also raise your Focus level, and a longer-lasting Combat Focus makes the Gunslinger trophy far easier. Work the ranges as you discover them rather than in one sitting, since the grind is repetitive but not hard. I have no source naming where the ranges are or their gold thresholds, so use the in-game map and challenge screen for that detail. Nothing here is missable, so it suits quiet post-credits sessions between longer jobs.",
-      "steps": [
-        "Visit each shooting range and attempt every challenge.",
-        "Repeat any challenge that finished below gold.",
-        "Check the medal count in Progress after each range."
-      ],
+      "guide": "Forty-two gold medals across twelve ranges make up the job, per GTABase's trophy guide, and the KeenGamer roadmap's 100% checklist asks for the same 42 of 42, so none of the effort is wasted. Only gold counts, which means repeating each challenge until it clears its gold threshold. GTABase also notes a useful side effect: ranges raise your Focus level, and a longer Combat Focus makes Gunslinger much easier. Work the ranges as you find them instead of in one marathon, since the grind is repetitive but not hard. No source I read names where the ranges are or lists their gold thresholds, so rely on the map and the challenge screen. Nothing is missable, so it suits quiet sessions between longer jobs.",
+      "steps": ["Visit each range and read its challenge list.", "Repeat each challenge until it turns gold.", "Check the total on the challenge screen."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -420,15 +360,11 @@
       "chapter": "After the story",
       "roadmapStage": 7,
       "hours": 6,
-      "guide": "Top Fun runs at fourteen locations, and GTABase says a single drone race win at each is enough for the trophy. The same guide points out that the 100% checklist wants all 42 drone races, which the KeenGamer roadmap's table repeats as 42 drone time trials across the 14 Top Fun locations. That means the efficient route is to finish each location's set of races while you are standing there, rather than leaving after one win and returning later. A drone race win also satisfies the race slot of Master of None, so one visit can tick two boxes. No source describes the courses or the drone controls, so learn them in play and expect the first location to teach you the handling. Nothing about this trophy can be lost.",
-      "steps": [
-        "Find a Top Fun location and win a drone race.",
-        "Finish its remaining races while you are there.",
-        "Repeat until all fourteen locations show a win."
-      ],
+      "guide": "Top Fun operates at fourteen locations, and GTABase's trophy guide says a single drone race win at each is enough. The same guide points out that 100% completion wants all 42 drone races, which the KeenGamer roadmap's table repeats as 42 drone time trials across the 14 locations. The efficient route is therefore to finish a location's whole set while you are standing there, not to leave after one win and come back. A drone win also fills the race slot of Master of None, so one visit can tick two boxes. No source describes the courses or the drone controls, so learn them in play and expect the first location to teach you the handling. Nothing about this trophy can be lost.",
+      "steps": ["Visit each Top Fun location.", "Win one drone race there.", "Finish the other races while you are on site."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -444,15 +380,11 @@
       "chapter": "After the story",
       "roadmapStage": 7,
       "hours": 8,
-      "guide": "GTABase counts forty races to choose from and requires twenty different wins, adding that winning the same race again does not count. So the question is breadth: pick twenty distinct events and take each once. The KeenGamer roadmap sets a higher bar for 100% completion, 30 of 40 unique races won plus ten of the thirteen race challenge gold medals, which means this trophy comes along as part of the checklist if you keep winning past twenty. A win in any car race, race challenge or Top Fun drone race also satisfies the race slot of Master of None. Neither source names the race routes or their order, so use the map's race markers and the Progress screen as your list. It is not missable, and the whole thing is best done as relaxed post-story driving.",
-      "steps": [
-        "Open the map and mark the unique race events.",
-        "Win each one once; skip repeats.",
-        "Continue to 30 unique wins for the 100% checklist."
-      ],
+      "guide": "GTABase's trophy guide counts forty races to choose from and requires twenty different wins; winning the same race twice adds nothing. So breadth is the question: pick twenty distinct events and take each once. The KeenGamer roadmap sets a higher bar for 100% completion, 30 of the 40 unique races plus ten of the thirteen race-challenge gold medals, so this trophy arrives on the way if you keep winning past twenty. A win in any car race, race challenge or Top Fun drone race also fills the race slot of Master of None. Neither source names the routes or their order, so use the map's race markers and the Progress screen as your list. It cannot be missed, and it is best done as relaxed driving after the story.",
+      "steps": ["Open the map and mark race starts.", "Win each different race once.", "Track the count in Progress."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -468,16 +400,12 @@
       "chapter": "Chapter 1 onward",
       "roadmapStage": 2,
       "hours": 2,
-      "guide": "Cal's fishing line starts in Chapter 1. GTABase says that after you meet him in the mission Feng Shui, he texts you and marks a fishing spot with a purple icon; play through his fishing quests and beat him in a challenge to earn the trophy. The official list on Exophase gives the same condition in one line. Because it also counts as the fishing slot of Master of None, a single trip can pay twice. The KeenGamer roadmap lists fishing among the optional content to take up as soon as it appears, so do not leave it until the credits just to find the quest has been waiting. Neither source says which fishing spot or lure matters, so rely on the in-game prompts. It is a short, low-risk task with no hard timing.",
-      "steps": [
-        "Finish Feng Shui and wait for Cal's text.",
-        "Go to the purple fishing icon on the map.",
-        "Play his quests and win a challenge against him."
-      ],
+      "guide": "Cal's fishing line starts in Chapter 1. GTABase's trophy guide says that once you meet him in the mission Feng Shui he texts you and marks a fishing spot with a purple icon; play his quests and beat him in a challenge for the trophy. The official list on Exophase states the same condition in one line. A single trip pays twice, because it also fills the fishing slot of Master of None. The KeenGamer roadmap lists fishing among the optional content to pick up as soon as it appears, so do not leave it until the credits only to find the quest has been waiting. Neither source says which spot or lure matters, so follow the in-game prompts. It is short and low-risk, with no hard deadline.",
+      "steps": ["Meet Cal in Feng Shui.", "Go to the purple-icon fishing spot he marks.", "Beat him in a challenge."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "Exophase trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -493,15 +421,11 @@
       "chapter": "Chapter 1 onward",
       "roadmapStage": 1,
       "hours": 1,
-      "guide": "Reaching the end of any one arcade game is enough. GTABase names four: Tenebrae Lux, Street Trash III and Time Jackers Rewind are on the TV at your own place, while Bang For Your Buck is on arcade cabinets around Leonida. That makes this the easiest trophy to bank early, because the home TV is available from the start. Pick whichever of the three looks shortest and play it through. The KeenGamer roadmap lists video games in the 100% checklist as play all four, so the others will need a session later anyway, and the arcade slot also counts toward Master of None. No source describes the games' length or difficulty, so judge from the first minutes. This is not tied to a chapter, a choice or a collectible, and it cannot be missed.",
-      "steps": [
-        "Switch on the TV at home and pick an arcade game.",
-        "Play it through to its ending.",
-        "Save the cabinet game Bang For Your Buck for later."
-      ],
+      "guide": "Reaching the end of any single arcade game is enough. GTABase's trophy guide names four: Tenebrae Lux, Street Trash III and Time Jackers Rewind are played on the TV at your own place, while Bang For Your Buck sits in arcade cabinets around Leonida. That makes this the easiest bronze to bank early, since the home TV is there from the start. Pick whichever of the three looks shortest and play it out. The KeenGamer roadmap's 100% list asks for all four games, so the others need a session later anyway, and the arcade slot also counts toward Master of None. No source describes how long any game lasts or how hard it is, so judge from the first few minutes. It is tied to no chapter, choice or collectible, and it cannot be missed.",
+      "steps": ["Sit at the TV in your own place.", "Choose one of the three home games.", "Play it through to its ending."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -512,21 +436,16 @@
       "hidden": true,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Andy's five quests are Lucia-only, open when he texts her an address in Belville in Chapter 3, and must be played in order. GTABase says they stay available after the story, but a chain you never start, or leave half-played, never reaches the final mission. Do first: answer the Belville text as Lucia and carry on to Puff Puff Pass.",
+      "missableNote": "Andy's five quests are Lucia-only and run in order after he texts her an address in Belville in Chapter 3. GTABase says they stay open after the story, but a chain you never start never reaches the final mission. First: answer the Belville text as Lucia and carry on to Puff Puff Pass.",
       "count": null,
       "chapter": "Chapter 3 onward",
       "roadmapStage": 8,
-      "windowStage": 3,
       "hours": 3,
-      "guide": "Andy's strand is played as Lucia only. GTABase says it opens in Chapter 3 when he texts her an address in Belville, then runs five quests in order: Climbing the Cellerichain, Pay the Cellerica Fee, Peach!, Read the Label and Puff Puff Pass. The last of them awards the trophy. The same guide says the quests are still there after the story, and the KeenGamer roadmap's clean-up step asks for Andy's final mission if you have not done it. This guide still flags it, because a strand needs the right character and the right order, and the Strangers & Freaks count explicitly excludes Andy's line, so no other trophy will pull you into it. Start it in Chapter 3 while you are already playing as Lucia, and finish it before the clean-up stage.",
-      "steps": [
-        "Switch to Lucia and answer Andy's Belville address text.",
-        "Play the five quests in order.",
-        "Finish Puff Puff Pass to earn the trophy."
-      ],
+      "guide": "Andy's strand belongs to Lucia alone. GTABase's trophy guide says it opens in Chapter 3 when he texts her an address in Belville, then runs five quests in sequence: Climbing the Cellerichain, Pay the Cellerica Fee, Peach!, Read the Label and Puff Puff Pass. The last awards the bronze. The same guide says the quests remain after the credits, and the KeenGamer roadmap's clean-up step asks for Andy's final mission if it is outstanding. It is flagged here because a strand needs the right character and the right order, and GTABase notes that Andy's line does not count toward Strangers & Freaks, so no other trophy will drag you into it. Start while you are already playing as Lucia in Chapter 3 and finish before the clean-up stage.",
+      "steps": ["Switch to Lucia and answer Andy's Belville text.", "Play the five quests in order.", "Finish Puff Puff Pass."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -537,21 +456,16 @@
       "hidden": true,
       "kind": "collectibles",
       "missable": true,
-      "missableNote": "Kenton hires you in Chapter 1 and, per GTABase, disappears after the chapter; he texts Jason again later, but this guide treats that gap as the risk. Do first: start on the seven shipwreck treasures in Chapter 1 so the strand is already moving when he returns.",
+      "missableNote": "Kenton hires you in Chapter 1 and, per GTABase, goes quiet after the chapter, texting Jason again only later. First: dive a few of the seven shipwrecks in Chapter 1 so the strand is already moving when he returns.",
       "count": 7,
       "chapter": "Chapter 1 onward",
       "roadmapStage": 8,
-      "windowStage": 1,
       "hours": 5,
-      "guide": "Kenton is a treasure-hunt strand built on seven shipwrecks. GTABase says he hires you in Chapter 1 from the green KR icon in Key Lento: dive at the purple chest markers and use the metal detector to dig the treasure up. Progress is tracked under Progress, Collections, Kenton's Treasures. He disappears after Chapter 1 and texts Jason again later, so you can finish then. The KeenGamer roadmap lists his treasure sets as 5 of 7 for 100% completion, but the trophy needs his final mission, so plan on all seven. The strand is flagged because the quest giver goes quiet for a long stretch. Dive a few wrecks during Chapter 1 and keep the rest until his later message, then clear his final mission as part of the post-credits clean-up.",
-      "steps": [
-        "Take Kenton's job at the green KR icon in Key Lento.",
-        "Dive at purple chest markers and dig up each treasure.",
-        "Answer his later text and finish his final mission."
-      ],
+      "guide": "Kenton runs a treasure hunt built on seven shipwrecks. GTABase's trophy guide says he hires you in Chapter 1 at the green KR icon in Key Lento: dive to the purple chest markers and dig the treasure up with a metal detector. Progress is tracked under Progress, Collections, Kenton's Treasures. He vanishes after Chapter 1 and texts Jason again later, so you can finish then. The KeenGamer roadmap lists his treasure sets as 5 of 7 for 100% completion, but this trophy needs his final mission, so plan on all seven. It is flagged because the quest giver goes silent for a long stretch. Dive a few wrecks during Chapter 1, keep the rest until his later message, and clear his final mission in the post-credits clean-up.",
+      "steps": ["Take Kenton's job at the green KR icon in Key Lento.", "Dive purple chest markers and dig each treasure up.", "Answer his later text and finish his final mission."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -562,21 +476,16 @@
       "hidden": true,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Billy's five jobs begin at the Thrillbilly Mudclub in Kelly County after the Chapter 2 mission Coffee Break and end with Hometown Heroes. GTABase says they stay available after the story, but a strand left half-done is easy to lose track of. Do first: visit the Mudclub right after Coffee Break and run the jobs in order.",
+      "missableNote": "Billy's five jobs start at the Thrillbilly Mudclub in Kelly County after the Chapter 2 mission Coffee Break and end with Hometown Heroes. GTABase says they stay open after the story, but a half-finished strand is easy to lose. First: visit the Mudclub right after Coffee Break and run the jobs in order.",
       "count": null,
       "chapter": "Chapter 2 onward",
       "roadmapStage": 8,
-      "windowStage": 2,
       "hours": 3,
-      "guide": "Billy's strand has five jobs. GTABase places the first at the Thrillbilly Mudclub in Kelly County, available after the Chapter 2 mission Coffee Break, and says the fifth, Hometown Heroes, unlocks the trophy. The jobs stay available after the story, so a player who rushes the credits still has time, but only if the strand was started. The KeenGamer roadmap's clean-up stage tells you to finish Billy's final mission if it is outstanding, and GTABase notes that his strand does not count toward Strangers & Freaks, so it is a separate piece of work. This guide flags it because a strand tied to one place and one trigger is the kind that slips. Start it right after Coffee Break, take one job per sitting, and finish before the platinum push.",
-      "steps": [
-        "Play Coffee Break, then go to the Thrillbilly Mudclub in Kelly County.",
-        "Run Billy's five jobs in order.",
-        "Finish Hometown Heroes for the trophy."
-      ],
+      "guide": "Billy's strand holds five jobs. GTABase's trophy guide places the first at the Thrillbilly Mudclub in Kelly County, available once the Chapter 2 mission Coffee Break is done, and says the fifth, Hometown Heroes, unlocks the trophy. The jobs remain after the story, so a player who rushes to the credits still has time, but only if the strand was begun. The KeenGamer roadmap's clean-up stage asks for Billy's final mission when it is outstanding, and GTABase notes that his strand does not count toward Strangers & Freaks, so it is a separate chunk of work. It is flagged because a strand tied to one place and one trigger is the kind that slips. Start after Coffee Break, take one job per sitting, and finish before the platinum push.",
+      "steps": ["Finish Coffee Break, then visit the Thrillbilly Mudclub.", "Run Billy's five jobs in order.", "Finish Hometown Heroes."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -592,16 +501,12 @@
       "chapter": "Chapter 1 onward",
       "roadmapStage": 8,
       "hours": 10,
-      "guide": "Eight completed stranger strands are required. GTABase names four that count, Kirk, Kyle, Yago and Pilot Pete, and says the quest lines of Moses, Tyrone, Yasmani, Andy, Billy and Eddie do not. The other qualifying strands are still being confirmed there, so use the trophy's own progress counter in your trophy list to see how many have registered. GTABase also notes that none of these strands is needed for 100% completion and that all of them stay available after the story, which is why the KeenGamer roadmap leaves them to the clean-up stage. That makes this a clean-up trophy, not an urgent one. I have no source for the remaining four names, so this guide will not invent them. Meet strangers as they appear, take every offer and check the counter.",
-      "steps": [
-        "Take stranger offers as they show up on the map.",
-        "Finish Kirk, Kyle, Yago and Pilot Pete's strands.",
-        "Watch the trophy's progress counter for the other four."
-      ],
+      "guide": "Eight finished stranger strands are required. GTABase's trophy guide names four that count, Kirk, Kyle, Yago and Pilot Pete, and says the quest lines of Moses, Tyrone, Yasmani, Andy, Billy and Eddie do not. The other qualifying strands are still being confirmed there, so use the trophy's own progress counter to see how many have registered. GTABase also notes that none of these strands is needed for 100% completion and that all stay available after the story, which is why the KeenGamer roadmap leaves them to the clean-up stage. That makes this a clean-up trophy, not an urgent one. I found no source for the other four names, so this guide invents none. Meet strangers as they appear, accept every offer and check the counter.",
+      "steps": ["Accept stranger offers as they appear on the map.", "Finish the Kirk, Kyle, Yago and Pilot Pete strands.", "Watch the trophy's counter for the other four."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"}
       ]
     },
     {
@@ -612,21 +517,16 @@
       "hidden": true,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Randy's Wish List opens only after the Chapter 3 Key Cloner missions (Clonin' Keys, Makin' GS) and needs 16 sports cars delivered to his garage in west Vice City. Cars in better condition pay more. Do first: scan cars with the WAiNK app as you meet them so you know which ones are on his list.",
+      "missableNote": "Randy's Wish List opens only after the Chapter 3 Key Cloner missions (Clonin' Keys, Makin' GS) and wants 16 sports cars at his garage in west Vice City; better condition pays more. First: scan cars with the WAiNK app as you meet them so you know which are on his list.",
       "count": null,
       "chapter": "Chapter 3 onward",
       "roadmapStage": 8,
-      "windowStage": 3,
       "hours": 6,
-      "guide": "Randy wants sixteen sports cars on a Wish List that GTABase says opens after the Chapter 3 mission that hands you the Key Cloner (Clonin' Keys, Makin' GS). Deliver them to his garage in west Vice City, the RK icon on your map. The WAiNK app helps: scan a car and it shows whether it is on the list. GTABase suggests hotel driveways around Vice Beach and Ocean Beach as hunting grounds, and notes that cars in better condition pay more. The KeenGamer roadmap's clean-up step names Randy's final mission among the strands to finish after the credits. The flag here is about dependency: the strand needs the Key Cloner, and a list of sixteen is easy to leave unfinished. Start it in Chapter 3 by scanning every sports car you see and delivering whenever you pass.",
-      "steps": [
-        "Finish the Key Cloner missions in Chapter 3.",
-        "Scan cars with WAiNK and collect sixteen from Randy's list.",
-        "Deliver them to the RK garage and finish his final mission."
-      ],
+      "guide": "Randy wants sixteen sports cars from a Wish List that, GTABase's trophy guide says, opens after the Chapter 3 missions that give you the Key Cloner (Clonin' Keys, Makin' GS). Deliver them to his garage in west Vice City, the RK icon on your map. The WAiNK app helps: scan a car and it reveals whether it is on the list. GTABase suggests hotel driveways around Vice Beach and Ocean Beach as hunting grounds, and notes that cars in better condition earn more. The KeenGamer roadmap's clean-up step names Randy's final mission among the strands to finish after the credits. The flag is about dependency: the strand needs the Key Cloner, and a list of sixteen is easy to leave half done. Begin in Chapter 3 by scanning every sports car you see and delivering whenever you pass.",
+      "steps": ["Finish the Key Cloner missions in Chapter 3.", "Scan sports cars with WAiNK to check his list.", "Deliver all sixteen to the RK garage in west Vice City."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -637,21 +537,16 @@
       "hidden": true,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Tyrone's strand is Jason-only and begins after Here, Kitty Kitty in Chapter 3; you destroy the purple-marked synthetic labs around Vice City until his last job, Shut Down the Labs, unlocks. GTABase keeps it open after the story, but it needs Jason and the right chapter. Do first: switch to Jason and clear labs as you spot them.",
+      "missableNote": "Tyrone's strand is Jason-only and starts after Here, Kitty Kitty in Chapter 3; you wreck purple-marked synthetic labs around Vice City until his last job, Shut Down the Labs, unlocks. GTABase keeps it open after the story, but it needs Jason and the right chapter. First: switch to Jason and clear labs as you spot them.",
       "count": null,
       "chapter": "Chapter 3 onward",
       "roadmapStage": 8,
-      "windowStage": 3,
       "hours": 4,
-      "guide": "Tyrone's strand is Jason-only. After the Chapter 3 mission Here, Kitty Kitty, GTABase says Tyrone has you destroy the synthetic labs marked in purple around Vice City. Once enough are gone, his last job, Shut Down the Labs, awards the trophy. The sources do not give a lab count, so use the in-game markers and the progress screen as your tally. The KeenGamer roadmap's clean-up stage names Tyrone's final mission as one of the strand trophies to finish if it is still outstanding. GTABase also notes that Tyrone's quest line is not among the strands that count for Strangers & Freaks, so it needs its own time. It is flagged because the strand is character-bound; start it as Jason in Chapter 3, destroy labs on the way to other errands, and finish it after the credits.",
-      "steps": [
-        "Switch to Jason after Here, Kitty Kitty.",
-        "Destroy the purple-marked synthetic labs across Vice City.",
-        "Play Shut Down the Labs when it unlocks."
-      ],
+      "guide": "Tyrone's strand is for Jason alone. After the Chapter 3 mission Here, Kitty Kitty, GTABase's trophy guide says Tyrone has you destroy the synthetic labs marked in purple around Vice City. Once enough are gone his last job, Shut Down the Labs, awards the trophy. No source gives a lab count, so use the in-game markers and the progress screen as your tally. The KeenGamer roadmap's clean-up stage names Tyrone's final mission among the strand trophies to finish if still outstanding, and GTABase adds that his quest line is not among those counting toward Strangers & Freaks, so it needs time of its own. It is flagged because the strand is bound to one character. Start as Jason in Chapter 3, wreck labs on the way to other errands, and finish after the credits.",
+      "steps": ["Play as Jason after Here, Kitty Kitty.", "Destroy the purple-marked synthetic labs.", "Finish Shut Down the Labs."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -662,22 +557,17 @@
       "hidden": false,
       "kind": "collectibles",
       "missable": true,
-      "missableNote": "In Chapter 1, the morning after Down to Earth, follow Lucia from the kitchen to the balcony and accept her meditation. GTABase and KeenGamer both say it is gone after Chapter 1, and neither confirms whether the trophy needs it. Do first: take that meditation before the chapter ends, then save.",
+      "missableNote": "In Chapter 1, the morning after Down to Earth, follow Lucia from the kitchen to the balcony and accept her meditation. GTABase and KeenGamer both say it is gone once the chapter ends, and neither confirms whether the trophy needs it. First: take that meditation before the chapter ends, then save.",
       "count": 18,
       "chapter": "Chapter 1 onward",
       "roadmapStage": 7,
-      "windowStage": 1,
       "hours": 5,
-      "guide": "Meditate at every Meditation Spot until the counter reaches eighteen, says GTABase, and a spot visited with Jason and Lucia together counts twice. The last one needs both characters, which is possible after Coffee Break in Chapter 2. Track it under Progress, Collections, Exploration, Meditations. The KeenGamer roadmap notes that the checklist for A Long Road needs fifteen of eighteen, while this trophy needs all of them. The risk is early: both guides describe a Chapter 1 balcony scene, the morning after Down to Earth, that disappears when the chapter ends. KeenGamer admits it is unconfirmed whether the trophy requires it, so take it anyway. Collect the rest of the spots while exploring Leonida after the story, since nothing else about this trophy is time-limited.",
-      "steps": [
-        "After Down to Earth, accept Lucia's balcony meditation at Jason's house.",
-        "Visit each Meditation Spot across Leonida.",
-        "Do the last one with both characters together."
-      ],
+      "guide": "Meditate at every Meditation Spot until the counter reaches eighteen, says GTABase's trophy guide, and a spot visited with Jason and Lucia together counts twice. The last one needs both characters, which becomes possible after Coffee Break in Chapter 2. Track it under Progress, Collections, Exploration, Meditations. The KeenGamer roadmap notes that A Long Road needs fifteen of eighteen, while this bronze needs all of them. The risk comes early: both sources describe a Chapter 1 balcony scene, the morning after Down to Earth, that disappears when the chapter ends. KeenGamer admits it is unconfirmed whether the trophy requires it, so take it anyway. Gather the remaining spots while exploring Leonida after the story, since nothing else about this trophy is time-limited.",
+      "steps": ["After Down to Earth, accept Lucia's balcony meditation.", "Visit each Meditation Spot across Leonida.", "Do the last one with both characters together."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"}
       ]
     },
     {
@@ -688,21 +578,16 @@
       "hidden": true,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Bret's hunting quests start after Coffee Break in Chapter 2 with Veteran Hunted in Lummox County, and are played as Jason. GTABase has not confirmed which animal triggers the trophy, so a strand left unfinished could hide it. Do first: start the quests after Coffee Break and clear every Target Deck.",
+      "missableNote": "Bret's hunting quests start after Coffee Break in Chapter 2 with Veteran Hunted in Lummox County and are played as Jason. GTABase has not confirmed which animal triggers the trophy, so an unfinished strand could hide it. First: start after Coffee Break and clear every Target Deck.",
       "count": null,
       "chapter": "Chapter 2 onward",
       "roadmapStage": 8,
-      "windowStage": 2,
       "hours": 5,
-      "guide": "Bret's strand is for Jason. GTABase says his hunting quests start after Coffee Break in Chapter 2, when he texts Jason and the mission Veteran Hunted in Lummox County kicks things off. Hunt the animals on his Target Decks, marked with purple icons, and bring them back as Jason. A clean one-shot kill pays more but is not required. GTABase has not confirmed which animal triggers this trophy, and the KeenGamer roadmap's 100% table needs all fifteen Target Decks anyway, so clear every one. The strand is flagged because the unconfirmed trigger could sit at any point in the chain. Begin after Coffee Break, hunt as you roam with binoculars (the roadmap also asks you to study a hundred animal species), and complete the full set before the final platinum check.",
-      "steps": [
-        "Play Veteran Hunted in Lummox County after Coffee Break.",
-        "Hunt each animal on the purple Target Deck icons as Jason.",
-        "Return the kills to Bret and finish all fifteen decks."
-      ],
+      "guide": "Bret's strand is Jason's. GTABase's trophy guide says his hunting quests begin after Coffee Break in Chapter 2, when he texts Jason and the mission Veteran Hunted in Lummox County starts things off. Hunt the animals on his Target Decks, marked with purple icons, and bring them back as Jason. A clean one-shot kill pays more but is not required. GTABase has not confirmed which animal triggers this trophy, and the KeenGamer roadmap's 100% table wants all fifteen Target Decks anyway, so clear every one. The strand is flagged because that unconfirmed trigger could sit anywhere in the chain. Begin after Coffee Break, hunt as you roam with binoculars (the roadmap also asks you to study a hundred animal species), and finish the full set before the last platinum check.",
+      "steps": ["Finish Coffee Break, then start Veteran Hunted as Jason.", "Hunt the animals on each purple Target Deck.", "Clear every deck to be sure of the trigger."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -718,15 +603,11 @@
       "chapter": "After the story",
       "roadmapStage": 7,
       "hours": 6,
-      "guide": "Any three card sets will do, GTABase says; you do not need them all. The Collections section of the Progress menu shows how close each set is, so choose the three that are nearest to done. The KeenGamer roadmap's 100% table wants fifteen of eighteen sets, which is why finishing the easy sets now is not wasted work. Neither source gives the locations of individual cards, and this guide will not make them up: use the Collections screen and the in-game map to see what each set is missing. Because the trophy is a silver and the count is small, it makes a good early target while you roam. It is never closed off by story progress, so you can collect cards as you meet them and finish the last set whenever it suits you.",
-      "steps": [
-        "Open Progress, Collections and compare the card sets.",
-        "Pick the three sets closest to completion.",
-        "Finish them, then carry on toward fifteen for 100%."
-      ],
+      "guide": "Any three card sets will do, says GTABase's trophy guide; there is no need for all of them. The Collections section of the Progress menu shows how close each set is, so choose the three nearest to done. The KeenGamer roadmap's 100% table asks for fifteen of eighteen sets, which is why finishing the easy sets now is not wasted work. Neither source gives locations for individual cards, and this guide will not make any up: use the Collections screen and the in-game map to see what each set lacks. Because this is a silver and the count is small, it makes a good early target while you roam. Story progress never closes it off, so collect cards as you meet them and finish the last set whenever it suits you.",
+      "steps": ["Open Progress, Collections and compare the sets.", "Chase the three closest to complete.", "Fill gaps as you meet new cards."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -742,15 +623,11 @@
       "chapter": "Throughout",
       "roadmapStage": 7,
       "hours": 6,
-      "guide": "Scan a hundred spots with the WAiNK phone app: hold Up on the D-pad, then R1. GTABase says any hundred count, drawn from 31 Landmarks, 35 Curiosities, 23 Sculptures and the No Flusher tags. The named places add up to 89, so the No Flusher tags are needed to reach the total. The KeenGamer roadmap's checklist asks for the same hundred scans, so the effort overlaps with A Long Road. Both guides tell you to scan as you travel, not as a dedicated chore: a landmark you pass during a mission takes seconds. I have no source for the placement of individual spots, so use the map and the app's own prompts. Nothing here is missable, so keep the app handy from the opening hours and scan whenever something new appears on screen.",
-      "steps": [
-        "Hold Up on the D-pad, then R1, to open WAiNK.",
-        "Scan landmarks, curiosities, sculptures and No Flusher tags.",
-        "Check the running count until it reaches 100."
-      ],
+      "guide": "Scan a hundred spots with the WAiNK phone app: hold Up on the D-pad, then press R1. GTABase's trophy guide says any hundred count, drawn from 31 Landmarks, 35 Curiosities, 23 Sculptures and the No Flusher tags. The named places add up to 89, so the No Flusher tags are needed to reach the total. The KeenGamer roadmap's checklist asks for the same hundred scans, so the effort overlaps with A Long Road. Both sources tell you to scan as you travel, not as a dedicated chore: a landmark passed during a mission takes seconds. I found no source for the placement of individual spots, so lean on the map and the app's own prompts. Nothing is missable, so keep the app handy from the opening hours and scan whenever something new appears on screen.",
+      "steps": ["Hold Up on the D-pad, then R1, to open WAiNK.", "Scan landmarks, curiosities, sculptures and No Flusher tags.", "Check the running count until it reaches 100."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -766,15 +643,11 @@
       "chapter": "Throughout",
       "roadmapStage": 7,
       "hours": 6,
-      "guide": "Fifty of the eighty Challenges is the bar, per GTABase, and Progress, Challenges ticks off the finished ones. Many complete by themselves while you play, which is why the same guide says this one comes along the way. The KeenGamer roadmap raises the stakes for 100% completion to seventy of eighty, and advises leaving the ten most difficult or time-consuming ones unfinished; that suggests doing the easy fifty now and judging the next twenty later. Neither source lists the challenges in detail, so this guide offers no examples and tells you to read each one on the Challenges screen. The sensible move is to glance at it every few hours and aim your play at the ones nearly done. There is no chapter gate and no way to lose a challenge permanently, so patience wins here.",
-      "steps": [
-        "Open Progress, Challenges and read the unfinished entries.",
-        "Aim play at the ones already part-way done.",
-        "Keep going to seventy for the 100% checklist."
-      ],
+      "guide": "Fifty of the eighty Challenges is the bar, per GTABase's trophy guide, and Progress, Challenges ticks off the finished ones. Many complete themselves while you play, which is why the guide says this bronze comes along the way. The KeenGamer roadmap raises the stakes for 100% completion to seventy of eighty and advises leaving the ten hardest or most time-consuming undone. That suggests doing the easy fifty now and judging the next twenty later. Neither source lists the challenges in detail, so this entry gives no examples; read each one on the Challenges screen instead. The sensible habit is to glance at it every few hours and aim your play at the ones nearly finished. No chapter gates it and no challenge is lost for good, so patience wins.",
+      "steps": ["Open Progress, Challenges every few hours.", "Aim play at the nearly finished ones.", "Stop at 50, or carry on to 70."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -785,20 +658,16 @@
       "hidden": false,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Possible only once both characters are together, after Coffee Break in Chapter 2, and it counts only once you are out of the red heat zone. A failed escape just means another attempt, but nothing works before the partner unlocks. Do first: call your partner and get to four stars, then try the train tunnel north of Ambrosia in Kelly County.",
+      "missableNote": "Only possible once both characters are together, after Coffee Break in Chapter 2, and it counts only when you are out of the red heat zone. A failed escape just means another attempt, but nothing works before the partner unlocks. First: call your partner, reach four stars, then try the train tunnel north of Ambrosia in Kelly County.",
       "count": null,
       "chapter": "Chapter 2 onward",
       "roadmapStage": 2,
       "hours": 1,
-      "guide": "A partnership action that GTABase says becomes possible once both characters are together, after Coffee Break in Chapter 2. Call your partner (hold Right on the D-pad, then Triangle), raise a four-star Wanted Level and escape. It counts only once you are out of the red heat zone. GTABase recommends the train tunnel north of Ambrosia in Kelly County for shaking off both cops and helicopters, and adds that bank vault robberies always give four stars, so it often unlocks there. Because the trophy is not tied to a count, a failed attempt just costs time. The flag is for the window: the action cannot happen before the partner unlocks, and the sources do not say the chance goes away later. Try it as soon as Coffee Break is done, with the partner called in before you cause trouble.",
-      "steps": [
-        "Finish Coffee Break to unlock your partner.",
-        "Call them, get four stars and drive to the Ambrosia tunnel.",
-        "Wait until the heat zone clears to confirm the escape."
-      ],
+      "guide": "A partnership action that GTABase's trophy guide says becomes possible once both characters are together, after Coffee Break in Chapter 2. Call your partner (hold Right on the D-pad, then Triangle), raise a four-star Wanted Level and escape. It counts only once you are clear of the red heat zone. GTABase recommends the train tunnel north of Ambrosia in Kelly County for shaking off both cops and helicopters, and adds that bank vault robberies always give four stars, so the trophy often unlocks there. Because no counter is involved, a failed attempt costs only time. The flag is for the window: the action cannot happen before the partner unlocks, and the sources do not say the chance disappears later. Try it as soon as Coffee Break is done, with your partner called in before you cause any trouble.",
+      "steps": ["Finish Coffee Break to unlock your partner.", "Call them, then reach four stars.", "Escape to the Ambrosia tunnel and wait out the heat."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"}
       ]
     },
     {
@@ -809,20 +678,16 @@
       "hidden": false,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Three shops in a row with your partner while still wanted; losing the heat between shops breaks the chain. GTABase says the three jewelry stores in north Vice City, open after Yasmani's Jewelry Jobs in Chapter 3, sit close together. Do first: bring body armor, sticky bombs and healing items, and rob the stores in one run.",
+      "missableNote": "Three shops in a row with your partner, staying wanted throughout; losing the heat between shops breaks the chain. GTABase says the three jewelry stores in north Vice City, open after Yasmani's Jewelry Jobs in Chapter 3, sit close together. First: bring body armor, sticky bombs and healing items and rob them in one run.",
       "count": 3,
       "chapter": "Chapter 3 onward",
       "roadmapStage": 3,
       "hours": 1,
-      "guide": "Three shops back to back while you remain wanted is the rule, with your partner beside you. GTABase says to enter with body armor, sticky bombs and healing items, and points to the three jewelry stores in north Vice City, which are close together and open after Yasmani's Jewelry Jobs in Chapter 3. It adds that the trophy can take about thirty seconds to appear after the third shop, and that if it does not, a fourth shop is the fix. Be careful not to lose the heat between robberies: the chain only counts while the flashing red and blue stays on. This guide flags the trophy for that fragility, not for a hard deadline. Plan one clean run with supplies, and do not lose your Wanted Level until the notification shows.",
-      "steps": [
-        "Unlock the jewelry stores through Yasmani's jobs.",
-        "Pack armor, sticky bombs and healing items.",
-        "Rob three stores in a row with your partner, then wait for the pop."
-      ],
+      "guide": "Rob three shops back to back while you stay wanted, with your partner beside you. GTABase's trophy guide says to go in with body armor, sticky bombs and healing items, and points to the three jewelry stores in north Vice City, which lie close together and open after Yasmani's Jewelry Jobs in Chapter 3. It adds that the pop can take about thirty seconds after the third shop and that a fourth shop is the fix if it never comes. Be careful not to lose the heat between robberies: the chain only holds while the flashing red and blue stays on. This guide flags the trophy for that fragility, not for a hard deadline. Plan one clean run with supplies and do not shake your Wanted Level until the notification shows.",
+      "steps": ["Unlock the jewelry stores through Yasmani's jobs.", "Pack armor, sticky bombs and healing items.", "Rob three stores in a row with your partner."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"}
       ]
     },
     {
@@ -838,15 +703,11 @@
       "chapter": "Throughout",
       "roadmapStage": 7,
       "hours": 2,
-      "guide": "Scanning is the whole job: GTABase says you scan a hundred different vehicles with the WAiNK app and do not need to drive them. Stand beside a busy road and aim the app at passing traffic. The guide adds that the 100% checklist needs 200 base models, and the KeenGamer roadmap's table says 200 of 277, so this trophy arrives on the way to A Long Road. Both advise scanning from the opening hours and not leaving it all for afterwards, which cuts the clean-up time. Vehicles you scan count even if you never touch them, so combine it with Randy's list of sixteen sports cars, which GTABase says you also check with WAiNK. I have no source for the location of rare models, so go by the app's prompts and the cars you meet.",
-      "steps": [
-        "Open WAiNK and aim it at passing traffic.",
-        "Scan every new vehicle you meet during missions.",
-        "Continue past 100 toward the 200 the checklist wants."
-      ],
+      "guide": "Scanning is the whole job: GTABase's trophy guide says you scan a hundred different vehicles with the WAiNK app and never need to drive them. Stand beside a busy road and aim the app at passing traffic. The guide adds that the 100% checklist needs 200 base models, and the KeenGamer roadmap's table says 200 of 277, so this bronze arrives on the way to A Long Road. Both advise scanning from the opening hours, not leaving it all for afterwards, which cuts clean-up time. Vehicles you scan count even if you never touch them, so combine the task with Randy's list of sixteen sports cars, which GTABase says you also check with WAiNK. I found no source for where rare models appear, so go by the app's prompts and the cars you meet.",
+      "steps": ["Open WAiNK and aim it at passing traffic.", "Scan each new vehicle you meet on missions.", "Continue past 100 toward the checklist's 200."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -862,14 +723,10 @@
       "chapter": "Throughout",
       "roadmapStage": 6,
       "hours": 2,
-      "guide": "Combat Focus is a short burst, so five takedowns must fit inside one activation. GTABase gives the recipe: click both sticks while aiming, fill your Focus first by eating, drinking or washing up at home, and use an assault rifle. Adrenaline makes Focus last longer. Gang operation thugs work well as targets, while cops, soldiers and civilians do not seem to count. GTABase also notes that shooting ranges raise your Focus level, which ties into The Shootist. It is therefore best attempted after you have a few range golds and the first gang operations open. Neither guide gives a location, so start any gang operation you are about to rob anyway and keep your Focus full when you enter its first group. If the count fails, refill and try again with the next crew.",
-      "steps": [
-        "Fill your Focus at home before a gang operation.",
-        "Equip an assault rifle and click both sticks while aiming.",
-        "Down five gang members before it runs out."
-      ],
+      "guide": "Combat Focus is a short burst, so five takedowns must fit inside one activation. GTABase's trophy guide gives the recipe: click both sticks while aiming, fill your Focus first by eating, drinking or washing up at home, and use an assault rifle. Adrenaline lengthens Focus. Gang operation thugs make good targets, while cops, soldiers and civilians do not appear to count. GTABase also notes that shooting ranges raise your Focus level, which ties this into The Shootist, so it is best attempted once you hold a few range golds and the first gang operations are open. Neither guide gives a location. Start any gang operation you were going to rob anyway and enter its first group with Focus full. If the count falls short, refill and try the next crew.",
+      "steps": ["Fill your Focus at home before a gang operation.", "Equip an assault rifle and click both sticks while aiming.", "Down five gang members before it runs out."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"}
       ]
     },
     {
@@ -885,15 +742,11 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 1,
-      "guide": "At Vice City International, steal one of the big passenger jets docked at a departure gate's boarding bridge, says GTABase; planes parked out on the airfield do not count. Back it out, take off and get about one kilometre away from the airport. GTABase calls gates E3 and E4 the easiest: drive through the airfield fence and use the door by the stairs next to the boarding bridge. KeenGamer's trophy table words the same goal as stealing a departing passenger aircraft, which agrees. Neither guide says whether the airport reacts differently late in the story, so leave it for after the credits when you can afford a heavy police response. Make a manual save before you start, since a failed take-off is easy to repeat from that point.",
-      "steps": [
-        "Save at the airport and approach gate E3 or E4.",
-        "Board a jet docked at the bridge and back it out.",
-        "Take off and fly roughly a kilometre from the terminal."
-      ],
+      "guide": "At Vice City International, steal one of the large passenger jets docked at a departure gate's boarding bridge, says GTABase's trophy guide; aircraft parked out on the airfield do not count. Reverse out, take off and get roughly a kilometre from the airport. GTABase calls gates E3 and E4 the easiest, entered by driving through the airfield fence and using the door by the stairs next to the boarding bridge. KeenGamer's trophy table words the goal as stealing a departing passenger aircraft, which agrees. Neither source says whether the airport reacts differently late in the story, so leave it until after the credits when you can afford a heavy police response. Make a manual save before you begin, because a failed take-off is easy to repeat from there.",
+      "steps": ["Save, then drive through the fence at gate E3 or E4.", "Board a jet at the boarding bridge.", "Take off and fly about a kilometre away."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -909,15 +762,11 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 1,
-      "guide": "The riddle description hides a simple job: GTABase says to steal a tank from Mile Zero Air Station on the southwest island of Mariana County, where the tanks sit at the south end of the base, and take out enemies from inside it until the trophy pops. The KeenGamer roadmap's table phrases it as stealing a Rhino military tank and using it in combat, which agrees. Expect a heavy response from a military base, so this is better done after the story with a manual save beforehand and no other objective running. I have no source for how many kills are needed, so keep fighting until the notification appears, and do not assume a particular count. Check the trophy list afterwards rather than leaving the tank straight away.",
-      "steps": [
-        "Save, then travel to Mile Zero Air Station in Mariana County.",
-        "Steal a tank from the south end of the base.",
-        "Fight from inside it until the trophy pops."
-      ],
+      "guide": "The riddle hides a straightforward job. GTABase's trophy guide says to steal a tank from Mile Zero Air Station on the southwest island of Mariana County, where the tanks stand at the south end of the base, and then take out enemies from inside it until the trophy pops. The KeenGamer roadmap's table phrases it as stealing a Rhino military tank and using it in combat, which agrees. Expect a heavy response from a military base, so do it after the story with a manual save beforehand and no other objective running. I have no source for how many kills are needed, so keep fighting until the notification appears instead of assuming a number. Check the trophy list before leaving the tank.",
+      "steps": ["Save, then go to Mile Zero Air Station.", "Take a Rhino from the south end of the base.", "Fight from inside it until the trophy pops."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -933,15 +782,11 @@
       "chapter": "Chapter 3 onward",
       "roadmapStage": 3,
       "hours": 1,
-      "guide": "Yasmani's Jewelry Jobs in Chapter 3 give you the Snap Gun, says GTABase. Use it on the locked back door of a jewelry store, because kicking it in sets off the alarm, then find the note with the safe code in the back room and empty the safe without being seen. The guide names Richardson Jewelry & Diamonds in Vice City as a good store for it. The same stores matter for Retail Therapy, so learn the quiet entry now and the loud one later. If you are spotted, reload the save and try again, which is why a manual save before the door is worth the second it takes. The sources do not list the safe codes, so read the note on the spot, and do not rush the back room.",
-      "steps": [
-        "Finish Yasmani's Jewelry Jobs to get the Snap Gun.",
-        "Open the back door with it and find the code note.",
-        "Empty the safe without being spotted."
-      ],
+      "guide": "Yasmani's Jewelry Jobs in Chapter 3 hand you the Snap Gun, says GTABase's trophy guide. Use it on a jewelry store's locked back door, because kicking it in sets off the alarm, then find the note with the safe code in the back room and empty the safe unseen. The guide names Richardson Jewelry & Diamonds in Vice City as a good store for it. The same stores matter for Retail Therapy, so learn the quiet entry now and the loud one later. If you are spotted, reload and try again, which is why a manual save before the door is worth the second it takes. The sources do not list the safe codes, so read the note on the spot and do not rush the back room.",
+      "steps": ["Finish Yasmani's Jewelry Jobs for the Snap Gun.", "Snap the back door of a jewelry store.", "Read the code note and empty the safe unseen."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"}
       ]
     },
     {
@@ -957,15 +802,11 @@
       "chapter": "Chapter 4 onward",
       "roadmapStage": 6,
       "hours": 6,
-      "guide": "Bank vaults open with the optional Chapter 4 mission That's Where The Money Is…, per GTABase. Follow a security van to its bank, get into the vault while it is open and hand a bag to your partner, because the haul is too heavy for one character. Vaults always give four stars, so escape on a fast bike and then switch vehicles. Five of the eight are enough for this trophy, but the 100% checklist needs all eight, and each pays up to $205,000. GTABase also says Yasmani sells van tips for $10,000. A vault job also counts as an armored truck escape for A Classic Blitz Play, and often delivers Hot Together. No source gives a van schedule, so scout from the map. Stock armor and healing before each attempt.",
-      "steps": [
-        "Play That's Where The Money Is… in Chapter 4.",
-        "Follow a security van to its bank and enter the open vault.",
-        "Hand a bag to your partner and escape on a fast bike."
-      ],
+      "guide": "Bank vaults open with the optional Chapter 4 mission That's Where The Money Is..., per GTABase's trophy guide. Follow a security van to its bank, get into the vault while it is open and pass a bag to your partner, since the haul is too heavy for one character. Vaults always give four stars, so escape on a fast bike and then change vehicles. Five of the eight are enough here, but the 100% checklist needs all eight, and each pays up to $205,000. GTABase also says Yasmani sells van tips for $10,000. A vault job counts as an armored truck escape for A Classic Blitz Play and often delivers Hot Together as well. No source gives a van schedule, so scout from the map, and stock armor and healing before each attempt.",
+      "steps": ["Play That's Where The Money Is... in Chapter 4.", "Follow a security van to its bank and enter the vault.", "Hand a bag to your partner and escape on a fast bike."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -981,15 +822,11 @@
       "chapter": "Chapter 4 onward",
       "roadmapStage": 6,
       "hours": 1,
-      "guide": "GTABase gives two routes. A bank vault robbery counts, as long as you then escape the red heat zone or reach a Pay 'n' Spray, which means one job can pay out Maximum Withdrawal and this together. The older route is to box in an armored truck, stick a sticky bomb on its back doors, blow them open and get away. Neither guide gives a location for trucks, so spot one on the road. The KeenGamer roadmap's table words the goal as robbing an armored truck and escaping, which agrees. Prefer the vault route if you are going for the silver anyway, and prepare an escape car or bike before you start. If you take the truck instead, carry sticky bombs and clear your wanted level at once.",
-      "steps": [
-        "Rob a bank vault and escape the heat zone for the easy route.",
-        "Or box in a truck, plant a sticky bomb and blow the doors.",
-        "Escape to a Pay 'n' Spray to confirm the pop."
-      ],
+      "guide": "GTABase's trophy guide offers two routes. A bank vault robbery counts, provided you then escape the red heat zone or reach a Pay 'n' Spray, so one job can pay out Maximum Withdrawal and this bronze together. The older route is to box in an armored truck, stick a sticky bomb on its rear doors, blow them open and get away. Neither guide gives a place to find trucks, so spot one on the road. The KeenGamer roadmap's table words the goal as robbing an armored truck and escaping, which agrees. Prefer the vault route if you are going for the silver anyway, and prepare an escape car or bike first. If you take the truck instead, carry sticky bombs and clear your wanted level at once.",
+      "steps": ["Rob a bank vault, or box in an armored truck.", "Blow the truck's doors with a sticky bomb.", "Escape the heat or reach a Pay 'n' Spray."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1005,15 +842,11 @@
       "chapter": "After the story",
       "roadmapStage": 7,
       "hours": 4,
-      "guide": "Clear the fog from the whole map of Leonida, says GTABase, and the quickest way is by plane, flying over every dark patch. The KeenGamer roadmap's table words it as exploring all of Leonida and uncovering the complete map. Since the trophy has no count, you will rely on the map itself: any foggy patch is unfinished. A small aircraft saves hours of road driving; fly in a lawn-mower pattern and watch for patches that stay dark behind mountains or on islands. I have no source for how much of the map you have to uncover, so do not trust a percentage, only the lack of fog. The story takes you across much of it already, so wait until after the credits before flying systematically, and use a manual save so you can retry.",
-      "steps": [
-        "Open the map and look for fogged areas.",
-        "Fly a plane across every dark patch.",
-        "Recheck the map for stray unexplored corners."
-      ],
+      "guide": "Clear the fog from the whole map of Leonida, says GTABase's trophy guide, and the quickest way is by plane, flying over every dark patch. The KeenGamer roadmap's table words it as exploring all of Leonida and uncovering the complete map. With no counter, the map itself is your gauge: any foggy patch means unfinished business. A small aircraft saves hours of road driving; fly in a lawn-mower pattern and watch for patches that stay dark behind mountains or on islands. I have no source for how much of the map must be uncovered, so trust the absence of fog, not a percentage. The story already carries you across much of it, so wait until after the credits before flying systematically, and use a manual save so you can retry.",
+      "steps": ["Open the map and note the fogged regions.", "Fly a small aircraft in a sweeping pattern.", "Revisit any patch that stays dark."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1029,15 +862,11 @@
       "chapter": "Throughout",
       "roadmapStage": 6,
       "hours": 6,
-      "guide": "Rob one illegal gang operation, the yellow icons on the map, from each of the nine gangs. GTABase says Progress, Gangs keeps count. The KeenGamer roadmap's checklist asks for all 39 gang operations for 100% completion, so one per gang is the easy start and the rest is clean-up. Nine different gangs means you must read the Progress screen to see which are still untouched, not just rob whichever is nearest. These robberies are also where Gunslinger targets live, since GTABase says gang operation thugs count for Combat Focus kills, and the KeenGamer roadmap suggests collecting every key valuable in an operation so you do not return. Neither guide lists the gangs by name here, so use the Progress screen. Nothing about this is time-limited.",
-      "steps": [
-        "Open Progress, Gangs to see which gangs remain.",
-        "Rob one yellow-icon operation from each gang.",
-        "Collect every key valuable in an operation while you are there."
-      ],
+      "guide": "Rob one illegal gang operation, the yellow icons on the map, from each of the nine gangs. GTABase's trophy guide says Progress, Gangs keeps the count. The KeenGamer roadmap's checklist asks for all 39 gang operations for 100% completion, so one per gang is the easy start and the rest is clean-up. With nine different gangs you must read the Progress screen to see which are untouched, not rob whichever is nearest. These robberies are also where Gunslinger targets live, since GTABase says gang operation thugs count for Combat Focus kills, and the KeenGamer roadmap suggests collecting every key valuable in an operation so you never need to return. Neither source names the gangs here, so use the Progress screen. Nothing about this is time-limited.",
+      "steps": ["Open Progress, Gangs to see which remain.", "Rob one yellow-icon operation from each gang.", "Take every key valuable while you are inside."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1053,15 +882,11 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 1,
-      "guide": "Have a cocktail at a spot with a view on Ocean Beach in Vice City, which is all GTABase says, adding that the exact steps are not confirmed yet. KeenGamer's trophy table agrees that the exact trigger is still being confirmed. Treat everything below as a plan, not a tested route. Ocean Beach is named in the Chapter 4 mission order, so the area is open by then. The sensible approach is to visit after the story, look for a bar or a terrace facing the sea, order a cocktail and sit through the animation. If nothing pops, try a different venue or time of day. Check the GTABase page again later for confirmed steps. It is marked after the story because no source pins down a window, and it is not flagged as missable.",
-      "steps": [
-        "Go to Ocean Beach in Vice City after the credits.",
-        "Find a bar or terrace with a sea view and order a cocktail.",
-        "Try another venue if the trophy does not pop."
-      ],
+      "guide": "Have a cocktail at a spot with a view on Ocean Beach in Vice City; that is all GTABase's trophy guide says, adding that the exact steps are not yet confirmed. KeenGamer's trophy table agrees that the trigger is still being confirmed, so read everything below as a plan, not a tested route. Ocean Beach is named in the Chapter 4 mission order, which means the area is open by then. After the story, visit, look for a bar or terrace facing the sea, order a cocktail and sit through the animation. If nothing pops, try another venue or another time of day. Recheck GTABase later for confirmed steps. It is marked after the story because no source pins down a window, and it is not flagged as missable.",
+      "steps": ["Go to Ocean Beach after the credits.", "Find a bar or terrace with a sea view.", "Order a cocktail and wait for the pop."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1077,15 +902,11 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 1,
-      "guide": "The official wording points to driving a car out of a vehicle showroom the loud way, and that is as far as the sources go. GTABase says the description suggests crashing a car out through the showroom window, with the exact steps not yet confirmed; the KeenGamer roadmap's table says the method is still unconfirmed. This guide will not name a dealership because no source does. Plan it as an after-the-story experiment: save inside a showroom, get into a car, drive through the glass and see whether the trophy pops. If it does not, reload and try a different dealership or vehicle. Treat it as low priority, because nothing in either source ties it to a chapter or a window. Re-read GTABase when the steps are confirmed.",
-      "steps": [
-        "Save, then find a vehicle showroom.",
-        "Get into a car and drive out through the window.",
-        "Reload and try another showroom if nothing pops."
-      ],
+      "guide": "The official wording points to driving a car out of a vehicle showroom the loud way, and the sources go no further. GTABase's trophy guide reads the description as crashing a car through the showroom window and says the exact steps are not yet confirmed; the KeenGamer roadmap's table calls the method unconfirmed too. This entry names no dealership because no source does. Treat it as an after-the-story experiment: save inside a showroom, get into a car, drive through the glass and see whether the trophy pops. If it does not, reload and try another dealership or vehicle. Give it low priority, since nothing in either source ties it to a chapter or a closing window. Reread GTABase once the steps are confirmed.",
+      "steps": ["Save inside a vehicle showroom.", "Get into a car and drive through the window.", "Retry with another vehicle if nothing pops."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1101,15 +922,11 @@
       "chapter": "Chapter 2 onward",
       "roadmapStage": 6,
       "hours": 2,
-      "guide": "GTABase identifies the alley as Kingpin Bowling in Port Gellhorn, a gang operation first marked by the Chapter 2 mission Hit Kingpin Bowling. Take its three valuables: the luxury watch in the southeast office, the Gutterball Moreland 850 shotgun on the northeast table and the safe in the northeast hallway, for which it advises bringing sticky bombs. The trophy pops once you lose the police. You do not need all three in one visit, but GTABase warns the robbery takes a long time to come back, so take all three on your first pass. KeenGamer's trophy table words it as stealing the three key valuables and escaping, which agrees. Because it is a gang operation, it also counts toward Pest Control and the 100% checklist.",
-      "steps": [
-        "Finish Hit Kingpin Bowling to mark the operation.",
-        "Take the watch, the shotgun and the safe contents.",
-        "Lose the police to finish."
-      ],
+      "guide": "GTABase's trophy guide identifies the alley as Kingpin Bowling in Port Gellhorn, a gang operation first marked by the Chapter 2 mission Hit Kingpin Bowling. Take its three valuables: the luxury watch in the southeast office, the Gutterball Moreland 850 shotgun on the northeast table and the safe in the northeast hallway, for which it advises bringing sticky bombs. The trophy pops once you lose the police. You need not take all three in one visit, but GTABase warns that the robbery takes a long time to return, so grab everything on the first pass. KeenGamer's trophy table words it as stealing the three key valuables and escaping, which agrees. As a gang operation it also counts toward Pest Control and the 100% checklist.",
+      "steps": ["Start from Hit Kingpin Bowling in Port Gellhorn.", "Take the watch, the shotgun and the safe contents.", "Lose the police to finish."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1120,20 +937,16 @@
       "hidden": true,
       "kind": "activities",
       "missable": true,
-      "missableNote": "Max out Strength for both Jason and Lucia. GTABase says training one trains the other when you work out together, and neither GTABase nor KeenGamer calls this missable; it is flagged here as a choice-driven stat that stalls if you train only one protagonist. Do first: train with your partner along from the first fitness club you visit.",
+      "missableNote": "Max out Strength for both Jason and Lucia. GTABase says training one trains the other when you work out together, and neither GTABase nor KeenGamer calls it missable; it is flagged here as a stat that stalls if you train only one protagonist. First: train with your partner along from the first fitness club you visit.",
       "count": 2,
       "chapter": "After the story",
       "roadmapStage": 8,
       "hours": 3,
-      "guide": "The cryptic hint resolves to a stat: max out Strength for both Jason and Lucia, says GTABase, and you can watch it under Jason & Lucia, Strength in the pause menu. Work out at fitness clubs, found on the map under Activities, with your partner along, because training one trains the other. After the story you can also train at home. KeenGamer's trophy table agrees that it means maximizing Strength for both. Neither guide gives a number of sessions. The flag is this guide's own caution rather than the sources': a stat that needs two characters can stall if you only train one. Start at your first fitness club with your partner in tow, not later, and check the Strength bar on both after each session until both read full.",
-      "steps": [
-        "Open the pause menu and check Jason & Lucia, Strength.",
-        "Visit fitness clubs with your partner along.",
-        "Train until both bars are full."
-      ],
+      "guide": "The cryptic hint resolves to a stat: max out Strength for both Jason and Lucia, says GTABase's trophy guide, and you can watch it under Jason & Lucia, Strength in the pause menu. Work out at the fitness clubs found on the map under Activities, with your partner along, because training one trains the other. After the story you can also train at home. KeenGamer's trophy table agrees that it means maximizing Strength for both. Neither guide gives a number of sessions. The flag is this guide's own caution rather than the sources': a stat needing two characters can stall if you only train one. Start at your first fitness club with your partner in tow, not later, and check both Strength bars after each session until both read full.",
+      "steps": ["Open the pause menu and check Jason & Lucia, Strength.", "Visit fitness clubs with your partner along.", "Train until both bars are full."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1144,20 +957,16 @@
       "hidden": true,
       "kind": "activities",
       "missable": true,
-      "missableNote": "500 actions that change your Criminal Profile. GTABase warns that the Irredeemable profile is permanent and says not to push towards it; it does not say the trophy depends on that. Do first: turn on Criminal Profile notifications in Settings, UI from the start and watch the count.",
+      "missableNote": "500 actions that change your Criminal Profile. GTABase warns that the Irredeemable profile is permanent and says not to push toward it; it does not say the trophy depends on that. First: turn on Criminal Profile notifications in Settings, UI from the start and watch the count.",
       "count": 500,
       "chapter": "Throughout",
       "roadmapStage": 8,
       "hours": 1,
-      "guide": "Five hundred actions that change your Criminal Profile are needed, per GTABase, and most players get there without trying. To watch the count, switch on Criminal Profile notifications in Settings, UI. The same guide warns not to push towards the Irredeemable profile because it is permanent, and repeats the warning in its roadmap's first step. KeenGamer's trophy table words the trophy the same way. The flag is for that permanence: a choice-driven profile cannot be undone. Beyond that, the sources give no list of which actions count, so do not rely on one. Play normally, check the notifications once in a while, and note that the count keeps rising as you do jobs, rob stores and make story decisions. After the credits, glance at the counter and finish any short gap.",
-      "steps": [
-        "Turn on Criminal Profile notifications in Settings, UI.",
-        "Avoid pushing toward the Irredeemable profile.",
-        "Check the count after the credits."
-      ],
+      "guide": "Five hundred actions that shift your Criminal Profile are needed, per GTABase's trophy guide, and most players get there without trying. To watch the count, switch on Criminal Profile notifications in Settings, UI. The same guide warns against pushing toward the Irredeemable profile because it is permanent, and repeats the warning in the first step of its roadmap. KeenGamer's trophy table words the trophy the same way. The flag is for that permanence: a choice-driven profile cannot be undone. Beyond that, the sources give no list of qualifying actions, so do not lean on one. Play normally, check the notifications now and then, and expect the count to keep rising as you do jobs, rob stores and make story decisions. After the credits, glance at the counter and close any short gap.",
+      "steps": ["Turn on Criminal Profile notifications in Settings, UI.", "Avoid pushing toward the Irredeemable profile.", "Check the count after the credits."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1173,15 +982,11 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 1,
-      "guide": "Nothing confirmed exists for this one. GTABase says the exact steps are not confirmed and reads the description as succeeding at something on a second attempt, and KeenGamer's table lists it as a hidden trophy with an unconfirmed unlock method. So this guide offers a reading, not a recipe: expect it to come from failing something once and then getting it right, probably during normal play. Do not hunt a specific mission or location for it; no source names one. The honest advice is to keep the trophy list open after the credits, retry any failed activity, and recheck GTABase for updates. It is marked after the story because nothing ties it to a chapter, and it has not been marked missable in any source I read.",
-      "steps": [
-        "Retry any activity you fail once and see if it pops.",
-        "Recheck GTABase for confirmed steps.",
-        "Leave it to the clean-up stage."
-      ],
+      "guide": "No confirmed method exists for this one. GTABase's trophy guide says the exact steps are not confirmed and reads the description as succeeding at something on a second attempt, and KeenGamer's table lists it as a hidden trophy with an unconfirmed unlock. So this entry offers a reading, not a recipe: expect it to come from failing something once and then getting it right, probably during normal play. Do not hunt for a specific mission or place, since no source names one. The honest advice is to keep the trophy list open after the credits, retry any failed activity, and recheck GTABase for updates. It sits in the after-the-story stage because nothing ties it to a chapter, and none of the sources I read marks it missable.",
+      "steps": ["Retry any activity you failed once.", "Check the trophy list after each retry.", "Recheck GTABase for confirmed steps."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1197,16 +1002,12 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 1,
-      "guide": "The wording is a shrug, and so are the sources. GTABase says to expect a strange event or Easter egg somewhere in Leonida and that the exact steps are not confirmed, and the KeenGamer roadmap lists it as a hidden trophy with an unconfirmed unlock method. No location, mission or time is named by either, so this guide names none. Practical advice: explore after the credits, flying and driving off the main roads, and keep an eye out for oddities that change the world around you. When something odd happens, check the trophy list immediately. The GTAside list also confirms it is one of the 28 hidden entries and offers nothing more. It is placed at the end of the roadmap because the answer may arrive with an update to GTABase's page.",
-      "steps": [
-        "Explore Leonida after the credits, off the main roads.",
-        "Check the trophy list after anything odd happens.",
-        "Recheck GTABase for confirmed steps."
-      ],
+      "guide": "The wording is a shrug, and so are the sources. GTABase's trophy guide says to expect a strange event or Easter egg somewhere in Leonida and that the exact steps are not confirmed, and the KeenGamer roadmap lists it as a hidden trophy with an unconfirmed unlock. Neither names a location, mission or time, so this entry names none. Practical advice: explore after the credits, flying and driving off the main roads, and watch for oddities that change the world around you. When something strange happens, check the trophy list at once. The GTAside list confirms it is one of the 28 hidden entries and adds nothing more. It sits at the end of the roadmap because the answer may arrive when GTABase updates its page.",
+      "steps": ["Explore off the main roads after the credits.", "Note anything that changes the world around you.", "Check the trophy list when it happens."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"}
       ]
     },
     {
@@ -1222,15 +1023,11 @@
       "chapter": "After the story",
       "roadmapStage": 9,
       "hours": 1,
-      "guide": "A melee drive-by is the clue, and GTABase reads the description as knocking people down with a melee attack from a vehicle, adding that the precise method is not confirmed. KeenGamer's table says the same. So the plan is a guess based on that reading: drive past a group of pedestrians or enemies on a bike or in an open car and strike them with a melee weapon until the trophy pops. Neither source gives a count or location, and the trophy name only hints that several targets may be involved. The risk is a wanted level, so choose a quiet area and make a manual save first. It is deferred to the clean-up stage because it is unconfirmed, and it appears to have no story window.",
-      "steps": [
-        "Save, then take a bike or open car to a quiet group.",
-        "Use a melee attack from the vehicle as you pass.",
-        "Repeat until the trophy pops."
-      ],
+      "guide": "A melee drive-by is the clue, and GTABase's trophy guide reads the description as knocking people down with a melee attack from a vehicle, adding that the precise method is not confirmed. KeenGamer's table says the same. The plan below is therefore a guess built on that reading: ride past a group of pedestrians or enemies on a bike or in an open car and strike them with a melee weapon until the trophy pops. Neither source gives a count or a location, and the name only hints that several targets may be involved. The risk is a wanted level, so pick a quiet area and make a manual save first. It is deferred to the clean-up stage because it is unconfirmed, and it appears to have no story window.",
+      "steps": ["Save, then pick a quiet street.", "Ride past a group with a melee weapon ready.", "Strike from the vehicle until the trophy pops."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1246,15 +1043,11 @@
       "chapter": "Chapter 3 onward",
       "roadmapStage": 6,
       "hours": 5,
-      "guide": "Credit Check, the Chapter 3 mission Meet Raul's Crew, gets you the Dye Pack Jammer, says GTABase. Rob banks and Payday Loans, then sell the marked bills to fences; Yasmani in Vice City pays the most. The total is a running one, so the robberies you need for 100% will get you there anyway. The KeenGamer roadmap's table shows Marked Bills Fenced at $250,000 as one of the completion lines, which agrees. The practical pitfall is the Chapter 3 gate: the jammer arrives only with that mission, so earlier bank jobs are not the place to start. Do not sell bills elsewhere to save time. Combine it with the bank jobs and payday loans on the checklist, and check progress in the fence lines on the Progress screen.",
-      "steps": [
-        "Finish Credit Check to receive the Dye Pack Jammer.",
-        "Rob banks and Payday Loan jobs for marked bills.",
-        "Sell them through Yasmani until $250,000 is laundered."
-      ],
+      "guide": "Credit Check, the Chapter 3 mission Meet Raul's Crew, gets you the Dye Pack Jammer, says GTABase's trophy guide. Rob banks and Payday Loans, then sell the marked bills to fences; Yasmani in Vice City pays the most. The total is a running one, so the robberies you need for 100% will get you there anyway. The KeenGamer roadmap's table lists Marked Bills Fenced at $250,000 as one completion line, which agrees. The practical pitfall is the Chapter 3 gate: the jammer arrives only with that mission, so earlier bank jobs are the wrong place to start. Do not sell bills elsewhere to save time. Combine it with the bank jobs and Payday Loans on the checklist, and check progress in the fence lines of the Progress screen.",
+      "steps": ["Finish Credit Check to receive the Dye Pack Jammer.", "Rob banks and Payday Loan jobs for marked bills.", "Sell them through Yasmani until $250,000 is laundered."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1270,15 +1063,11 @@
       "chapter": "Throughout",
       "roadmapStage": 6,
       "hours": 3,
-      "guide": "A running total of $100,000 across every kind of shop is the target, according to GTABase, and guns, car mods and tattoos use it up fastest. There is no single purchase that counts for more; it is cumulative, so you can spread the spending across the whole game. KeenGamer's trophy table calls it spending a total of $100,000 across shops. The money comes from robberies, so the cash from the 100% heists will pay for it; time the purchases for after a big score rather than saving for them. Neither source says whether clothes count. Buy weapons, vehicle modifications and tattoos you would use anyway, and check for a shop statistic in Progress if the game shows one. It is not missable at any point, so there is no reason to rush it.",
-      "steps": [
-        "Spend at gun stores, mod shops and tattoo parlours.",
-        "Buy what you will use rather than saving cash.",
-        "Keep going until the trophy pops."
-      ],
+      "guide": "A running total of $100,000 across every kind of shop is the target, according to GTABase's trophy guide, and guns, car mods and tattoos use it up fastest. No single purchase counts for more; the figure is cumulative, so you can spread the spending over the whole game. KeenGamer's trophy table calls it spending a total of $100,000 across shops. The money comes from robberies, so the cash from the heists you do for 100% will cover it; time purchases for after a big score instead of saving up. Neither source says whether clothes count. Buy weapons, vehicle modifications and tattoos you would use anyway, and look for a shop statistic in Progress if the game shows one. Nothing here can be missed, so there is no reason to rush.",
+      "steps": ["Spend on weapons, car mods and tattoos you will use.", "Shop after each big score.", "Check Progress for a shop total."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1294,15 +1083,11 @@
       "chapter": "Chapter 2 onward",
       "roadmapStage": 6,
       "hours": 2,
-      "guide": "Buy the eight garages listed for sale in the Vice City Real Estate phone app, which GTABase says opens after the Chapter 2 mission Daily Driver, at about $160,000 in total. The four garages the story gives you do not count. KeenGamer's trophy table says purchase all eight purchasable garage properties, which matches. The plan is financial: leave it until the robberies are paying, and buy them as the cash arrives. They also give you room for Scooter Bros registrations, since GTABase says you need free garage space for On the Spot, so buying early helps that trophy. Neither source says where the garages are, so browse the app's listings. Nothing here can be lost; wait until you can afford the set, then buy all eight in one session.",
-      "steps": [
-        "Finish Daily Driver to unlock the Real Estate app.",
-        "Save up about $160,000 from robberies.",
-        "Buy all eight garages in the app."
-      ],
+      "guide": "Buy the eight garages listed for sale in the Vice City Real Estate phone app, which GTABase's trophy guide says opens after the Chapter 2 mission Daily Driver, at roughly $160,000 in total. The four garages the story gives you do not count. KeenGamer's trophy table says to purchase all eight purchasable garage properties, which matches. The plan is financial: wait until robberies are paying, then buy as cash arrives. They also give you room for Scooter Bros registrations, since GTABase says free garage space is needed for On the Spot, so buying early helps that trophy. Neither source says where the garages stand, so browse the app's listings. Nothing here can be lost; wait until you can afford the set, then buy all eight in one session.",
+      "steps": ["Finish Daily Driver to open the Real Estate app.", "Browse the eight garages for sale.", "Buy all eight once the robberies pay."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "KeenGamer platinum roadmap", "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"}
       ]
     },
     {
@@ -1318,15 +1103,11 @@
       "chapter": "Chapter 2 onward",
       "roadmapStage": 6,
       "hours": 3,
-      "guide": "Moses' Chapter 2 mission gets you the Scooter Bros app, says GTABase. Take stolen vehicles to his garage in Port Gellhorn, respray them and register them. At first he only takes cars without trackers; from Chapter 3, any Pay 'n' Spray registers tracked ones. You need free garage space, so buy garages first with Little Boxes, and each registration costs money, so use cheap cars and bikes. The GTAside list shows the trophy as a visible entry, and the order of this roadmap puts it after the garages for that reason. Do not use cars you want to keep, since the sources say nothing about getting them back. Plan a run of ten cheap vehicles in one outing, register them one after another, and watch your garage capacity as you go. It is not missable.",
-      "steps": [
-        "Finish Moses' Chapter 2 mission for the app.",
-        "Steal ten cheap vehicles and respray them.",
-        "Register each one with free garage space available."
-      ],
+      "guide": "Moses' Chapter 2 mission gets you the Scooter Bros app, says GTABase's trophy guide. Take stolen vehicles to his garage in Port Gellhorn, respray them and register them. At first he only takes cars without trackers; from Chapter 3, any Pay 'n' Spray registers tracked ones. You need free garage space, so buy garages first with Little Boxes, and each registration costs money, so use cheap cars and bikes. The GTAside list shows the trophy as a visible entry, and this roadmap puts it after the garages for that reason. Do not use cars you want to keep, since the sources say nothing about getting them back. Plan a run of ten cheap vehicles in one outing, register them one after another, and watch your garage capacity as you go.",
+      "steps": ["Finish Moses' Chapter 2 mission for the app.", "Steal cheap cars and bikes, then respray them.", "Register ten, checking garage space as you go."],
       "sources": [
-        { "label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" },
-        { "label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/" }
+        {"label": "GTABase trophy guide", "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"},
+        {"label": "GTAside trophy list", "url": "https://gtaside.com/games/gta6/trophies/"}
       ]
     }
   ]

@@ -1,5 +1,6 @@
 [
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
+  { "file": "1-checklist.jpg", "path": "/#trophy=28&spoilers=off", "note": "checklist, spoiler guard off, a missable trophy's guide open", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-roadmap.jpg", "path": "/#view=roadmap&stage=8", "note": "roadmap with stage 8 open and its missable callout", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-tracker.jpg", "path": "/#view=tracker", "note": "tracker with seeded progress, export and import", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "4-spoilers.jpg", "path": "/#trophy=2&kind=story&spoilers=on", "note": "spoiler guard on, Story filter, one earned story trophy open with its sources", "viewport": { "width": 1280, "height": 800 } }
 ]
