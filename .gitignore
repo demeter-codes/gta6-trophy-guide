@@ -1,2 +1,3 @@
 # Build output: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts` writes it here.
 out/
+# Local editor and operating-system artifacts stay outside the submitted dossier.
