@@ -65,6 +65,7 @@ const ui = {
   remaining: false,
   stage: null,
   openStages: new Set(),
+  gPending: false,
   notice: { text: '', bad: false },
 };
 
@@ -96,7 +97,7 @@ function readHash() {
     ui.view = 'checklist';
     ui.selected = trophyId;
   } else {
-    ui.view = view === 'roadmap' || view === 'tracker' ? view : 'checklist';
+    ui.view = ['roadmap', 'tracker', 'missables'].includes(view) ? view : 'checklist';
     if (!p.has('trophy')) ui.selected = ui.view === 'checklist' && p.has('view') ? null : ui.selected;
   }
   if (KINDS.includes(p.get('kind'))) ui.kind = p.get('kind');
@@ -133,16 +134,16 @@ const gradeTag = (g) => `<span class="grade ${g}">${g}</span>`;
 
 function rowMarkup(t) {
   const masked = isMasked(t);
-  const tags = masked
-    ? '<span>story</span>'
-    : `<span>${t.kind}</span>${t.missable ? '<span class="flag">missable</span>' : ''}${t.hidden ? '<span>hidden on PSN</span>' : ''}`;
-  return `<div class="row${isEarned(t) ? ' done' : ''}">
+  const chips = masked
+    ? '<span class="meta-chip">story</span>'
+    : `<span class="meta-chip">${esc(t.kind)}</span>${t.missable ? '<span class="meta-chip missable-chip">missable</span>' : ''}<span class="meta-chip">${esc(t.chapter)}</span>${t.count ? `<span class="counter-chip">${t.count} / 18</span>` : ''}`;
+  return `<div class="row${isEarned(t) ? ' done' : ''}${masked ? ' masked-row' : ''}">
     <label class="row-check"><input type="checkbox" data-earn="${t.id}"${isEarned(t) ? ' checked' : ''} aria-label="Earned: ${esc(masked ? 'hidden trophy' : t.name)}"></label>
     <button type="button" class="row-open" data-open="${t.id}" aria-current="${ui.selected === t.id}">
       <span>
         <span class="row-name${masked ? ' is-masked' : ''}">${masked ? 'Hidden trophy' : esc(t.name)}</span>
         <span class="row-desc">${masked ? 'Earn it, or switch the spoiler guard off, to read it.' : esc(t.description)}</span>
-        <span class="row-tags">${tags}</span>
+        <span class="row-tags">${chips}</span>
       </span>
       <span class="row-side">${gradeTag(t.grade)}<span>Stage ${t.roadmapStage}</span></span>
     </button>
@@ -152,7 +153,13 @@ function rowMarkup(t) {
 function rowsMarkup() {
   const list = visible();
   if (!list.length) {
-    return `<div class="empty"><h3>Nothing matches.</h3><p>Loosen the search or filters to see the list again.</p><button type="button" class="link-btn" data-act="clear">Clear filters</button></div>`;
+    if (trophies.filter(isEarned).length === trophies.length) {
+      return `<div class="empty success-empty"><p class="empty-mark">55</p><h3>The list is complete.</h3><p>Every Leonida trophy is marked earned. Export a backup or check the tracker for the full record.</p><button type="button" class="link-btn" data-act="tracker">Open tracker</button></div>`;
+    }
+    if (ui.q) {
+      return `<div class="empty"><h3>No trophies match “${esc(ui.q)}”.</h3><p>Try a trophy name, description or chapter.</p><button type="button" class="link-btn" data-act="clear">Clear search and filters</button></div>`;
+    }
+    return `<div class="empty"><h3>No trophies fit these filters.</h3><p>The kind, grade and remaining settings are excluding the whole list.</p><button type="button" class="link-btn" data-act="clear">Clear filters</button></div>`;
   }
   const groups = new Map();
   for (const t of list) {
@@ -206,6 +213,31 @@ function drawChecklist() {
   $('#panel').innerHTML = panelMarkup();
 }
 
+function drawMissables() {
+  const left = trophies.filter((t) => t.missable);
+  $('#missable-count').textContent = left.filter((t) => !isEarned(t)).length;
+  $('#missables').innerHTML = left.length
+    ? `<div class="missable-list">${left.map((t) => {
+        const earned = isEarned(t);
+        return `<article class="missable-card${earned ? ' done' : ''}">
+          <div class="missable-order">${gradeTag(t.grade)}</div>
+          <div class="missable-main">
+            <p class="stage-label">Stage ${t.roadmapStage} · ${esc(STAGES[t.roadmapStage - 1].name)}</p>
+            <h3>${esc(t.name)}</h3>
+            <p class="official">${esc(t.description)}</p>
+          </div>
+          <div class="missable-action">
+            <p>${esc(t.missableNote)}</p>
+            <div class="card-actions">
+              <a class="btn" href="#trophy=${t.id}">Open guide</a>
+              <button type="button" class="btn ${earned ? '' : 'solid'}" data-earn-btn="${t.id}">${earned ? 'Mark not earned' : 'Mark earned'}</button>
+            </div>
+          </div>
+        </article>`;
+      }).join('')}</div>`
+    : `<div class="empty"><h3>No missables remain.</h3><p>Every close-out trophy is marked earned.</p></div>`;
+}
+
 function drawRows() {
   $('#shown').textContent = `${visible().length} of ${trophies.length} trophies shown`;
   $('#rows').innerHTML = rowsMarkup();
@@ -216,6 +248,12 @@ function drawRoadmap() {
     const first = trophies.filter((t) => !isEarned(t)).map((t) => t.roadmapStage).sort((a, b) => a - b)[0];
     ui.openStages.add(first || 1);
   }
+  const next = trophies.filter((t) => !isEarned(t)).sort((a, b) => a.roadmapStage - b.roadmapStage || a.id - b.id)[0];
+  const planner = document.querySelector('#roadmap-planner');
+  if (planner) planner.remove();
+  $('#stages').insertAdjacentHTML('beforebegin', next
+    ? `<p id="roadmap-planner" class="route-planner"><strong>Do next:</strong> Stage ${next.roadmapStage} — ${esc(next.name)}. <a href="#trophy=${next.id}">Open its guide</a></p>`
+    : '<p id="roadmap-planner" class="route-planner"><strong>Route complete:</strong> all 55 trophies are earned.</p>');
   $('#stages').innerHTML = STAGES.map((stage, i) => {
     const no = i + 1;
     const items = trophies.filter((t) => t.roadmapStage === no);
@@ -282,21 +320,29 @@ function drawTracker() {
 
 function drawChrome() {
   const got = trophies.filter(isEarned).length;
-  $('#meter-text').textContent = `${got} of ${trophies.length}`;
+  $('#meter-text').textContent = `${got} of ${trophies.length} earned`;
   const bar = $('#meter-bar');
   bar.setAttribute('aria-valuenow', got);
   bar.firstElementChild.style.width = `${(got / trophies.length) * 100}%`;
   $('#btn-next').disabled = got === trophies.length;
+  $('#grade-counters').innerHTML = GRADES.map((grade) => {
+    const all = trophies.filter((t) => t.grade === grade).length;
+    const earned = trophies.filter((t) => t.grade === grade && isEarned(t)).length;
+    return `<span class="grade-counter"><i class="grade ${grade}">${grade}</i><b>${earned}</b> / ${all}</span>`;
+  }).join('');
+  const missablesLeft = trophies.filter((t) => t.missable && !isEarned(t)).length;
+  $('#missable-count').textContent = missablesLeft;
   document.querySelectorAll('[data-tab]').forEach((a) => {
     if (a.dataset.tab === ui.view) a.setAttribute('aria-current', 'page');
     else a.removeAttribute('aria-current');
   });
-  for (const name of ['checklist', 'roadmap', 'tracker']) $(`#view-${name}`).hidden = name !== ui.view;
+  for (const name of ['checklist', 'missables', 'roadmap', 'tracker']) $(`#view-${name}`).hidden = name !== ui.view;
 }
 
 function draw() {
   drawChrome();
   if (ui.view === 'checklist') drawChecklist();
+  else if (ui.view === 'missables') drawMissables();
   else if (ui.view === 'roadmap') drawRoadmap();
   else drawTracker();
 }
@@ -357,12 +403,47 @@ function resetProgress() {
 
 function openNext() {
   const next = trophies.filter((t) => !isEarned(t)).sort((a, b) => a.roadmapStage - b.roadmapStage || a.id - b.id)[0];
-  if (next) location.hash = `trophy=${next.id}`;
+  if (!next) {
+    location.hash = 'view=tracker';
+    return;
+  }
+  ui.openStages = new Set([next.roadmapStage]);
+  location.hash = `view=roadmap&stage=${next.roadmapStage}`;
 }
 
 function clearFilters() {
   Object.assign(ui, { q: '', kind: 'all', grade: 'all', arrange: 'stage', remaining: false });
   drawChecklist();
+}
+
+function moveRow(direction) {
+  if (ui.view !== 'checklist') return;
+  const list = visible();
+  if (!list.length) return;
+  const current = list.findIndex((t) => t.id === ui.selected);
+  const nextIndex = current === -1
+    ? (direction > 0 ? 0 : list.length - 1)
+    : Math.max(0, Math.min(list.length - 1, current + direction));
+  ui.selected = list[nextIndex].id;
+  drawChecklist();
+  document.querySelector(`[data-open="${ui.selected}"]`)?.scrollIntoView({ block: 'nearest' });
+}
+
+function toggleSelectedRow() {
+  if (ui.view !== 'checklist' || !ui.selected) return;
+  toggleEarned(ui.selected);
+}
+
+function showShortcuts() {
+  let dialog = $('#shortcut-dialog');
+  if (!dialog) {
+    dialog = document.createElement('dialog');
+    dialog.id = 'shortcut-dialog';
+    dialog.innerHTML = `<div class="dialog-head"><h2>Keyboard shortcuts</h2><button type="button" id="close-shortcuts" aria-label="Close shortcuts">×</button></div><dl><div><dt><kbd>J</kbd> / <kbd>K</kbd></dt><dd>Move down / up the list</dd></div><div><dt><kbd>Space</kbd></dt><dd>Mark the focused trophy earned</dd></div><div><dt><kbd>/</kbd></dt><dd>Focus search</dd></div><div><dt><kbd>G</kbd> then <kbd>C</kbd></dt><dd>Open Checklist</dd></div><div><dt><kbd>G</kbd> then <kbd>M</kbd></dt><dd>Open Missables</dd></div><div><dt><kbd>G</kbd> then <kbd>R</kbd></dt><dd>Open Roadmap</dd></div><div><dt><kbd>G</kbd> then <kbd>T</kbd></dt><dd>Open Tracker</dd></div></dl>`;
+    document.body.append(dialog);
+  }
+  dialog.showModal();
+  dialog.querySelector('#close-shortcuts')?.addEventListener('click', () => dialog.close(), { once: true });
 }
 
 /* events */
@@ -376,6 +457,7 @@ document.addEventListener('click', (e) => {
   else if (t.dataset.act === 'export') exportProgress();
   else if (t.dataset.act === 'reset') resetProgress();
   else if (t.dataset.act === 'clear') clearFilters();
+  else if (t.dataset.act === 'tracker') location.hash = 'view=tracker';
 });
 
 document.addEventListener('change', (e) => {
@@ -401,9 +483,28 @@ document.addEventListener('toggle', (e) => {
 
 document.addEventListener('keydown', (e) => {
   if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.key === '?') {
+    e.preventDefault();
+    showShortcuts();
+    return;
+  }
+  if (!/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName) && ui.gPending) {
+    const viewForKey = { c: 'checklist', r: 'roadmap', m: 'missables', t: 'tracker' };
+    if (viewForKey[e.key.toLowerCase()]) {
+      e.preventDefault();
+      location.hash = `view=${viewForKey[e.key.toLowerCase()]}`;
+    }
+    ui.gPending = false;
+  }
   if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
-  if (e.key === '/' && ui.view === 'checklist') { e.preventDefault(); $('#f-search').focus(); }
-  else if (e.key === 'n') openNext();
+  if (e.key === '/') { e.preventDefault(); if (ui.view !== 'checklist') location.hash = 'view=checklist'; setTimeout(() => $('#f-search').focus(), 0); }
+  else if (e.key.toLowerCase() === 'g') ui.gPending = true;
+  else if (e.key.toLowerCase() === 'j' || e.key.toLowerCase() === 'k') moveRow(e.key.toLowerCase() === 'j' ? 1 : -1);
+  else if (e.key === ' ') { e.preventDefault(); toggleSelectedRow(); }
+});
+
+document.addEventListener('click', (e) => {
+  if (e.target.closest('#shortcut-help')) showShortcuts();
 });
 
 window.addEventListener('hashchange', () => {
