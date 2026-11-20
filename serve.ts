@@ -42,6 +42,10 @@ function resolveRequest(rawUrl: string | undefined): string | null {
 }
 
 const server = createServer((req, res) => {
+  if (req.method !== 'GET' && req.method !== 'HEAD') {
+    res.writeHead(405, { 'allow': 'GET, HEAD' }).end('method not allowed');
+    return;
+  }
   const target = resolveRequest(req.url);
   if (target === null) {
     res.writeHead(403).end('forbidden');
@@ -61,6 +65,10 @@ const server = createServer((req, res) => {
     'content-length': size,
     'cache-control': 'no-store',
   });
+  if (req.method === 'HEAD') {
+    res.end();
+    return;
+  }
   createReadStream(target).pipe(res);
 });
 
