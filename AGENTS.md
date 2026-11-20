@@ -70,3 +70,11 @@ Keep the starter's behaviour and add a real validation of your own, for example:
 - `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`, then confirm `out/dossier.json` exists and its Totals line is small (a first load well under 100 KB gzip-9).
 - Commit as you go (signing is off here) and push to `origin main`.
 - At the end, rewrite the "How it works" part of `README.md` and the "Build notes" here to describe what you actually built.
+
+## Build notes
+
+- The interface is an offline, three-view field guide with a split checklist/detail panel. The page loads its own trophy JSON and four local modules; external URLs appear only as reader-opened source links.
+- The list retains the 55 supplied names, descriptions, and grades, and adds 28 hidden flags, six guide kinds, nine roadmap stages, tracker counts where supplied, short steps, source links, and original 100-to-150-word notes. `scripts/prepare-data.mjs` regenerates those additions from the supplied register.
+- No missable lockout is confirmed by the trophy descriptions available here. The app marks none as verified missable and makes that uncertainty explicit in the roadmap, tracker, and detail panel instead of guessing at irreversible missions.
+- The sources actually opened were Exophase's PS5 list and PlayStation's GTA VI product page. The latter confirms the PS5 title but neither page gives a route walkthrough; the notes keep unsupported locations and mechanics out of the claims.
+- Progress, spoiler state, JSON import/export, filters, and `#trophy=` / `#view=` routes are implemented in browser modules. `main.ts` now rejects incomplete trophy data before it writes the dossier.

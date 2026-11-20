@@ -1,392 +1,1602 @@
 {
- "game": "Grand Theft Auto VI",
- "platform": "PlayStation 5",
- "list": "the official 55 trophies, 2026-11-18",
- "trophies": [
-  {
-   "id": 1,
-   "name": "Vice Got a Price!",
-   "description": "Congratulations! You're a Leonida Legend.",
-   "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
-  },
-  {
-   "id": 2,
-   "name": "Just Like Paradise",
-   "description": "Complete Gone Fishing.",
-   "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
-  },
-  {
-   "id": 3,
-   "name": "Paradise Lost",
-   "description": "Complete Chapter 1.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 1."
-  },
-  {
-   "id": 4,
-   "name": "T**s Ass Drug Money",
-   "description": "Complete Chapter 2.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 2."
-  },
-  {
-   "id": 5,
-   "name": "Vice City, Baby!",
-   "description": "Complete Chapter 3.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 3."
-  },
-  {
-   "id": 6,
-   "name": "Top Of The World, Ma",
-   "description": "Complete Chapter 4.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 4."
-  },
-  {
-   "id": 7,
-   "name": "You Gotta Know When to Get Off",
-   "description": "Complete the final mission.",
-   "grade": "gold",
-   "guide": "Finish the final mission (gold)."
-  },
-  {
-   "id": 8,
-   "name": "Trust",
-   "description": "Complete Breakfast Run.",
-   "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
-  },
-  {
-   "id": 9,
-   "name": "Break the Bank",
-   "description": "Complete The Cartel Heist.",
-   "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
-  },
-  {
-   "id": 10,
-   "name": "Family Matters",
-   "description": "Complete Child's Play.",
-   "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
-  },
-  {
-   "id": 11,
-   "name": "DWNFALL",
-   "description": "Complete Headliners.",
-   "grade": "bronze",
-   "guide": "Finish the mission Headliners."
-  },
-  {
-   "id": 12,
-   "name": "Hi-Jacked",
-   "description": "Complete VCIA Takedown.",
-   "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
-  },
-  {
-   "id": 13,
-   "name": "Snow Storm",
-   "description": "Complete Operation Savage Glory.",
-   "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
-  },
-  {
-   "id": 14,
-   "name": "A Long Road",
-   "description": "Attain 100% Completion.",
-   "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
-  },
-  {
-   "id": 15,
-   "name": "Cunning Stunts",
-   "description": "Complete 250 Stunts.",
-   "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
-  },
-  {
-   "id": 16,
-   "name": "Master of None",
-   "description": "Try each type of activity once.",
-   "grade": "bronze",
-   "guide": "Try all 9 activity types once."
-  },
-  {
-   "id": 17,
-   "name": "The Shootist",
-   "description": "Earn a gold medal in all Shooting Range challenges.",
-   "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
-  },
-  {
-   "id": 18,
-   "name": "Top Fun",
-   "description": "Win a Top Fun Drone Race at every location.",
-   "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
-  },
-  {
-   "id": 19,
-   "name": "Earn Cash, Not Kudos",
-   "description": "Win 20 different races.",
-   "grade": "bronze",
-   "guide": "Win 20 different races."
-  },
-  {
-   "id": 20,
-   "name": "Baited My Tackle",
-   "description": "Beat Cal in a fishing challenge.",
-   "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
-  },
-  {
-   "id": 21,
-   "name": "Stick Fiddler",
-   "description": "Complete an arcade game.",
-   "grade": "bronze",
-   "guide": "Finish one arcade game."
-  },
-  {
-   "id": 22,
-   "name": "Road to Rehabilitation",
-   "description": "Complete the final mission for Andy.",
-   "grade": "bronze",
-   "guide": "Finish Andy's last mission."
-  },
-  {
-   "id": 23,
-   "name": "This Was No Boat Accident",
-   "description": "Complete the final mission for Kenton.",
-   "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
-  },
-  {
-   "id": 24,
-   "name": "The Lone Rider",
-   "description": "Complete the final mission for Billy.",
-   "grade": "bronze",
-   "guide": "Finish Billy's last mission."
-  },
-  {
-   "id": 25,
-   "name": "Strangers & Freaks",
-   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-   "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
-  },
-  {
-   "id": 26,
-   "name": "Supply & Demand",
-   "description": "Complete the final mission for Randy.",
-   "grade": "bronze",
-   "guide": "Finish Randy's last mission."
-  },
-  {
-   "id": 27,
-   "name": "Spin On This!",
-   "description": "Complete the final mission for Tyrone.",
-   "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
-  },
-  {
-   "id": 28,
-   "name": "Positive Mental Attitude",
-   "description": "Meditate at every spot across Leonida.",
-   "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
-  },
-  {
-   "id": 29,
-   "name": "Fair Game",
-   "description": "Hunt a unique animal for Bret.",
-   "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
-  },
-  {
-   "id": 30,
-   "name": "Don't Touch My Deck",
-   "description": "Complete 3 Collectible Card sets.",
-   "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
-  },
-  {
-   "id": 31,
-   "name": "You WAiNKer!",
-   "description": "WAiNK It at 100 locations.",
-   "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
-  },
-  {
-   "id": 32,
-   "name": "One Last Thing",
-   "description": "Complete 50 Challenges.",
-   "grade": "bronze",
-   "guide": "Finish 50 challenges."
-  },
-  {
-   "id": 33,
-   "name": "Hot Together",
-   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
-   "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
-  },
-  {
-   "id": 34,
-   "name": "Retail Therapy",
-   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
-   "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
-  },
-  {
-   "id": 35,
-   "name": "Whip It Good",
-   "description": "Discover 100 vehicles.",
-   "grade": "bronze",
-   "guide": "Discover 100 vehicles."
-  },
-  {
-   "id": 36,
-   "name": "Gunslinger",
-   "description": "Take down 5 enemies in a single use of Combat Focus.",
-   "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
-  },
-  {
-   "id": 37,
-   "name": "Catch Me If You Can",
-   "description": "Make an unscheduled departure at VCIA.",
-   "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
-  },
-  {
-   "id": 38,
-   "name": "Challenging Tank",
-   "description": "Kinda hot in these Rhinos.",
-   "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
-  },
-  {
-   "id": 39,
-   "name": "Sneakthief",
-   "description": "Rob a jewelry store without being detected.",
-   "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
-  },
-  {
-   "id": 40,
-   "name": "Maximum Withdrawal",
-   "description": "Rob 5 Bank Vaults and escape.",
-   "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
-  },
-  {
-   "id": 41,
-   "name": "A Classic Blitz Play",
-   "description": "Rob an Armored Truck and escape.",
-   "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
-  },
-  {
-   "id": 42,
-   "name": "The Goodtime State",
-   "description": "Explore all of Leonida.",
-   "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
-  },
-  {
-   "id": 43,
-   "name": "Pest Control",
-   "description": "Rob an Illegal Operation belonging to each gang.",
-   "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
-  },
-  {
-   "id": 44,
-   "name": "In The Beginning…",
-   "description": "Enjoy a cocktail with a view on Ocean Beach.",
-   "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
-  },
-  {
-   "id": 45,
-   "name": "Capital Offense",
-   "description": "Smash your way out of a vehicle showroom in classic style.",
-   "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
-  },
-  {
-   "id": 46,
-   "name": "Let’s Go Bowling",
-   "description": "Follow-through at the Kolt & Associates' bowling alley.",
-   "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
-  },
-  {
-   "id": 47,
-   "name": "Personal Best",
-   "description": "A partnership with mass appeal.",
-   "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
-  },
-  {
-   "id": 48,
-   "name": "Actions Speak Louder",
-   "description": "Choices made (for better or worse).",
-   "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
-  },
-  {
-   "id": 49,
-   "name": "Bad Luck, I Guess",
-   "description": "Second time's the charm.",
-   "grade": "bronze",
-   "guide": "Succeed on a second try."
-  },
-  {
-   "id": 50,
-   "name": "The Truth Is Out There",
-   "description": "What the hell just happened?",
-   "grade": "bronze",
-   "guide": "Witness something strange."
-  },
-  {
-   "id": 51,
-   "name": "Ten Pin",
-   "description": "Bowl 'em over with a melee drive-by.",
-   "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
-  },
-  {
-   "id": 52,
-   "name": "Dime on the Dollar",
-   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
-   "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
-  },
-  {
-   "id": 53,
-   "name": "Treat Yo Self",
-   "description": "Spend $100,000 across all shops.",
-   "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
-  },
-  {
-   "id": 54,
-   "name": "Little Boxes",
-   "description": "Purchase all garage properties.",
-   "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
-  },
-  {
-   "id": 55,
-   "name": "On the Spot",
-   "description": "Register 10 vehicles to the Scooter Bros app.",
-   "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
-  }
- ]
+  "game": "Grand Theft Auto VI",
+  "platform": "PlayStation 5",
+  "list": "the official 55 trophies, 2026-11-18",
+  "trophies": [
+    {
+      "id": 1,
+      "name": "Vice Got a Price!",
+      "description": "Congratulations! You're a Leonida Legend.",
+      "grade": "platinum",
+      "guide": "Condition: Congratulations! You're a Leonida Legend. Treat that exact requirement as the confirmed target. Where: the complete trophy register. The list gives no coordinates; use only the named target as your destination. How: Finish the other listed trophy conditions, then confirm the platinum appears in the console record. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Review the outstanding rows.",
+        "Complete each remaining condition.",
+        "Confirm the platinum notification."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Just Like Paradise",
+      "description": "Complete Gone Fishing.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Gone Fishing. Treat that exact requirement as the confirmed target. Where: gone Fishing, the named opening mission. The list gives no coordinates; use only the named target as your destination. How: Complete the mission exactly as the trophy condition states, then let its result settle before changing activities. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 1,
+      "steps": [
+        "Start Gone Fishing.",
+        "Complete the mission.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Paradise Lost",
+      "description": "Complete Chapter 1.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Chapter 1. Treat that exact requirement as the confirmed target. Where: the Chapter 1 story endpoint. The list gives no coordinates; use only the named target as your destination. How: Advance the main story through the chapter's final objective and verify that the chapter-completion event registers. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": "Chapter 1",
+      "roadmapStage": 2,
+      "steps": [
+        "Continue the main story.",
+        "Complete Chapter 1.",
+        "Confirm the chapter marker."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "T**s Ass Drug Money",
+      "description": "Complete Chapter 2.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Chapter 2. Treat that exact requirement as the confirmed target. Where: the Chapter 2 story endpoint. The list gives no coordinates; use only the named target as your destination. How: Advance the main story through the chapter's final objective and verify that the chapter-completion event registers. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": "Chapter 2",
+      "roadmapStage": 3,
+      "steps": [
+        "Continue the main story.",
+        "Complete Chapter 2.",
+        "Confirm the chapter marker."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vice City, Baby!",
+      "description": "Complete Chapter 3.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Chapter 3. Treat that exact requirement as the confirmed target. Where: the Chapter 3 story endpoint. The list gives no coordinates; use only the named target as your destination. How: Advance the main story through the chapter's final objective and verify that the chapter-completion event registers. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": "Chapter 3",
+      "roadmapStage": 4,
+      "steps": [
+        "Continue the main story.",
+        "Complete Chapter 3.",
+        "Confirm the chapter marker."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Top Of The World, Ma",
+      "description": "Complete Chapter 4.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Chapter 4. Treat that exact requirement as the confirmed target. Where: the Chapter 4 story endpoint. The list gives no coordinates; use only the named target as your destination. How: Advance the main story through the chapter's final objective and verify that the chapter-completion event registers. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": "Chapter 4",
+      "roadmapStage": 5,
+      "steps": [
+        "Continue the main story.",
+        "Complete Chapter 4.",
+        "Confirm the chapter marker."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "You Gotta Know When to Get Off",
+      "description": "Complete the final mission.",
+      "grade": "gold",
+      "guide": "Condition: Complete the final mission. Treat that exact requirement as the confirmed target. Where: the final mission named by the game. The list gives no coordinates; use only the named target as your destination. How: When ready, complete the final mission; the trophy condition gives no alternate ending or medal requirement. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": "Final mission",
+      "roadmapStage": 6,
+      "steps": [
+        "Review other story rows.",
+        "Complete the final mission.",
+        "Verify the gold award."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Trust",
+      "description": "Complete Breakfast Run.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Breakfast Run. Treat that exact requirement as the confirmed target. Where: breakfast Run. The list gives no coordinates; use only the named target as your destination. How: Complete the named mission and wait for its completion screen before treating this story entry as done. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 2,
+      "steps": [
+        "Locate Breakfast Run in the story flow.",
+        "Complete the mission.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Break the Bank",
+      "description": "Complete The Cartel Heist.",
+      "grade": "bronze",
+      "guide": "Condition: Complete The Cartel Heist. Treat that exact requirement as the confirmed target. Where: the Cartel Heist. The list gives no coordinates; use only the named target as your destination. How: Complete the named heist; no approach, crew choice, or medal threshold is specified in the published condition. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 3,
+      "steps": [
+        "Start The Cartel Heist.",
+        "Complete the heist.",
+        "Confirm its result."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Family Matters",
+      "description": "Complete Child's Play.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Child's Play. Treat that exact requirement as the confirmed target. Where: child's Play. The list gives no coordinates; use only the named target as your destination. How: Complete the named mission and confirm the story result registers; the trophy description does not state an optional objective. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 4,
+      "steps": [
+        "Find Child's Play in the story flow.",
+        "Complete the mission.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DWNFALL",
+      "description": "Complete Headliners.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Headliners. Treat that exact requirement as the confirmed target. Where: headliners. The list gives no coordinates; use only the named target as your destination. How: Complete the mission identified in the condition. The all-caps trophy title is not an extra gameplay requirement. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 5,
+      "steps": [
+        "Start Headliners.",
+        "Complete the mission.",
+        "Confirm the award."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Hi-Jacked",
+      "description": "Complete VCIA Takedown.",
+      "grade": "bronze",
+      "guide": "Condition: Complete VCIA Takedown. Treat that exact requirement as the confirmed target. Where: vCIA Takedown. The list gives no coordinates; use only the named target as your destination. How: Complete the named mission. The title alone does not establish a stealth, time, or score requirement. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 5,
+      "steps": [
+        "Start VCIA Takedown.",
+        "Complete the mission.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Snow Storm",
+      "description": "Complete Operation Savage Glory.",
+      "grade": "bronze",
+      "guide": "Condition: Complete Operation Savage Glory. Treat that exact requirement as the confirmed target. Where: operation Savage Glory. The list gives no coordinates; use only the named target as your destination. How: Complete the named operation and let the mission-end state register before leaving the activity. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 6,
+      "steps": [
+        "Start Operation Savage Glory.",
+        "Complete the operation.",
+        "Confirm the award."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "A Long Road",
+      "description": "Attain 100% Completion.",
+      "grade": "gold",
+      "guide": "Condition: Attain 100% Completion. Treat that exact requirement as the confirmed target. The listed counter to watch is 100. Where: the in-game completion checklist. The list gives no coordinates; use only the named target as your destination. How: Use the game's own completion tracker to identify remaining eligible tasks; the trophy condition gives no category-by-category checklist. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 100,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Open the completion tracker.",
+        "Finish every requirement it lists.",
+        "Confirm the total reaches 100 percent."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cunning Stunts",
+      "description": "Complete 250 Stunts.",
+      "grade": "silver",
+      "guide": "Condition: Complete 250 Stunts. Treat that exact requirement as the confirmed target. The listed counter to watch is 250. Where: stunt opportunities across Leonida. The list gives no coordinates; use only the named target as your destination. How: Complete stunts until the tracked total reaches 250; the trophy condition does not specify a route or stunt type. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 250,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Use the in-game stunt opportunities.",
+        "Complete 250 stunts.",
+        "Check the counter before stopping."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Master of None",
+      "description": "Try each type of activity once.",
+      "grade": "bronze",
+      "guide": "Condition: Try each type of activity once. Treat that exact requirement as the confirmed target. The listed counter to watch is 9. Where: the game's activity types. The list gives no coordinates; use only the named target as your destination. How: Sample each distinct activity type once; use the activity menu or prompts to keep a personal list and avoid repeating one category. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 9,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "List each activity type as you find it.",
+        "Try every type once.",
+        "Compare the list with the counter."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Shootist",
+      "description": "Earn a gold medal in all Shooting Range challenges.",
+      "grade": "silver",
+      "guide": "Condition: Earn a gold medal in all Shooting Range challenges. Treat that exact requirement as the confirmed target. The listed counter to watch is 42. Where: every Shooting Range challenge. The list gives no coordinates; use only the named target as your destination. How: Earn gold in each range challenge. The supplied PS5 list tracks 42 challenges; retry any result below gold. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 42,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Open the Shooting Range.",
+        "Earn gold in all 42 challenges.",
+        "Recheck the challenge board."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Top Fun",
+      "description": "Win a Top Fun Drone Race at every location.",
+      "grade": "bronze",
+      "guide": "Condition: Win a Top Fun Drone Race at every location. Treat that exact requirement as the confirmed target. The listed counter to watch is 14. Where: top Fun Drone Race locations. The list gives no coordinates; use only the named target as your destination. How: Win a race at every location rather than repeating one course; use the game's activity tracker to spot any location still missing. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 14,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Find each Top Fun race.",
+        "Win once at every location.",
+        "Check the location record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Earn Cash, Not Kudos",
+      "description": "Win 20 different races.",
+      "grade": "bronze",
+      "guide": "Condition: Win 20 different races. Treat that exact requirement as the confirmed target. The listed counter to watch is 20. Where: twenty different races. The list gives no coordinates; use only the named target as your destination. How: Choose distinct race events and win each one; repeating a race does not satisfy the word “different” in the condition. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 20,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Keep a list of race events.",
+        "Win 20 different races.",
+        "Review the race record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Baited My Tackle",
+      "description": "Beat Cal in a fishing challenge.",
+      "grade": "bronze",
+      "guide": "Condition: Beat Cal in a fishing challenge. Treat that exact requirement as the confirmed target. Where: cal's fishing challenge. The list gives no coordinates; use only the named target as your destination. How: Enter the challenge with Cal and finish ahead of him. The description names the opponent and activity but does not state a required fish or score. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Find Cal's fishing challenge.",
+        "Beat Cal in the challenge.",
+        "Confirm the result."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Stick Fiddler",
+      "description": "Complete an arcade game.",
+      "grade": "bronze",
+      "guide": "Condition: Complete an arcade game. Treat that exact requirement as the confirmed target. Where: any arcade game. The list gives no coordinates; use only the named target as your destination. How: Complete one full arcade game. Starting a cabinet is not enough: finish its round and wait for the game's completion state. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Choose an arcade game.",
+        "Finish one game.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Road to Rehabilitation",
+      "description": "Complete the final mission for Andy.",
+      "grade": "bronze",
+      "guide": "Condition: Complete the final mission for Andy. Treat that exact requirement as the confirmed target. Where: andy’s final mission. The list gives no coordinates; use only the named target as your destination. How: Advance Andy's strand to its final mission and complete it; the condition requires the strand endpoint, not merely meeting the character. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 7,
+      "steps": [
+        "Follow Andy's mission strand.",
+        "Complete his final mission.",
+        "Confirm the result."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "This Was No Boat Accident",
+      "description": "Complete the final mission for Kenton.",
+      "grade": "bronze",
+      "guide": "Condition: Complete the final mission for Kenton. Treat that exact requirement as the confirmed target. Where: kenton’s final mission. The list gives no coordinates; use only the named target as your destination. How: Advance Kenton's strand to its final mission and complete it; the description does not name a particular approach or optional objective. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 7,
+      "steps": [
+        "Follow Kenton's mission strand.",
+        "Complete his final mission.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "The Lone Rider",
+      "description": "Complete the final mission for Billy.",
+      "grade": "bronze",
+      "guide": "Condition: Complete the final mission for Billy. Treat that exact requirement as the confirmed target. Where: billy’s final mission. The list gives no coordinates; use only the named target as your destination. How: Advance Billy's strand to its final mission and complete it; meeting him or starting the strand is not the stated endpoint. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 7,
+      "steps": [
+        "Follow Billy's mission strand.",
+        "Complete his final mission.",
+        "Confirm the result."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Strangers & Freaks",
+      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+      "grade": "silver",
+      "guide": "Condition: Complete 8 mission strands for strangers across the state of Leonida. Treat that exact requirement as the confirmed target. The listed counter to watch is 8. Where: stranger mission strands around Leonida. The list gives no coordinates; use only the named target as your destination. How: Finish eight distinct strands, tracking strand completion rather than individual missions; the condition does not list a preferred set. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": 8,
+      "chapter": null,
+      "roadmapStage": 7,
+      "steps": [
+        "Find stranger strands across Leonida.",
+        "Complete eight different strands.",
+        "Check the strand tracker."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Supply & Demand",
+      "description": "Complete the final mission for Randy.",
+      "grade": "bronze",
+      "guide": "Condition: Complete the final mission for Randy. Treat that exact requirement as the confirmed target. Where: randy’s final mission. The list gives no coordinates; use only the named target as your destination. How: Advance Randy's strand to its final mission and complete it; the description does not establish a chapter number or optional score. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 7,
+      "steps": [
+        "Follow Randy's mission strand.",
+        "Complete his final mission.",
+        "Confirm the result."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Spin On This!",
+      "description": "Complete the final mission for Tyrone.",
+      "grade": "bronze",
+      "guide": "Condition: Complete the final mission for Tyrone. Treat that exact requirement as the confirmed target. Where: tyrone’s final mission. The list gives no coordinates; use only the named target as your destination. How: Advance Tyrone's strand to its final mission and complete it; the condition calls for the endpoint rather than any single encounter. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "story",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 7,
+      "steps": [
+        "Follow Tyrone's mission strand.",
+        "Complete his final mission.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Positive Mental Attitude",
+      "description": "Meditate at every spot across Leonida.",
+      "grade": "bronze",
+      "guide": "Condition: Meditate at every spot across Leonida. Treat that exact requirement as the confirmed target. The listed counter to watch is 18. Where: meditation spots across Leonida. The list gives no coordinates; use only the named target as your destination. How: Visit and use every meditation spot. Keep a location checklist and check the activity counter after each visit; the list supplies no coordinates. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "missableNote": null,
+      "count": 18,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Find a meditation spot.",
+        "Meditate at all 18 spots.",
+        "Review the spot counter."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Fair Game",
+      "description": "Hunt a unique animal for Bret.",
+      "grade": "bronze",
+      "guide": "Condition: Hunt a unique animal for Bret. Treat that exact requirement as the confirmed target. Where: the unique animal for Bret. The list gives no coordinates; use only the named target as your destination. How: Hunt the unique animal tied to Bret's request. The trophy list gives neither a species nor a location, so use the request's in-game clue. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Take Bret's hunting request.",
+        "Hunt the unique animal.",
+        "Confirm the request is complete."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Don't Touch My Deck",
+      "description": "Complete 3 Collectible Card sets.",
+      "grade": "silver",
+      "guide": "Condition: Complete 3 Collectible Card sets. Treat that exact requirement as the confirmed target. The listed counter to watch is 3. Where: three complete Collectible Card sets. The list gives no coordinates; use only the named target as your destination. How: Gather every card required for three full sets, not just three individual cards; check set completion in the game's collection screen. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "collectibles",
+      "missable": false,
+      "missableNote": null,
+      "count": 3,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Open the card-set tracker.",
+        "Complete three sets.",
+        "Verify all three are marked complete."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "You WAiNKer!",
+      "description": "WAiNK It at 100 locations.",
+      "grade": "silver",
+      "guide": "Condition: WAiNK It at 100 locations. Treat that exact requirement as the confirmed target. The listed counter to watch is 100. Where: wAiNK It check-ins at 100 locations. The list gives no coordinates; use only the named target as your destination. How: Use WAiNK It in one hundred distinct places. Keep moving to new locations and use the in-game counter to distinguish unique places from repeats. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "collectibles",
+      "missable": false,
+      "missableNote": null,
+      "count": 100,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Open WAiNK It.",
+        "Use it at 100 locations.",
+        "Check the location total."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "One Last Thing",
+      "description": "Complete 50 Challenges.",
+      "grade": "bronze",
+      "guide": "Condition: Complete 50 Challenges. Treat that exact requirement as the confirmed target. The listed counter to watch is 50. Where: the game's Challenges list. The list gives no coordinates; use only the named target as your destination. How: Complete fifty challenges and use the tracker to distinguish completed entries from progress-only counters. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "collectibles",
+      "missable": false,
+      "missableNote": null,
+      "count": 50,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Open the Challenges list.",
+        "Complete 50 challenges.",
+        "Verify the total."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Hot Together",
+      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+      "grade": "bronze",
+      "guide": "Condition: Lose a 4 star Wanted Level with your partner and escape the heat. Treat that exact requirement as the confirmed target. The listed counter to watch is 4. Where: a four-star Wanted Level with your partner. The list gives no coordinates; use only the named target as your destination. How: Build the wanted level to four stars while your partner is with you, then escape the search without losing the partner condition. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": 4,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Bring your partner along.",
+        "Reach four stars and escape the heat.",
+        "Confirm the trophy after evasion."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Retail Therapy",
+      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+      "grade": "bronze",
+      "guide": "Condition: Rob 3 shops back-to-back with your partner without losing your Wanted Level. Treat that exact requirement as the confirmed target. The listed counter to watch is 3. Where: three shops in sequence with your partner. The list gives no coordinates; use only the named target as your destination. How: Rob three shops back-to-back while your partner is present; keep the wanted state active throughout the chain as the description requires. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": 3,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Start with your partner present.",
+        "Rob three shops without losing the Wanted Level.",
+        "Check the result after the third shop."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Whip It Good",
+      "description": "Discover 100 vehicles.",
+      "grade": "bronze",
+      "guide": "Condition: Discover 100 vehicles. Treat that exact requirement as the confirmed target. The listed counter to watch is 100. Where: one hundred discovered vehicles. The list gives no coordinates; use only the named target as your destination. How: Discover vehicles until the tracked total reaches one hundred. The condition says “discover,” not buy or own, so use the game's discovery record. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "missableNote": null,
+      "count": 100,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Encounter unfamiliar vehicles.",
+        "Discover 100 vehicles.",
+        "Check the vehicle counter."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Gunslinger",
+      "description": "Take down 5 enemies in a single use of Combat Focus.",
+      "grade": "bronze",
+      "guide": "Condition: Take down 5 enemies in a single use of Combat Focus. Treat that exact requirement as the confirmed target. The listed counter to watch is 5. Where: five enemies in one Combat Focus use. The list gives no coordinates; use only the named target as your destination. How: Activate Combat Focus when five enemies can be reached in the same use, then take all five down before the effect ends. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": 5,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Build a safe group of enemies.",
+        "Use Combat Focus and take down five.",
+        "Confirm it registered in one use."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Catch Me If You Can",
+      "description": "Make an unscheduled departure at VCIA.",
+      "grade": "bronze",
+      "guide": "Condition: Make an unscheduled departure at VCIA. Treat that exact requirement as the confirmed target. Where: an unscheduled departure at VCIA. The list gives no coordinates; use only the named target as your destination. How: The description names VCIA and an unscheduled departure but no trigger. Explore the airport's in-game prompts and use the first clearly improvised exit opportunity. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "exploration",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Go to VCIA.",
+        "Make an unscheduled departure.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "grade": "bronze",
+      "guide": "Condition: Kinda hot in these Rhinos. Treat that exact requirement as the confirmed target. Where: the Rhino challenge. The list gives no coordinates; use only the named target as your destination. How: The published line is a clue rather than a full instruction. It supplies no location or success condition, so consult the in-game challenge prompt and complete its Rhino requirement. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Find the Rhino-related challenge prompt.",
+        "Complete the prompted requirement.",
+        "Verify the trophy notification."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Sneakthief",
+      "description": "Rob a jewelry store without being detected.",
+      "grade": "bronze",
+      "guide": "Condition: Rob a jewelry store without being detected. Treat that exact requirement as the confirmed target. Where: a jewelry-store robbery without detection. The list gives no coordinates; use only the named target as your destination. How: Enter a jewelry store and complete the robbery without triggering detection. The list does not name a store or prescribe equipment. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Choose a jewelry store.",
+        "Complete the robbery undetected.",
+        "Confirm the escape and award."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Maximum Withdrawal",
+      "description": "Rob 5 Bank Vaults and escape.",
+      "grade": "silver",
+      "guide": "Condition: Rob 5 Bank Vaults and escape. Treat that exact requirement as the confirmed target. The listed counter to watch is 5. Where: five Bank Vault robberies. The list gives no coordinates; use only the named target as your destination. How: Rob five bank vaults and escape each time. Count only successful escapes, and use the game record to see whether it tracks completed robberies. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": 5,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Find a bank vault opportunity.",
+        "Rob it and escape.",
+        "Repeat until five are recorded."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "A Classic Blitz Play",
+      "description": "Rob an Armored Truck and escape.",
+      "grade": "bronze",
+      "guide": "Condition: Rob an Armored Truck and escape. Treat that exact requirement as the confirmed target. Where: an Armored Truck robbery. The list gives no coordinates; use only the named target as your destination. How: Rob an Armored Truck and escape. The condition does not specify an approach, vehicle, or wanted-level threshold. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Locate an Armored Truck opportunity.",
+        "Rob the truck.",
+        "Escape and check the record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "The Goodtime State",
+      "description": "Explore all of Leonida.",
+      "grade": "bronze",
+      "guide": "Condition: Explore all of Leonida. Treat that exact requirement as the confirmed target. The listed counter to watch is 52. Where: every area of Leonida. The list gives no coordinates; use only the named target as your destination. How: Explore until the map records all 52 areas. Compare the map's undiscovered shading or the game's area counter rather than relying on visual familiarity. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "missableNote": null,
+      "count": 52,
+      "chapter": null,
+      "roadmapStage": 8,
+      "steps": [
+        "Open the state map.",
+        "Visit every area.",
+        "Confirm all 52 are recorded."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Pest Control",
+      "description": "Rob an Illegal Operation belonging to each gang.",
+      "grade": "bronze",
+      "guide": "Condition: Rob an Illegal Operation belonging to each gang. Treat that exact requirement as the confirmed target. The listed counter to watch is 9. Where: illegal Operations from each gang. The list gives no coordinates; use only the named target as your destination. How: Rob one Illegal Operation for every gang. Maintain a gang checklist so a second robbery for one group does not hide an unvisited group. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": 9,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Identify the gangs in the game.",
+        "Rob one operation per gang.",
+        "Confirm all nine are represented."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "grade": "bronze",
+      "guide": "Condition: Enjoy a cocktail with a view on Ocean Beach. Treat that exact requirement as the confirmed target. Where: a cocktail with a view on Ocean Beach. The list gives no coordinates; use only the named target as your destination. How: On Ocean Beach, enjoy a cocktail where the view condition can register. The list supplies no venue name or time-of-day requirement. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Go to Ocean Beach.",
+        "Order and enjoy a cocktail with a view.",
+        "Check the trophy notification."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "grade": "bronze",
+      "guide": "Condition: Smash your way out of a vehicle showroom in classic style. Treat that exact requirement as the confirmed target. Where: a vehicle showroom escape. The list gives no coordinates; use only the named target as your destination. How: Use the classic smash-through approach to leave a vehicle showroom. The description does not name a specific showroom or vehicle. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Find a vehicle showroom.",
+        "Smash your way out.",
+        "Confirm the award."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "grade": "bronze",
+      "guide": "Condition: Follow-through at the Kolt & Associates' bowling alley. Treat that exact requirement as the confirmed target. Where: kolt & Associates' bowling alley. The list gives no coordinates; use only the named target as your destination. How: Follow through at the named bowling alley; the description is intentionally cryptic, so use the alley's own interaction and finish the prompted sequence. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Go to Kolt & Associates' alley.",
+        "Complete the bowling interaction.",
+        "Check the trophy record."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "grade": "bronze",
+      "guide": "Condition: A partnership with mass appeal. Treat that exact requirement as the confirmed target. Where: the partnership with mass appeal. The list gives no coordinates; use only the named target as your destination. How: The public condition is only a clue. The list does not explain what “mass appeal” means, so keep this entry open until an in-game prompt or trusted walkthrough confirms the trigger. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Review available partnership activities.",
+        "Complete the activity that matches the clue.",
+        "Verify the trophy rather than guessing."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "grade": "bronze",
+      "guide": "Condition: Choices made (for better or worse). Treat that exact requirement as the confirmed target. The listed counter to watch is 500. Where: choices made in the game. The list gives no coordinates; use only the named target as your destination. How: The public condition is a clue, not an instruction. Track choices as they occur and use the game's own counter or prompt to confirm the threshold; do not assume one specific dialogue option is required. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": true,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 500,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Make choices as the story presents them.",
+        "Continue until the tracked choice total reaches 500.",
+        "Confirm the trophy notification."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "grade": "bronze",
+      "guide": "Condition: Second time's the charm. Treat that exact requirement as the confirmed target. Where: a second-time success. The list gives no coordinates; use only the named target as your destination. How: The description signals a retry: repeat the relevant attempt after a first failure and succeed on the next try. It does not identify the activity. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Identify the activity tied to this clue.",
+        "Fail once, then succeed on attempt two.",
+        "Confirm the trophy notification."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "grade": "bronze",
+      "guide": "Condition: What the hell just happened? Treat that exact requirement as the confirmed target. Where: an unexplained encounter. The list gives no coordinates; use only the named target as your destination. How: The condition is deliberately vague. Keep this entry open until an unusual event occurs and the game confirms it; the trophy record provides no supported location or trigger. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "exploration",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Explore normally and watch for an unusual event.",
+        "Complete the event if it prompts an interaction.",
+        "Check for the award before leaving."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "grade": "bronze",
+      "guide": "Condition: Bowl 'em over with a melee drive-by. Treat that exact requirement as the confirmed target. Where: a melee drive-by. The list gives no coordinates; use only the named target as your destination. How: Use a melee attack from a moving vehicle to bowl over a target. The line specifies the action, not a particular weapon or target. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "combat",
+      "missable": false,
+      "missableNote": null,
+      "count": null,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Find a safe moving-vehicle opportunity.",
+        "Land a melee drive-by on a target.",
+        "Confirm the knockdown registered."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Dime on the Dollar",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+      "grade": "bronze",
+      "guide": "Condition: Earn $250,000 laundering Marked Bills through your contacts. Treat that exact requirement as the confirmed target. The listed counter to watch is 250000. Where: marked Bills laundered through contacts. The list gives no coordinates; use only the named target as your destination. How: Use contacts to launder marked bills until the recorded total reaches $250,000. The condition names the currency and channel; it does not identify which contact. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 250000,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Collect marked bills.",
+        "Launder them through contacts.",
+        "Check the total reaches $250,000."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Treat Yo Self",
+      "description": "Spend $100,000 across all shops.",
+      "grade": "bronze",
+      "guide": "Condition: Spend $100,000 across all shops. Treat that exact requirement as the confirmed target. The listed counter to watch is 100000. Where: spending across all shops. The list gives no coordinates; use only the named target as your destination. How: Spend a cumulative $100,000 across shops. The condition says across all shops, so vary purchases and confirm the aggregate rather than spending at one counter only. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 100000,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Visit shops and make purchases.",
+        "Reach $100,000 spent across shops.",
+        "Check the spending counter."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Little Boxes",
+      "description": "Purchase all garage properties.",
+      "grade": "bronze",
+      "guide": "Condition: Purchase all garage properties. Treat that exact requirement as the confirmed target. The listed counter to watch is 8. Where: every garage property. The list gives no coordinates; use only the named target as your destination. How: Purchase all eight garage properties. Use a property checklist so none is overlooked; the list does not supply names or prices. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 8,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Review purchasable garage properties.",
+        "Buy all eight.",
+        "Confirm the property list is complete."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "On the Spot",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
+      "grade": "bronze",
+      "guide": "Condition: Register 10 vehicles to the Scooter Bros app. Treat that exact requirement as the confirmed target. The listed counter to watch is 10. Where: vehicles registered in the Scooter Bros app. The list gives no coordinates; use only the named target as your destination. How: Register ten vehicles through the Scooter Bros app. Registration is the stated action; discovering or owning a vehicle alone may not count. Check the game's result, then mark it earned only after the condition registers. Timing and missability: the published trophy condition does not state a one-time window or an action that closes access. Treat missability as unverified, not as proof that every activity is repeatable; keep a manual save before irreversible choices. Sources: Exophase lists the PS5 trophy condition and grade; PlayStation confirms the PS5 game, but neither page gives a route.",
+      "hidden": false,
+      "kind": "activities",
+      "missable": false,
+      "missableNote": null,
+      "count": 10,
+      "chapter": null,
+      "roadmapStage": 9,
+      "steps": [
+        "Open Scooter Bros.",
+        "Register 10 vehicles.",
+        "Check the app's registered list."
+      ],
+      "sources": [
+        {
+          "label": "Exophase · PS5 trophy list",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+        },
+        {
+          "label": "PlayStation · GTA VI",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    }
+  ]
 }

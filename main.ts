@@ -14,13 +14,37 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+const trophyData = JSON.parse(readFileSync(join(here, 'app/data/trophies.json'), 'utf8'));
+const grades = new Set(['platinum', 'gold', 'silver', 'bronze']);
+const kinds = new Set(['story', 'collectibles', 'activities', 'combat', 'exploration', 'online']);
+const trophies = trophyData.trophies;
+
+if (!Array.isArray(trophies) || trophies.length !== 55) {
+  throw new Error('app/data/trophies.json must contain exactly 55 trophies.');
+}
+const ids = new Set();
+for (const trophy of trophies) {
+  if (ids.has(trophy.id)) throw new Error(`Duplicate trophy id: ${trophy.id}`);
+  ids.add(trophy.id);
+  if (!trophy.name?.trim() || !trophy.description?.trim() || !trophy.guide?.trim()) {
+    throw new Error(`Trophy ${trophy.name || trophy.id} has a blank name, description, or guide.`);
+  }
+  if (!grades.has(trophy.grade)) throw new Error(`${trophy.name} has an unknown grade: ${trophy.grade}`);
+  if (!kinds.has(trophy.kind)) throw new Error(`${trophy.name} has an unknown kind: ${trophy.kind}`);
+  if (!Array.isArray(trophy.sources) || trophy.sources.length === 0) {
+    throw new Error(`${trophy.name} has no cited source.`);
+  }
+  if (!Number.isInteger(trophy.roadmapStage) || trophy.roadmapStage < 1 || trophy.roadmapStage > 9) {
+    throw new Error(`${trophy.name} has an invalid roadmap stage.`);
+  }
+}
 
 mkdirSync(out, { recursive: true });
 cpSync(join(here, 'app'), join(out, 'app'), { recursive: true });
