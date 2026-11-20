@@ -21,8 +21,8 @@ node ../gta6-trophy-guide-01-kit/cli/makefun.mjs check --kit ../gta6-trophy-guid
 
 ## Build notes
 
-A static field guide under `app/`: `index.html`, `style.css`, `app.js` and `data/trophies.json`. The page has three
-views, Checklist, Roadmap and Tracker, with a detail panel beside the checklist. All 55 trophies carry an
+A static field guide under `app/`: `index.html`, `style.css`, `app.js` and `data/trophies.json`. The page has four
+views, Checklist, Missables, Roadmap and Tracker, with a detail panel beside the checklist. All 55 trophies carry an
 original guide of 120 to 180 words, two to four steps, one to three sources and, for the eleven missables, a
 `missableNote`. Progress lives in `localStorage` under `leonida-field-guide:v1` as `{v, earned, guard}`, and the
 hash holds the view (`#trophy=`, `#view=`, plus `kind`, `grade`, `stage`, `spoilers`). The spoiler guard masks every
