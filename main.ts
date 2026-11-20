@@ -27,6 +27,9 @@ type Trophy = {
   name?: string;
   grade?: string;
   guide?: unknown;
+  steps?: unknown[];
+  missable?: boolean;
+  missableNote?: unknown;
   sources?: Source[];
 };
 
@@ -47,7 +50,19 @@ function validate(list: Trophy[]): string[] {
     const who = `#${t.id} "${t.name}"`;
     if (seen.has(t.id as number)) problems.push(`${who}: duplicate id`);
     seen.add(t.id as number);
-    if (typeof t.guide !== 'string' || !t.guide.trim()) problems.push(`${who}: blank guide`);
+    if (typeof t.guide !== 'string' || !t.guide.trim()) {
+      problems.push(`${who}: blank guide`);
+    } else {
+      const words = t.guide.trim().split(/\s+/).length;
+      if (words < 120 || words > 180) problems.push(`${who}: guide has ${words} words; expected 120 to 180`);
+    }
+    const steps = Array.isArray(t.steps) ? t.steps : [];
+    if (steps.length < 2 || steps.length > 4 || steps.some((step) => typeof step !== 'string' || !step.trim())) {
+      problems.push(`${who}: expected two to four non-empty steps`);
+    }
+    if (t.missable && (typeof t.missableNote !== 'string' || !t.missableNote.trim())) {
+      problems.push(`${who}: missable trophy has no missableNote`);
+    }
     const cited = (t.sources ?? []).filter(
       (s) => typeof s.label === 'string' && s.label.trim() && typeof s.url === 'string' && s.url.startsWith('https://'),
     );
