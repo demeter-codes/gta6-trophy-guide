@@ -1,0 +1,2 @@
+# Build output: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts` writes it.
+out/
