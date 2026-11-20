@@ -14,13 +14,30 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+
+// Validate the guide's data before anything is written: all 55 trophies, each with a real guide, a source and a known grade.
+const GRADES = new Set(['platinum', 'gold', 'silver', 'bronze']);
+const data = JSON.parse(readFileSync(join(here, 'app', 'data', 'trophies.json'), 'utf8'));
+const list: any[] = Array.isArray(data) ? data : data.trophies;
+const problems: string[] = [];
+if (!Array.isArray(list) || list.length !== 55) problems.push(`expected 55 trophies, found ${Array.isArray(list) ? list.length : 'none'}`);
+for (const t of Array.isArray(list) ? list : []) {
+  const who = `#${t.id} ${t.name}`;
+  if (typeof t.guide !== 'string' || t.guide.trim() === '') problems.push(`${who}: blank guide`);
+  if (!Array.isArray(t.sources) || t.sources.length === 0 || t.sources.some((s: any) => !s?.label || !/^https:\/\//.test(s?.url ?? ''))) problems.push(`${who}: no usable source`);
+  if (!GRADES.has(t.grade)) problems.push(`${who}: unknown grade "${t.grade}"`);
+}
+if (problems.length) {
+  console.error(`trophies.json failed validation:\n  ${problems.join('\n  ')}`);
+  process.exit(1);
+}
 
 mkdirSync(out, { recursive: true });
 cpSync(join(here, 'app'), join(out, 'app'), { recursive: true });

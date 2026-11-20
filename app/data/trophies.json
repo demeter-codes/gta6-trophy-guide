@@ -1,392 +1,1586 @@
 {
- "game": "Grand Theft Auto VI",
- "platform": "PlayStation 5",
- "list": "the official 55 trophies, 2026-11-18",
  "trophies": [
   {
    "id": 1,
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "hidden": false,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Post-game",
+   "roadmapStage": 9,
+   "hours": 0,
+   "guide": "Nothing is left to do for this one except finish the other 54: it pops the moment the last of them lands. GAMES.GG's roadmap budgets about 200 hours for the whole project, story included, and says a single playthrough is enough if you protect your saves. The game gives 15 manual slots plus an autosave and has no mission replay, so rotate slots instead of overwriting. Cheats turn off trophies and saving, which makes them a bad idea in this file. Fextralife's trophy page confirms the 55-trophy split behind this platinum. Use the in-game 100% checklist after the credits to steer cleanup, and keep the final sessions loose: GAMES.GG warns chance-dependent objectives can run past its estimate.",
+   "steps": [
+    "Keep separate manual saves at the start and end of every chapter.",
+    "Finish the story, then work the 100% checklist.",
+    "Mop up the trophies the checklist does not cover."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Chapter 1",
+   "roadmapStage": 1,
+   "hours": 0.5,
+   "guide": "Gone Fishing is the earliest mission trophy in the list, so it is also the first confirmation that your file is tracking trophies. Play it plainly. Neither page I read attaches a medal, optional objective or difficulty to it, and GAMES.GG states there are no difficulty settings and that story missions need no gold medals for the platinum. Make a manual save before you begin, because the game has no mission replay and GAMES.GG recommends a save at the start and end of each chapter. Leave cheats off, since they disable trophies and saving. Fextralife groups it with the story missions that award bronze on completion. It cannot be missed once you play through.",
+   "steps": [
+    "Save manually before the mission starts.",
+    "Play Gone Fishing to its end.",
+    "Check the trophy notification before moving on."
+   ],
+   "sources": [
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Chapter 1",
+   "roadmapStage": 1,
+   "hours": 6,
+   "guide": "The chapter trophy itself asks only that Chapter 1 ends, but the chapter is where GAMES.GG says an unrelated window shuts. Lucia's meditation invitation at Jason's house stops appearing after Chapter 1, so before you trigger the final Chapter 1 mission, check the kitchen the morning after Down to Earth and accept on the balcony; Trophy 28 explains why. GAMES.GG's collectibles guide also says Kenton starts calling after Island Dreams, so you can open his strand now. Then close the chapter. Take one manual save immediately before the last mission and one right after, because a missed window cannot be replayed.",
+   "steps": [
+    "Accept Lucia's balcony meditation invitation.",
+    "Open Kenton's strand after Island Dreams if you want an early start.",
+    "Save before and after the last Chapter 1 mission."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    }
+   ]
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Chapter 2",
+   "roadmapStage": 2,
+   "hours": 7.5,
+   "guide": "Reaching the end of Chapter 2 is the mechanical part. The useful part is what the chapter hands you on the way. GAMES.GG ties three later trophies to Chapter 2 missions: Coffee Break unlocks joint free-roam, which the last meditation needs; Daily Driver opens garage purchases in the Vice City Real Estate phone app; and Moses unlocks the Scooter Bros app for vehicle registration. Play those missions rather than skipping to the chapter's end, and buy nothing yet beyond what you need. Fextralife lists the chapter-end bronze with the other story awards, with no extra condition. Save at the start and at the end of the chapter.",
+   "steps": [
+    "Play Coffee Break, Daily Driver and Moses.",
+    "Reach the end of Chapter 2.",
+    "Save manually at both ends of the chapter."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Chapter 3",
+   "roadmapStage": 2,
+   "hours": 7.5,
+   "guide": "Chapter 3 is where robbery trophies start to open up, so treat it as a toolbox chapter as well as a story one. GAMES.GG says the mission Yasmani's Jewelry Jobs hands you the Snap Gun, the tool Sneakthief needs for a jewelry-store back door, and that progress here also lets Moses accept Standard Tracker vehicles and Pay 'n' Spray registration for On the Spot. Do that mission as the story offers it, then end the chapter. The trophy needs nothing but reaching the chapter's end. Make a manual save before the closing mission, as there is no replay to rescue you.",
+   "steps": [
+    "Play Yasmani's Jewelry Jobs for the Snap Gun.",
+    "Reach the end of Chapter 3.",
+    "Keep a manual save from just before the finale."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Chapter 4",
+   "roadmapStage": 4,
+   "hours": 7.5,
+   "guide": "Ending Chapter 4 is straightforward, and the chapter's own optional content is worth doing on the way. GAMES.GG names That's Where The Money Is… as the Chapter 4 mission that unlocks large bank-vault robberies, the route to Maximum Withdrawal and, with a partner, to Hot Together's 4-star escape. It is optional, so the trophy for this chapter does not depend on it, but you will want it eventually. Before you move into the final chapter, finish any character strand you care about; the story does not wait. Make a manual save and then close the chapter. Both sources put chapter-end trophies in the same plain category as the other story bronzes.",
+   "steps": [
+    "Play That's Where The Money Is… for bank vaults.",
+    "Finish open strands before the last chapter.",
+    "Reach the end of Chapter 4 and save."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Chapter 5",
+   "roadmapStage": 4,
+   "hours": 3,
+   "guide": "This is the credits trophy, and the gold on it is the loudest notification you get before the cleanup. GAMES.GG says free-roam continues after the story and that optional missions and discoveries made during the campaign already count toward the 100% checklist, so finishing does not end the game. My advice is order, not mechanics: close every character strand and the Chapter 1 meditation first, since none of the sources I read says which strands stay open after the final mission. Keep a manual save from before it. Run it last, then switch to the checklist at Progress > Stats > 100% Completion.",
+   "steps": [
+    "Clear the character strands and the Chapter 1 meditation first.",
+    "Save manually before the final mission.",
+    "Open the 100% checklist after the credits."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    }
+   ]
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 2,
+   "hours": 0.5,
+   "guide": "Breakfast Run is a story mission, and everything I can responsibly say about it comes from the list rather than a walkthrough. Fextralife lists it among the major missions that award a bronze on completion, and GAMES.GG's list shows the same requirement with no medal or optional condition attached. The practical advice is about the file: with no replay and a 15-slot save system, save manually first, play the mission normally and watch for the notification before you walk away. If you meet an optional prompt during it, take the default route unless it is tied to a trophy. This entry carries no missable flag in either source.",
+   "steps": [
+    "Save manually before starting Breakfast Run.",
+    "Complete the mission without leaving it early.",
+    "Confirm the trophy appeared."
+   ],
+   "sources": [
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 2,
+   "hours": 1.5,
+   "guide": "The Cartel Heist is one of the heist-class story missions that Fextralife names when it summarises how bronze trophies arrive through the narrative. GAMES.GG's list adds no condition beyond completing it, and its roadmap says story missions do not require gold medals for the platinum. A heist is the kind of mission where a bad outcome costs you time, and since there is no replay, I would treat it as a save-before moment. Finish it, take the notification, and move on. Neither source marks it as missable or ties it to a choice, so do not hold the rest of your run for it.",
+   "steps": [
+    "Create a manual save before the heist.",
+    "Complete The Cartel Heist.",
+    "Resume the story or the strands."
+   ],
+   "sources": [
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 2,
+   "hours": 0.5,
+   "guide": "Child's Play is another mission trophy that unlocks on completion and nothing more. The two sources I read, Fextralife's trophy page and GAMES.GG's list, give only the official line, which is to complete the mission, and neither describes its location or steps, so I will not invent any. What I can add is how to handle it: story missions have no difficulty setting and need no medals, per GAMES.GG, so play for the ending, not the score. If you are juggling strands, finish this mission before you start a long free-roam session so a late-night crash does not lose a half-played save.",
+   "steps": [
+    "Save before the mission.",
+    "Complete Child's Play.",
+    "Check Progress to see that it registered."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 4,
+   "hours": 0.5,
+   "guide": "Headliners awards DWNFALL, a bronze for finishing the mission. Both Fextralife and GAMES.GG list it as an ordinary completion trophy, hidden on PlayStation, so its name and description only appear once you have it. Nothing I read gives the mission's setting or a trick to it, so there is none here to repeat. Treat it as part of the late story run: if there are character strands you still want, clear them before you push on, and keep a manual save from just before this mission since the game offers no mission replay. After the notification, return to whatever strand or errand you were working.",
+   "steps": [
+    "Make a manual save before Headliners.",
+    "Complete the mission.",
+    "Return to open strands."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 4,
+   "hours": 0.5,
+   "guide": "VCIA Takedown is a mission trophy, and its name echoes the airport abbreviation GAMES.GG uses for Catch Me If You Can; neither page says where this mission is set, so do not assume. Both pages simply ask you to complete it. It is hidden on PlayStation, so only the name and the line are visible until you earn it. If the airport is on your mind, remember that the unscheduled-departure trophy is a free-roam plane job, not part of this mission, according to GAMES.GG. Save before starting, play the mission through, and carry on. It is not flagged as missable anywhere I read.",
+   "steps": [
+    "Save manually first.",
+    "Complete VCIA Takedown.",
+    "Do the free-roam airport job separately."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 4,
+   "hours": 1.5,
+   "guide": "Operation Savage Glory is listed by both sources as a plain completion trophy, hidden on PlayStation. My notes stop where the sources do: Fextralife's page and GAMES.GG's list give the official line and nothing about the mission's route. What matters is timing. It sits among the late story trophies, so before you commit, finish character strands you want and keep a manual save, since the game has no mission replay and the credits are not the end of the checklist. GAMES.GG adds that free-roam stays open after the story, so anything you skip here can still be earned afterwards. Nothing in either page suggests a medal or a timed objective is involved.",
+   "steps": [
+    "Finish open strands first.",
+    "Save manually before the mission.",
+    "Complete Operation Savage Glory."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
+   "hidden": false,
+   "kind": "exploration",
+   "missable": false,
+   "missableNote": null,
+   "count": 100,
+   "chapter": "Post-game",
+   "roadmapStage": 9,
+   "hours": 22,
+   "guide": "A Long Road is the in-game 100% checklist, and it only opens after the campaign, at Progress > Stats > 100% Completion. Progress earned earlier already counts, per GAMES.GG, so side work during the story is never wasted. Its thresholds are lower than you might fear: 300 stunts, 70 of the 80 challenges, 200 of 277 base-model vehicles, all eight bank vaults and 39 gang operations, 100 animals, and 42 gold shooting-range medals and drone time trials. Fextralife's meditation page puts it at 15 of 18 meditations. Do the trophy-only goals first, then let this checklist tell you what is left.",
+   "steps": [
+    "Finish the campaign to unlock the checklist.",
+    "Open Progress > Stats > 100% Completion.",
+    "Work the lowest remaining thresholds first."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: all meditation spot locations",
+     "url": "https://gta6.wiki.fextralife.com/All_Meditation_Spot_Locations"
+    }
+   ]
   },
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": 250,
+   "chapter": "Any time",
+   "roadmapStage": 8,
+   "hours": 11,
+   "guide": "Two hundred and fifty stunts is a long counter but a forgiving one: GAMES.GG says the tally mixes Stunt Jumps, Under the Bridges, Knife Flights and Base Jumps, so pick whichever category you find easiest instead of clearing one type completely. Keep going after the trophy, because the 100% checklist asks for 300 and the same stunts count for both. Mount a fast vehicle or the plane you will use for other trophies and pull stunts as you pass them. The sources give no stunt locations that I could verify, so use the map's progress view to see which are done. Do it alongside exploration, not as its own session.",
+   "steps": [
+    "Mix the four stunt types freely.",
+    "Check the counter in the Progress menu.",
+    "Continue to 300 for 100% completion."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    }
+   ]
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 7,
+   "hours": 1.5,
+   "guide": "The description says to try each type of activity once, and the sources I read do not list the types, so the safest way to clear it is by stacking the other trophies. Fishing against Cal (Baited My Tackle), an arcade game (Stick Fiddler), a drone race (Top Fun), a shooting-range challenge (The Shootist) and a race all appear elsewhere in this list, so you will probably tick most types as a by-product. Check the Progress menu for any activity type still showing untried. Leave it until you reach the free-roam phase, since it is a one-attempt-each trophy that needs no skill or score.",
+   "steps": [
+    "Do each activity trophy's first attempt.",
+    "Look for untried types in the Progress menu.",
+    "Play one of each missing type."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": 42,
+   "chapter": "Any time",
+   "roadmapStage": 7,
+   "hours": 4.5,
+   "guide": "Gold medals on every shooting-range challenge is a silver, and GAMES.GG's completion guide puts the number at 42 for the in-game 100% checklist, so the trophy and the checklist ask for the same thing here. You can retry a range challenge freely, which makes this a practice trophy, not a missable one. Pick the weapon for each challenge deliberately, shoot a few attempts per sitting, and move on before frustration sets in. The sources give no range locations or scoring thresholds, so use the challenge screen's medal targets as your guide. Clearing it also moves you toward A Long Road.",
+   "steps": [
+    "Visit each range and read its gold target.",
+    "Retry until each challenge is gold.",
+    "Track the 42 total in the Progress menu."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 7,
+   "hours": 4.5,
+   "guide": "Top Fun asks for one win at every Top Fun drone-race location. GAMES.GG's completion guide lists drone time trials at 42 for 100% completion, which is a different and larger target than this trophy, so do not confuse the two counters. The practical order is to win each location once, then return to bank the extra time trials for A Long Road. I did not find a source giving the location list or the course layouts, so use the map's marked drone-race icons and the Progress menu to see what is left. Races can be retried, so there is no point at which this closes.",
+   "steps": [
+    "Open the map's drone race markers.",
+    "Win one race at each location.",
+    "Return later for the 100% time trials."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": 20,
+   "chapter": "Any time",
+   "roadmapStage": 7,
+   "hours": 6,
+   "guide": "Twenty different races means variety, not repetition: winning the same race twenty times is not the count. The sources I read give no list of races or where they start, so find them as you explore and use the Progress menu to see which are completed. Pick fast, familiar vehicles, and retry any race you lose; there is no source suggesting a race can disappear. This pairs naturally with Master of None, since a race is one of the activity types, and with exploring, since races reveal parts of the map. Do a couple at a time between longer trophy sessions.",
+   "steps": [
+    "Find races from map markers.",
+    "Win 20 different ones.",
+    "Track the total in Progress."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 7,
+   "hours": 0.5,
+   "guide": "Baited My Tackle needs one win against Cal in a fishing challenge. The sources I read confirm the trophy and its wording but give neither Cal's location nor a technique, so find him through the map and the phone and do not trust a pinned spot from me. A single win is enough, and losing costs nothing but time. Because fishing is also an activity type for Master of None, treat this as a two-for-one. Do it in a calm stretch between story missions or as a break during cleanup. It carries no missable flag in the GAMES.GG or Fextralife lists, so there is no deadline attached.",
+   "steps": [
+    "Find Cal's fishing challenge.",
+    "Win one round against him.",
+    "Use the same session for Master of None."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 7,
+   "hours": 0.5,
+   "guide": "Completing a single arcade game is the lightest activity trophy in the list. Both GAMES.GG and Fextralife show it as one arcade game finished, with no score target, so reaching the game's end screen is enough. The sources do not say where the arcades are; use any arcade you pass. Pick the shortest-looking cabinet, and treat the session as part of Master of None, since an arcade game is its own activity type. Do not spend a score chase on it: the trophy says complete, not top the board. If a cabinet seems too long, try another before you give up.",
+   "steps": [
+    "Walk into any arcade.",
+    "Play one game through to completion.",
+    "Mark Master of None progress."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Andy's strand ends with its final mission, and no source I read says how long it stays open. Start Andy's calls as soon as they arrive and finish the strand before the final mission, trophy 7.",
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 3,
+   "hours": 3,
+   "guide": "Road to Rehabilitation pays out for the final mission of Andy's strand. GAMES.GG states that Andy's questline is optional and does not count toward Strangers & Freaks, so it is its own project: you get this trophy by finishing his whole run, not by dipping in. Track it under Progress > Characters; GAMES.GG shows that menu for Kenton and the same pattern applies. The sources do not give Andy's missions or locations, and I will not invent them. The advice is order: because a strand can end if you let the story run ahead, take Andy's calls promptly and clear him before the final mission.",
+   "steps": [
+    "Accept Andy's calls when they arrive.",
+    "Check progress under Progress > Characters.",
+    "Finish his strand before the final mission."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    }
+   ]
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Kenton's strand begins after Island Dreams in Chapter 1 and ends with its final mission; no source says when it closes. Start it early and finish it before the final mission, trophy 7.",
+   "count": 7,
+   "chapter": "Chapter 1+",
+   "roadmapStage": 3,
+   "hours": 4.5,
+   "guide": "GAMES.GG's collectibles guide describes Kenton's strand in some detail, which makes it the best-sourced of the character trophies. After Island Dreams in Chapter 1 his calls point you to the green KR marker in Key Lento. His treasure-diving run covers seven shipwrecks, with purple chest icons on the map; in each batch you go to the dive site, use the metal detector to dig up buried treasure on the ocean floor, and return it to Kenton before his next call. Track it under Progress > Characters > Kenton Rees. The trophy waits for his final mission, so do not stop partway.",
+   "steps": [
+    "Meet Kenton at the KR marker in Key Lento.",
+    "Detect treasure at each shipwreck and return it.",
+    "Take his final mission before the story's end."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Billy's strand ends with its final mission; no source says when it closes. Finish it before the final mission, trophy 7, and do not skip his calls.",
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 3,
+   "hours": 3,
+   "guide": "The Lone Rider is Billy's, and GAMES.GG says plainly that his optional questline does not count toward Strangers & Freaks. That has a practical consequence: time spent on Billy does not shrink the stranger-strand target, so budget for him separately. The two sources I read name the trophy but not Billy's missions or where they begin, so rely on the in-game phone and the Progress > Characters menu to see how far you are. Treat him as a strand you must finish by the end of the campaign, because an unfinished strand is the most likely casualty of rushing the final chapters.",
+   "steps": [
+    "Answer Billy's calls promptly.",
+    "Follow his strand in Progress > Characters.",
+    "Complete his final mission before the story ends."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": true,
+   "missableNote": "Strangers can finish, fail or drop out of reach as the story advances, and no source I read gives the cut-offs. Andy, Billy and Tyrone do not count, so spend your time on other strands, and keep a tally against the trophy tracker.",
+   "count": 8,
+   "chapter": "Any time",
+   "roadmapStage": 3,
+   "hours": 9,
+   "guide": "Strangers & Freaks is a silver for eight mission strands with strangers across Leonida. GAMES.GG is the useful source here: Andy, Billy and Tyrone have optional questlines that do not count, and the trophy has its own tracker that counts qualifying strands, not every contact you meet. So check that tracker rather than a mental tally. The sources do not list the strangers, and I will not guess. The efficient plan is to take every stranger encounter you meet on the way through the story, finish each strand as it comes, and mop up what is left after the credits.",
+   "steps": [
+    "Open the trophy tracker for the strand count.",
+    "Skip Andy, Billy and Tyrone for this count.",
+    "Finish new strangers as you meet them."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Randy's strand ends with its final mission; no source says when it closes. Finish it before the final mission, trophy 7.",
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 3,
+   "hours": 3.5,
+   "guide": "Supply & Demand is the trophy for Randy's final mission. Neither Fextralife nor GAMES.GG breaks down his missions, and GAMES.GG does not say whether his questline counts toward Strangers & Freaks, so check the in-game tracker if you plan to rely on him there. What the official wording does tell you is that the trophy waits at the end of a multi-mission strand, so each of his calls matters. Take them in order, keep a manual save before each mission, and do not let the final chapters run ahead of him. If he disappears from your phone before the end, you have probably gone too far.",
+   "steps": [
+    "Take every call from Randy.",
+    "Check Progress > Characters for his status.",
+    "Finish his last mission before the story's final mission."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Tyrone's strand ends with its final mission; no source says when it closes. Finish it before the final mission, trophy 7.",
+   "count": null,
+   "chapter": "Story",
+   "roadmapStage": 3,
+   "hours": 3,
+   "guide": "Spin On This! comes from Tyrone's final mission. GAMES.GG notes his optional questline does not count toward Strangers & Freaks, so he is a separate investment and you should plan him alongside the story, not in place of strangers. No source I read describes his missions or where to find him, so find him from the in-game phone and the Progress > Characters menu. As with every character strand, the sensible approach is to accept his calls promptly and finish him before the final mission, since no source says how long an unfinished strand stays open. A manual save before his closing mission is cheap insurance.",
+   "steps": [
+    "Accept Tyrone's calls promptly.",
+    "Track him under Progress > Characters.",
+    "Finish his final mission before the credits."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": true,
+   "missableNote": "Lucia's meditation invitation at Jason's house only appears in Chapter 1. Check the kitchen the morning after Down to Earth, follow her to the balcony and press Accept before you finish Chapter 1. Fextralife notes players report a Chapter 2 retry; GAMES.GG calls whether it counts unconfirmed, so do not rely on either.",
+   "count": 18,
+   "chapter": "Chapter 1+",
+   "roadmapStage": 1,
+   "hours": 2,
+   "guide": "Positive Mental Attitude counts 18 meditation events, split between Jason and Lucia across ten locations, according to Fextralife. The first is a conversation at Jason's house in Chapter 1: Lucia mentions it in the kitchen, leads you to the balcony and you Accept. The final spot, on Ascent Mountain in Lummox County, appears only after the others are done and counts once. Both characters can meditate after Chapter 2's Coffee Break. Do the house event first, since it is the only one with a deadline, then work the spots by county. Progress > Collections > Exploration > Meditations tracks them.",
+   "steps": [
+    "Accept the house meditation in Chapter 1.",
+    "After Coffee Break, meditate with both characters.",
+    "Finish Ascent Mountain last."
+   ],
+   "sources": [
+    {
+     "label": "Fextralife GTA 6 wiki: all meditation spot locations",
+     "url": "https://gta6.wiki.fextralife.com/All_Meditation_Spot_Locations"
+    },
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "hidden": true,
+   "kind": "activities",
+   "missable": true,
+   "missableNote": "Bret's hunting strand ends with its final task; no source says when it closes. Take his calls as they come and finish the hunt before the final mission, trophy 7.",
+   "count": 1,
+   "chapter": "Story",
+   "roadmapStage": 3,
+   "hours": 1.5,
+   "guide": "Fair Game asks you to hunt a unique animal for Bret. That is the entire official description, and neither Fextralife nor GAMES.GG elaborates, so there is no location or weapon advice here that I can stand behind. What I can say is how to handle it: hunting needs time and the right place, so accept Bret's call when it arrives, check Progress > Characters for his task, and do it while the strand is open instead of leaving it for the cleanup. GAMES.GG says the 100% checklist counts animals through binoculars without killing them, which is a different goal, so do not confuse the two.",
+   "steps": [
+    "Accept Bret's call.",
+    "Track the unique animal's marker on the map.",
+    "Complete the hunt before the story ends."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    }
+   ]
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "count": 3,
+   "chapter": "Any time",
+   "roadmapStage": 8,
+   "hours": 7.5,
+   "guide": "Three completed card sets is the target, not three hundred cards. GAMES.GG's collectibles guide lists 480 cards across 18 sets and gives the cheapest combination by card count: Backyard Wrestling (12), Delights Dancers (18) and one 24-card set such as Vice City Flamingos, 54 cards in all. Its own caveat matters, though: that is the lowest count, not the shortest route, so check which set you are already closest to before you commit. Mark each finished set separately; total cards do not substitute for sets. The in-game 100% checklist wants 15 sets, so anything you collect past three is not wasted.",
+   "steps": [
+    "Check which sets you have progress in.",
+    "Complete three, starting with the smallest.",
+    "Continue toward 15 for 100%."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    },
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    }
+   ]
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "count": 100,
+   "chapter": "Any time",
+   "roadmapStage": 8,
+   "hours": 7.5,
+   "guide": "WAiNK It at 100 locations is a scanning trophy, and GAMES.GG's collectibles guide gives the pool: 31 landmarks, 35 curiosities and 23 sculptures, 89 environmental scans in all. That is fewer than 100, so the hundred must include other WAiNK-tagged finds; the guide does not spell out which, so verify with the in-game counter before you decide you are done. Keep scans in their own notes, separate from card sets, as the guide advises, and do not confuse vehicle scanning with scanning places. Scan as you pass instead of mapping a route, and let the Progress database show what is left.",
+   "steps": [
+    "Scan landmarks, curiosities and sculptures as you pass them.",
+    "Watch the trophy counter, not the category totals.",
+    "Keep scan notes separate from cards."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    },
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": 50,
+   "chapter": "Any time",
+   "roadmapStage": 8,
+   "hours": 9,
+   "guide": "Fifty challenges is the trophy, and GAMES.GG shows 100% completion wants any 70 of the 80, so every challenge past 50 still pays off. The sources do not list the challenges themselves, so open the challenge list in the menu and note which are cheap: some will be finished by playing other trophies, such as stunts or races. Work the ones that overlap with trophies you are chasing and leave the awkward ones for later. Because 70 of 80 is the 100% target, there are ten you can skip permanently; pick them by annoyance, not by number. Count progress in the menu and ignore any challenge that needs a long setup.",
+   "steps": [
+    "Open the challenge list.",
+    "Complete challenges that overlap other trophies first.",
+    "Aim for 70 of 80 for 100% completion."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    }
+   ]
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "hidden": false,
+   "kind": "combat",
+   "missable": true,
+   "missableNote": "Needs your partner beside you when you lose a 4-star Wanted Level, and no source says when partner play stops being available. Do it in a stretch where the partner is with you, and combine it with a bank-vault robbery.",
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 5,
+   "hours": 0.5,
+   "guide": "Hot Together asks you to lose a 4-star Wanted Level with your partner and escape the heat. GAMES.GG gives the overlap that makes it easy: large bank-vault robberies trigger a 4-star level, so your Maximum Withdrawal attempts can also count here. It also says clearing the flashing search area is not enough; you must get out of the red heat zone as well. The train tunnel north of Ambrosia in Kelly County gives cover from helicopters and makes pursuit harder for police cars. Bring your partner for the whole chase, or the trophy will not count. A calm, wide road beats a tight alley for the getaway.",
+   "steps": [
+    "Pull a bank-vault robbery with your partner.",
+    "Reach the 4-star Wanted Level.",
+    "Escape the heat zone, using the Ambrosia tunnel if needed."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "hidden": false,
+   "kind": "combat",
+   "missable": true,
+   "missableNote": "Needs your partner and an unbroken Wanted Level across three shops. One lapse and the attempt resets. No source says when partner play ends, so try it while they are with you.",
+   "count": 3,
+   "chapter": "Chapter 3+",
+   "roadmapStage": 5,
+   "hours": 0.5,
+   "guide": "Retail Therapy is the reverse of Hot Together: instead of escaping, you must keep police on you. GAMES.GG says to rob three shops with your partner while the red-and-blue pursuit stays active between jobs; sitting in the red heat zone without an active Wanted Level does not count. The trophy can unlock about thirty seconds after you leave the final shop, so do not abandon a successful attempt right away. Plan three shops in a tight line, drive between them without shaking the cops, and keep your partner close. If the level drops, start a fresh run of three. Pick shops with clear lanes between them so the chase stays unbroken.",
+   "steps": [
+    "Pick three shops close together.",
+    "Keep the Wanted Level active between jobs.",
+    "Wait about 30 seconds after the last shop."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "count": 100,
+   "chapter": "Any time",
+   "roadmapStage": 8,
+   "hours": 7.5,
+   "guide": "Whip It Good needs 100 vehicle discoveries, and GAMES.GG's completion guide sets the 100% checklist target at scanning 200 of 277 base-model vehicles, so the trophy is the halfway point. The collectibles guide warns that vehicle scanning is a different interaction from scanning places for WAiNK, so do not expect the two counters to move together. Scan whatever you drive or pass: traffic, parked cars and your own garage all give discoveries, and stolen vehicles registered through Moses overlap with On the Spot. Keep the Progress database open to see the count rather than trusting memory. Keep the Progress database open while you drive so each new scan is logged.",
+   "steps": [
+    "Scan every new vehicle you meet.",
+    "Check the discovery count in Progress.",
+    "Continue to 200 for 100% completion."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    },
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    }
+   ]
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "hidden": false,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": 5,
+   "chapter": "Any time",
+   "roadmapStage": 5,
+   "hours": 0.5,
+   "guide": "Gunslinger needs five enemies in a single use of Combat Focus. GAMES.GG gives the control and the method: while aiming a firearm press L3 and R3 together to start Combat Focus; adrenaline extends its duration, and an assault rifle helps you chew through a clustered gang group before the bar drains. The key word is single: kills across separate activations do not add up. Find a group of gang enemies standing close, start the focus only when you can already see them, and use the rifle. Fextralife lists it as a plain combat trophy with no missable flag, so you can retry freely.",
+   "steps": [
+    "Find a clustered group of gang enemies.",
+    "Aim, then press L3 and R3 together.",
+    "Drop five before the focus bar empties."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "hidden": true,
+   "kind": "exploration",
+   "missable": false,
+   "missableNote": null,
+   "count": 1,
+   "chapter": "Any time",
+   "roadmapStage": 5,
+   "hours": 0.5,
+   "guide": "Catch Me If You Can needs a large passenger plane that is attached to a boarding bridge at VCIA, not one parked elsewhere on the airfield. GAMES.GG suggests the plane at terminals E3 and E4. Get in, go upstairs to the cockpit, reverse toward the runway and take off. The unlock is delayed: fly about a kilometre away from the airport before it appears. Expect airport security to react, so have a plan for the Wanted Level. Do it in free-roam, after the campaign if you prefer, since no source I read ties it to a story window. Keep a manual save beforehand in case airport security gets the better of you.",
+   "steps": [
+    "Go to terminals E3 or E4 at VCIA.",
+    "Board the plane at the bridge and take off.",
+    "Fly about 1 km out for the delayed unlock."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "hidden": true,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 6,
+   "hours": 0.5,
+   "guide": "The description, Kinda hot in these Rhinos, is a riddle, and I found no source that decodes it, so what follows is inference and not a verified method. Rhinos are tanks in this series, and the wording suggests a Rhino and police heat. Neither GAMES.GG nor Fextralife lists the trophy's steps, so treat any claim you read elsewhere with care until the trophy actually pops. A sensible experiment is to find a tank, take it into a Wanted Level and see what the counter or notification shows. Because the trophy is hidden on PlayStation, the game will not hint at it either. Come back to this after the main cleanup.",
+   "steps": [
+    "Find a Rhino tank in free-roam.",
+    "Try it while police are chasing you.",
+    "Check whether the trophy fires, and adjust."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "hidden": false,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": 1,
+   "chapter": "Chapter 3+",
+   "roadmapStage": 5,
+   "hours": 0.5,
+   "guide": "Sneakthief is a one-time jewelry-store job, and GAMES.GG spells out a quiet route. Finish the Chapter 3 mission Yasmani's Jewelry Jobs to get the Snap Gun, use it on the locked back door of a jewelry store, find the safe-code note inside and open the safe without triggering the alarm. Kicking the door sets the alarm off and fails the idea. It names Richardson Jewelry & Diamonds in Vice City as a suitable target. Go in at a calm moment, keep your approach slow and leave through the same door. Treat the Snap Gun as the unlock: without the mission you cannot do it.",
+   "steps": [
+    "Play Yasmani's Jewelry Jobs for the Snap Gun.",
+    "Pick the lock on the back door, never kick it.",
+    "Read the note and open the safe quietly."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "hidden": false,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": 5,
+   "chapter": "Chapter 4+",
+   "roadmapStage": 5,
+   "hours": 3,
+   "guide": "Maximum Withdrawal is a silver for five bank-vault robberies with escapes. GAMES.GG says they unlock through the optional Chapter 4 mission That's Where The Money Is…: follow the security van to a bank and walk in while the guard has the vault open. Bring your partner, because you cannot carry all the bags alone. Each robbery triggers a 4-star Wanted Level, so the same jobs can earn Hot Together, and you must clear the red heat zone to count as escaped. The 100% checklist wants all eight vaults, so keep going after five. Keep a car ready for the exit.",
+   "steps": [
+    "Play That's Where The Money Is…",
+    "Follow the van and rob five vaults with your partner.",
+    "Escape the heat zone after each one."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    },
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    }
+   ]
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "hidden": false,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": 1,
+   "chapter": "Any time",
+   "roadmapStage": 5,
+   "hours": 0.5,
+   "guide": "A Classic Blitz Play is a one-time armored-truck robbery with an escape. GAMES.GG's roadmap stresses what escaping means: clearing the immediate flashing search area is not enough, you must leave the red heat zone as well, and the train tunnel north of Ambrosia in Kelly County gives cover from helicopters. The sources I read do not say where armored trucks drive, so keep an eye out for one while you travel and use whatever heavy weapon you have for the stop. Make sure you have a fast vehicle waiting and a route to the tunnel before you hit it. It overlaps with the other getaway trophies.",
+   "steps": [
+    "Spot an armored truck and stop it.",
+    "Take the cash and run.",
+    "Escape the red heat zone, not just the search area."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
+   "hidden": false,
+   "kind": "exploration",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Post-game",
+   "roadmapStage": 8,
+   "hours": 14.5,
+   "guide": "The Goodtime State asks you to explore all of Leonida, and the sources I read do not say what counts as an area or how many there are, so I will not give a number. GAMES.GG organises the map into Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga National Park, and Fextralife names Mariana, Kelly, Lummox and Leonard counties. Use those as your sweep order, and rely on the map's progress display to show what remains. Exploration is also where scans, stunts, meditations and animals turn up, so treat this as the sweep that carries half the cleanup.",
+   "steps": [
+    "Sweep one region at a time.",
+    "Check the exploration progress on the map.",
+    "Collect cards, scans and meditations on the way."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: collectible locations and what to know",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: all meditation spot locations",
+     "url": "https://gta6.wiki.fextralife.com/All_Meditation_Spot_Locations"
+    }
+   ]
   },
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "hidden": false,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": 9,
+   "chapter": "Post-game",
+   "roadmapStage": 5,
+   "hours": 4.5,
+   "guide": "Pest Control needs one robbed Illegal Operation for each gang, nine gangs in all according to GAMES.GG's completion table, which also says the 100% checklist wants all 39 operations. So this trophy is just the shallow end of a much bigger list: pick the nearest operation for each gang and leave the rest for later. Fextralife has a page of gang operation locations that you can open when you are ready to plan. Each robbery brings gang enemies, so be well armed and have an exit. Note which gangs you have already hit in the Progress menu, since repeating the same gang gains nothing here.",
+   "steps": [
+    "Find one operation per gang.",
+    "Rob each and escape.",
+    "Track gangs already hit in Progress."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: how long to complete GTA 6",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/how-long-to-complete-gta-6/"
+    },
+    {
+     "label": "Fextralife GTA 6 wiki: trophy and achievement guide",
+     "url": "https://gta6.wiki.fextralife.com/Trophy_and_Achievement_Guide"
+    }
+   ]
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "hidden": true,
+   "kind": "exploration",
+   "missable": false,
+   "missableNote": null,
+   "count": 1,
+   "chapter": "Any time",
+   "roadmapStage": 6,
+   "hours": 0.5,
+   "guide": "In The Beginning… is a hidden trophy for having a cocktail with a view on Ocean Beach. Neither source I read says where to buy the drink or which spot qualifies, and I will not make one up. Treat it as a social-activity trophy: look for a beachfront bar or seating area at Ocean Beach, order a cocktail and stay for the view. Because it is hidden on PlayStation, the game will not help you, so test one location at a time and watch for the notification. It sits well beside other short one-offs such as the showroom smash and the bowling alley, so do them in one pass.",
+   "steps": [
+    "Go to Ocean Beach.",
+    "Find a bar with a view and order a cocktail.",
+    "Stay seated until the trophy fires."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "hidden": true,
+   "kind": "exploration",
+   "missable": false,
+   "missableNote": null,
+   "count": 1,
+   "chapter": "Any time",
+   "roadmapStage": 6,
+   "hours": 0.5,
+   "guide": "Capital Offense wants you to smash your way out of a vehicle showroom in classic style. The sources I read give only the official line and no showroom location or vehicle, so this is an experiment: find a showroom with a drivable car and a glass front, take the car and drive through the window. The classic style is probably the plain version of that, though no source confirms it. Do it when you can afford a Wanted Level, with an escape route planned. It is hidden on PlayStation, so there is no other hint. Pair it with other one-off crimes in the same session.",
+   "steps": [
+    "Find a vehicle showroom.",
+    "Take a car and drive through the front window.",
+    "Escape any Wanted Level."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "hidden": true,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": 3,
+   "chapter": "Chapter 2+",
+   "roadmapStage": 5,
+   "hours": 0.5,
+   "guide": "Let's Go Bowling is a robbery of Kingpin Bowling in Port Gellhorn, and GAMES.GG gives its three valuables: a luxury watch in the southeast office, a Gutterball Moreland 850 shotgun on the northeast table and the contents of the safe in the northeast hallway office. Bring Sticky Bombs for the safe, then escape the police. The guide adds that valuables you collected on an earlier visit still count if you return during a later robbery, so a failed run is not wasted. Go in prepared, take all three and leave. Keep a getaway car close to the entrance, because the escape is part of the trophy. Check the Progress menu afterwards to confirm the robbery counted.",
+   "steps": [
+    "Bring Sticky Bombs to Kingpin Bowling.",
+    "Take the watch, the shotgun and the safe's contents.",
+    "Escape the police."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "hidden": true,
+   "kind": "activities",
+   "missable": true,
+   "missableNote": "Needs both Jason and Lucia at maximum Strength. No source I read says it closes, but the partner only trains beside you when you visit fitness clubs together, so train as a pair, not alone.",
+   "count": 2,
+   "chapter": "Post-game",
+   "roadmapStage": 9,
+   "hours": 6,
+   "guide": "Personal Best is hidden on PlayStation behind the line, A partnership with mass appeal, and GAMES.GG decodes it: reach maximum Strength with both Jason and Lucia. The detail that matters is the second character. Visit fitness clubs together so the inactive partner trains alongside the one you are controlling; otherwise you will be doing the work twice. Fitness also supports other stats, but the trophy only wants Strength. Start early, because workouts take time, and check each character's stat screen to see which one lags. It is not flagged as time-limited in the sources, but one lopsided stat will hold the platinum up.",
+   "steps": [
+    "Train Strength at fitness clubs.",
+    "Go as a pair so both characters gain.",
+    "Check each stat screen for maximum Strength."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "hidden": true,
+   "kind": "activities",
+   "missable": true,
+   "missableNote": "Counts choices that affect your Criminal Profile, and a mission choice is gone once made because there is no replay. You cannot hard-lose the count, since robberies and fights keep adding to it, but take story choices knowingly and save before the big ones.",
+   "count": 500,
+   "chapter": "Any time",
+   "roadmapStage": 9,
+   "hours": 7.5,
+   "guide": "Actions Speak Louder wants 500 actions that affect your Criminal Profile, according to GAMES.GG, which also says to leave it until other jobs are done because robberies and enemy encounters feed it naturally. That means a separate grind is probably unnecessary. Check the profile stat from time to time, but do not chase it. The count is the pace; the note about choices is the risk: a story choice, made once, cannot be rewound. If you want to see different outcomes, keep separate manual saves. If you are short at the end, run a few robberies, which also close out other trophies.",
+   "steps": [
+    "Play normally and watch the Criminal Profile count.",
+    "Save before story choices.",
+    "Top up with robberies if you are short."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "hidden": true,
+   "kind": "exploration",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 6,
+   "hours": 0.5,
+   "guide": "Bad Luck, I Guess, with the line Second time's the charm, is hidden on PlayStation and the sources I read do not explain it. The wording suggests failing something once and then succeeding at the same thing, but that is inference, not a verified method, so keep it as a lead and do not plan a session around it. You are most likely to trigger it by accident: fail a mission step, a race or a robbery, and retry it. Watch the notification when you do. If it still has not appeared after the cleanup, deliberately fail and retry a short activity such as an arcade game or a quick race.",
+   "steps": [
+    "Fail something short on purpose.",
+    "Retry and succeed.",
+    "Check whether the trophy fires."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "hidden": true,
+   "kind": "exploration",
+   "missable": false,
+   "missableNote": null,
+   "count": null,
+   "chapter": "Any time",
+   "roadmapStage": 6,
+   "hours": 0.5,
+   "guide": "The Truth Is Out There carries the line, What the hell just happened?, and neither of the pages I read explains it. The title reads like a strange or paranormal encounter, but that is a guess from the name, and I will not name a location. The best way to meet it is the way the description invites: explore widely, especially at night and off the main roads, and watch for events that do not fit the map's usual activities. It is hidden on PlayStation, so nothing will warn you. Leave it for the exploration sweep and come back with a targeted search only if it is the last trophy missing.",
+   "steps": [
+    "Explore off the main roads and at night.",
+    "Investigate odd map events.",
+    "Check the trophy list when something strange happens."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "hidden": true,
+   "kind": "combat",
+   "missable": false,
+   "missableNote": null,
+   "count": 1,
+   "chapter": "Any time",
+   "roadmapStage": 6,
+   "hours": 0.5,
+   "guide": "Ten Pin means to bowl 'em over with a melee drive-by, and the official line is the only description I found. The pieces are clear enough: drive past a target and hit them with a melee weapon from the vehicle. The sources do not say where to do it or what counts as bowled over, so find a pedestrian or enemy standing near a road, pass at moderate speed and swing. A bike or an open-top car makes it easier. Keep an eye out for a Wanted Level, because hitting civilians draws police. It is hidden on PlayStation and can be retried at will.",
+   "steps": [
+    "Equip a melee weapon.",
+    "Drive past a target in an open vehicle.",
+    "Swing from the vehicle and knock them down."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": 250000,
+   "chapter": "Chapter 3+",
+   "roadmapStage": 7,
+   "hours": 4.5,
+   "guide": "Dime on the Dollar asks for $250,000 earned by laundering Marked Bills through your contacts. The sources I read do not describe the laundering system itself, so I cannot say which contacts take the bills or at what rate, and I will not invent one. What you can do is read the contact's screen for the earn total and watch it climb. Marked Bills come from robberies, so this trophy follows naturally from Maximum Withdrawal, Pest Control and the armored truck, and doing those first gives you the supply. Plan it as a background goal during the heist phase. Keep an eye on how much you have already earned so you know when to stop.",
+   "steps": [
+    "Rob targets that yield Marked Bills.",
+    "Launder them through your contacts.",
+    "Watch the earned total reach $250,000."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": 100000,
+   "chapter": "Any time",
+   "roadmapStage": 7,
+   "hours": 2,
+   "guide": "Treat Yo Self wants $100,000 spent across all shops. GAMES.GG's advice is the useful warning: reserve $160,000 for the garage purchases before you spend freely on hairstyles, clothes or tattoos. Garage money and shop money are separate goals, so spend on the garages first and let clothes and cosmetics fill the rest. The sources do not say whether money paid to the real-estate app counts as a shop; check the trophy tracker to see which purchases move it. Robberies fund this naturally, so do it mid-cleanup. Compare your total spent in the menu against $100,000 occasionally. Shops cover clothing, tattoos and hairstyles, so a single splurge may finish most of it.",
+   "steps": [
+    "Reserve cash for garages first.",
+    "Spend the remainder in shops.",
+    "Watch the spend total as you buy."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "missableNote": null,
+   "count": 8,
+   "chapter": "Chapter 2+",
+   "roadmapStage": 7,
+   "hours": 1.5,
+   "guide": "Little Boxes needs all the purchasable garage properties, and GAMES.GG is exact: eight garages count, they cost $160,000 together, and the four story garages do not need buying. Purchases open through the Vice City Real Estate phone app after the Chapter 2 mission Daily Driver. Save the money before you spend freely on cosmetics. More parking also supports On the Spot, because you need room to register ten vehicles. Order does not matter, so buy the cheapest first as soon as you can afford them. Check the app's list for ones you have not bought. It is the easiest property trophy in the list once the money is in hand, so do it as soon as cash allows. Keep a note of which you own.",
+   "steps": [
+    "Finish Daily Driver in Chapter 2.",
+    "Open the Vice City Real Estate app.",
+    "Buy all eight garages."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "count": 10,
+   "chapter": "Chapter 2+",
+   "roadmapStage": 7,
+   "hours": 1.5,
+   "guide": "On the Spot needs ten vehicles registered through the Scooter Bros app. GAMES.GG says the app unlocks through the Chapter 2 mission Moses: steal eligible vehicles, take them to Moses in Port Gellhorn, choose Respray and then Register. Cheap cars and bikes keep the cost down. At first Moses accepts only vehicles without trackers; later Chapter 3 progress allows Standard Tracker vehicles and registration at Pay 'n' Spray locations. You also need parking room for the cars, so Little Boxes helps. Steal ten of the same cheap model if you can, and register them in a batch. Keep a note of which bikes and cars you have already registered so you do not repeat one.",
+   "steps": [
+    "Finish Moses in Chapter 2.",
+    "Steal cheap, tracker-free vehicles.",
+    "Respray and register ten at Moses."
+   ],
+   "sources": [
+    {
+     "label": "GAMES.GG: GTA 6 trophy list and platinum roadmap",
+     "url": "https://games.gg/grand-theft-auto-vi/guides/complete-grand-theft-auto-6-trophy-list/"
+    }
+   ]
   }
  ]
 }
