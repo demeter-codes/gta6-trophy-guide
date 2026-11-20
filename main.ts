@@ -17,27 +17,49 @@
 import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildDossier } from './vendor/makefun-frontend.ts';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// Validate the guide's data before anything is written: all 55 trophies, each with a real guide, a source and a known grade.
-const GRADES = new Set(['platinum', 'gold', 'silver', 'bronze']);
-const data = JSON.parse(readFileSync(join(here, 'app', 'data', 'trophies.json'), 'utf8'));
-const list: any[] = Array.isArray(data) ? data : data.trophies;
-const problems: string[] = [];
-if (!Array.isArray(list) || list.length !== 55) problems.push(`expected 55 trophies, found ${Array.isArray(list) ? list.length : 'none'}`);
-for (const t of Array.isArray(list) ? list : []) {
-  const who = `#${t.id} ${t.name}`;
-  if (typeof t.guide !== 'string' || t.guide.trim() === '') problems.push(`${who}: blank guide`);
-  if (!Array.isArray(t.sources) || t.sources.length === 0 || t.sources.some((s: any) => !s?.label || !/^https:\/\//.test(s?.url ?? ''))) problems.push(`${who}: no usable source`);
-  if (!GRADES.has(t.grade)) problems.push(`${who}: unknown grade "${t.grade}"`);
+const knownGrades = new Set(['platinum', 'gold', 'silver', 'bronze']);
+const trophyData = JSON.parse(readFileSync(join(here, 'app', 'data', 'trophies.json'), 'utf8'));
+const trophies: any[] = Array.isArray(trophyData) ? trophyData : trophyData.trophies;
+const validationErrors: string[] = [];
+const frontendPath = join(here, 'vendor', 'makefun-frontend.ts');
+
+if (!Array.isArray(trophies) || trophies.length !== 55) {
+  validationErrors.push(`Expected 55 trophies; found ${Array.isArray(trophies) ? trophies.length : 'no list'}.`);
 }
-if (problems.length) {
-  console.error(`trophies.json failed validation:\n  ${problems.join('\n  ')}`);
-  process.exit(1);
+
+for (const trophy of Array.isArray(trophies) ? trophies : []) {
+  const label = `Trophy ${trophy.id} (${trophy.name})`;
+  if (typeof trophy.guide !== 'string' || trophy.guide.trim().length === 0) {
+    validationErrors.push(`${label} has a blank guide.`);
+  }
+  const hasUsableSource = Array.isArray(trophy.sources) && trophy.sources.some(
+    (source: any) => typeof source?.label === 'string'
+      && source.label.trim().length > 0
+      && typeof source.url === 'string'
+      && /^https:\/\//.test(source.url),
+  );
+  if (!hasUsableSource) {
+    validationErrors.push(`${label} has no source.`);
+  }
+  if (!knownGrades.has(trophy.grade)) {
+    validationErrors.push(`${label} uses unknown grade "${trophy.grade}".`);
+  }
 }
+
+if (!existsSync(frontendPath)) {
+  validationErrors.push(`Required make.fun frontend is missing: ${frontendPath}`);
+}
+
+if (validationErrors.length > 0) {
+  throw new Error(`Pre-flight checks failed (${validationErrors.length} issue${validationErrors.length === 1 ? '' : 's'}):\n- ${validationErrors.join('\n- ')}`);
+}
+
+console.log(`Pre-flight passed: ${trophies.length} trophies, all guides/sources/grades valid; make.fun frontend present.`);
+const { buildDossier } = await import('./vendor/makefun-frontend.ts');
 
 mkdirSync(out, { recursive: true });
 cpSync(join(here, 'app'), join(out, 'app'), { recursive: true });

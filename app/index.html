@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida field guide: the 55 trophies of Grand Theft Auto VI</title>
+<meta name="description" content="An offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="title">
+    <p class="folio">Field guide, PlayStation 5</p>
+    <h1>Leonida field guide</h1>
+  </div>
+  <nav class="tabs" aria-label="Views">
+    <a href="#view=checklist" data-view="checklist">Checklist</a>
+    <a href="#view=roadmap" data-view="roadmap">Roadmap</a>
+    <a href="#view=tracker" data-view="tracker">Tracker</a>
+  </nav>
+  <div class="summary">
+    <span id="head-count" class="num" aria-live="polite"></span>
+    <span
+      class="bar"
+      role="progressbar"
+      aria-label="Trophies earned"
+      aria-valuemin="0"
+      aria-valuemax="55"
+      aria-valuenow="0"
+    ><i id="head-bar"></i></span>
+    <button
+      id="next-unearned"
+      class="jump"
+      type="button"
+      aria-controls="view-checklist"
+      aria-keyshortcuts="N"
+    >
+      Next unearned
+    </button>
+    <span id="jump-status" class="sr-only" role="status" aria-live="polite"></span>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <section id="view-checklist" class="view" hidden>
+    <div class="controls">
+      <label class="field grow">
+        <span>Search <kbd aria-hidden="true">/</kbd></span>
+        <input
+          id="q"
+          type="search"
+          placeholder="Name or description"
+          autocomplete="off"
+          aria-label="Search trophy names and descriptions"
+          aria-keyshortcuts="/"
+        >
+      </label>
+      <label class="field"><span>Grade</span>
+        <select id="grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label class="field"><span>Arrange by</span>
+        <select id="arrange">
+          <option value="stage">Roadmap stage</option>
+          <option value="grade">Grade</option>
+        </select>
+      </label>
+      <label class="check"><input id="remaining" type="checkbox"> Remaining only</label>
+      <label class="check switch"><input id="spoilers" type="checkbox" role="switch" aria-label="Hide unearned story trophy spoilers"> <span>Spoilers: hide unearned story trophies</span></label>
+    </div>
+    <div id="kinds" class="chips" role="group" aria-label="Filter trophies by kind"></div>
+    <p id="kind-note" class="note" aria-live="polite" hidden></p>
+    <div class="split">
+      <div>
+        <p id="result-count" class="num meta" aria-live="polite"></p>
+        <ol id="list" class="list"></ol>
+      </div>
+      <aside id="detail" class="detail" aria-label="Selected trophy details" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section id="view-roadmap" class="view" hidden>
+    <div class="lede">
+      <h2>Roadmap to the platinum</h2>
+      <p>Nine stages, in the order the sources suggest. Each trophy sits in the stage where it is first worth chasing; missables are flagged where their window closes.</p>
+    </div>
+    <div id="stages"></div>
+  </section>
+
+  <section id="view-tracker" class="view" hidden>
+    <div class="lede"><h2>Tracker</h2><p>Progress is stored in this browser only, under one versioned key.</p></div>
+    <div id="tracker"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Unofficial fan guide. Trophy names and descriptions are the official PlayStation 5 list; guidance is summarised from the pages it names. Works offline, loads nothing from the network.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+<noscript><p class="note">This guide needs JavaScript to read its data file.</p></noscript>
+</body>
+</html>

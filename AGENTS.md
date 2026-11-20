@@ -74,4 +74,4 @@ Keep the starter's behaviour and add a real validation of your own: read `app/da
 
 ## Build notes
 
-Built as a three-file static app (checklist, roadmap, tracker, detail panel) over `app/data/trophies.json`; see README for design, sources and limits. Screenshots are Playwright renders at 1280x800.
+Built as a static field guide with a checklist, nine-stage roadmap, tracker and animated trophy detail panel, powered by `app/data/trophies.json`. It includes offline progress, JSON import/export, spoiler controls, keyboard shortcuts, print styles and accessible focus states. Four 1280x800 JPEG screenshots are headless Chrome captures; README documents the palette, controls, citations and storage key.
