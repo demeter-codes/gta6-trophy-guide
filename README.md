@@ -4,9 +4,9 @@
 [![rank](https://make.fun/badge/gta6-trophy-guide-01/demeter-codes/gta6-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
 [![reward](https://make.fun/badge/gta6-trophy-guide-01/demeter-codes/gta6-trophy-guide/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
 
-An offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI, set like a printed field
-guide: paper background, ink text, one rust accent, serif headings. It is plain HTML, CSS and JavaScript with no
-build step and nothing fetched at run time.
+An offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI, set like an editorial
+field guide: warm paper, ink text, one coral accent and medal-coloured grade pills. It is plain HTML, CSS and
+JavaScript with no build step and nothing fetched at run time.
 
 ## What is in it
 
@@ -17,7 +17,10 @@ build step and nothing fetched at run time.
   "Missable at this stage" callout where one applies.
 - **Tracker**: earned total, planning hours left, missables remaining, breakdowns by grade and stage, JSON export
   and import, and reset.
-- **Detail panel**: a guide, numbered steps, the missable warning and links to the sources behind the claims.
+- **Missables**: all 11 close-out trophies in stage order, with the loss point, what to do and direct links to the
+  guide and checklist.
+- **Detail panel**: a grade pill, kind and chapter chips, a guide, numbered steps, the missable warning and links
+  to the sources behind the claims.
 - Eleven trophies are flagged missable: the six character strands, the two partnership actions, the two
   choice-driven trophies and the chapter event. Each carries a note on what closes it and what to do first.
 
@@ -40,7 +43,8 @@ Progress is stored in `localStorage` under `leonida-field-guide:v1`. Export writ
 | `#view=tracker` | the tracker |
 | `&kind=story`, `&grade=gold`, `&spoilers=on` | filters and the spoiler guard |
 
-Keys: `/` focuses search, `n` jumps to the next unearned trophy on the route.
+Keys: `j`/`k` move through the checklist, `Space` marks the selected trophy, `/` focuses search, `g` then
+`c`/`m`/`r`/`t` opens a view, and `?` opens the shortcut sheet.
 
 ## Data and sources
 
