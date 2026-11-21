@@ -1,6 +1,26 @@
 [
-  { "file": "1-checklist.jpg", "path": "/#trophy=28&spoilers=off", "note": "checklist with a guide open and seeded earned progress", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-roadmap.jpg", "path": "/#view=roadmap&stage=8", "note": "roadmap with the earliest unearned stage and planner line", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-tracker.jpg", "path": "/#view=missables", "note": "the 11-trophy missables view, stage losses and close-out actions", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "4-spoilers.jpg", "path": "/#trophy=2&kind=story&spoilers=on", "note": "spoiler guard with a masked story guide and sources visible", "viewport": { "width": 1280, "height": 800 } }
+  {
+    "file": "1-checklist.jpg",
+    "path": "/#trophy=28&spoilers=off",
+    "note": "Seeded checklist, filters and an open trophy guide",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "2-roadmap.jpg",
+    "path": "/#view=roadmap&stage=8",
+    "note": "Nine-stage route with close-out stage expanded",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "3-tracker.jpg",
+    "path": "/#view=tracker",
+    "note": "Saved progress, grade totals and tracker actions",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "4-spoilers.jpg",
+    "path": "/#trophy=2&kind=story&spoilers=on",
+    "note": "Spoiler guard masking an unearned story trophy",
+    "viewport": { "width": 1280, "height": 800 }
+  }
 ]
