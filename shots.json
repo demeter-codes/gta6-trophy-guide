@@ -1,26 +1,26 @@
 [
   {
     "file": "1-checklist.jpg",
-    "path": "/#trophy=28&spoilers=off",
-    "note": "Seeded checklist with a trophy guide open",
+    "path": "/#view=checklist&trophy=28&guard=off",
+    "note": "Checklist with a guide open and seeded progress",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
     "file": "2-roadmap.jpg",
-    "path": "/#view=roadmap&stage=8",
-    "note": "Nine-stage route with the strands stage expanded",
+    "path": "/#view=roadmap&stage=8&guard=off",
+    "note": "Nine-stage plan with the character-strands stage open",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
     "file": "3-tracker.jpg",
-    "path": "/#view=tracker",
-    "note": "Progress totals, exports, and stage counters",
+    "path": "/#view=tracker&guard=off",
+    "note": "Saved tracker totals and storage controls",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
     "file": "4-spoilers.jpg",
-    "path": "/#trophy=2&kind=story&spoilers=on",
-    "note": "Spoiler guard masking an unearned story record",
+    "path": "/#view=checklist&trophy=2&kind=story&guard=on",
+    "note": "Story-guide source pane behind the spoiler guard",
     "viewport": { "width": 1280, "height": 800 }
   }
 ]
