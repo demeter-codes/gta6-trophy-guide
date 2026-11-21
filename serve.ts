@@ -1,18 +1,19 @@
-// Loopback-only preview for the Leonida Field Guide.
+// A loopback-only static server for the Leonida Field Guide.
 import { createReadStream, existsSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const appDir = normalize(join(new URL('.', import.meta.url).pathname, 'app'));
-const argumentsList = process.argv.slice(2);
-const portFlag = argumentsList.indexOf('--port');
-const port = portFlag === -1 ? 8080 : Number(argumentsList[portFlag + 1]);
+const site = normalize(join(fileURLToPath(new URL('.', import.meta.url)), 'app'));
+const args = process.argv.slice(2);
+const portOption = args.indexOf('--port');
+const port = portOption >= 0 ? Number(args[portOption + 1]) : 8080;
 
 if (!Number.isInteger(port) || port < 1 || port > 65535) {
-  throw new Error('Port must be an integer between 1 and 65535');
+  throw new Error('Choose a numeric port from 1 through 65535.');
 }
 
-const types: Record<string, string> = {
+const contentTypes: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
@@ -21,24 +22,24 @@ const types: Record<string, string> = {
   '.jpeg': 'image/jpeg',
 };
 
-const server = createServer((request, response) => {
-  const url = new URL(request.url || '/', 'http://127.0.0.1');
-  const requested = url.pathname === '/' ? 'index.html' : url.pathname.replace(/^\/+/, '');
-  const file = normalize(join(appDir, decodeURIComponent(requested)));
+const preview = createServer((request, response) => {
+  const url = new URL(request.url ?? '/', 'http://127.0.0.1');
+  const relative = url.pathname === '/' ? 'index.html' : url.pathname.replace(/^\/+/, '');
+  const file = normalize(join(site, decodeURIComponent(relative)));
 
-  if (!file.startsWith(appDir + '/') || !existsSync(file) || !statSync(file).isFile()) {
+  if (!file.startsWith(site + '/') || !existsSync(file) || !statSync(file).isFile()) {
     response.writeHead(404, { 'content-type': 'text/plain; charset=utf-8' });
-    response.end('Not found');
+    response.end('Page not found.');
     return;
   }
 
   response.writeHead(200, {
-    'content-type': types[extname(file).toLowerCase()] || 'application/octet-stream',
+    'content-type': contentTypes[extname(file).toLowerCase()] ?? 'application/octet-stream',
     'cache-control': 'no-store',
   });
   createReadStream(file).pipe(response);
 });
 
-server.listen(port, '127.0.0.1', () => {
-  console.log(`Leonida Field Guide: http://127.0.0.1:${port}`);
+preview.listen(port, '127.0.0.1', () => {
+  console.log(`Leonida Field Guide is at http://127.0.0.1:${port}`);
 });
