@@ -1,27 +1,32 @@
 # Leonida Field Guide
 
-## Project shape
+## Repository role
 
-This repository builds one offline trophy guide. The browser app lives entirely in `app/`. `main.ts` validates the
-data and assembles the handoff directory. `serve.ts` is a loopback-only static server for local preview.
+This is a static, local-first trophy reference for GTA VI. The hand-built interface and JSON live in `app/`; Node
+files assemble and preview the entry. No framework, remote asset, or network API belongs in the browser bundle.
 
-## Working rules
+## Content contract
 
-- Never load a font, image, script, stylesheet or API from another origin.
-- Preserve the 55 official trophy names, descriptions, grades and hidden flags.
-- Keep the count, grade and missable totals matching PlayStation's published list.
-- Write original guidance. Cite sources beside a claim and avoid unverified missions or locations.
-- When the available sources do not establish a step, say the official description is the only basis and keep it
-  as an after-story or general cleanup task.
-- Keep `vendor/makefun-frontend.ts` and `LICENSE` byte-for-byte untouched.
-- Do not use network-fetching build tools in the app.
+- Keep all 55 official names, descriptions, platinum/gold/silver/bronze grades, and hidden markers unchanged.
+- Maintain 55 records, the 1/2/6/46 grade split, 28 hidden trophies, and 11 missables.
+- Give each record 120–180 words of original guide text, two to four practical steps, and no more than three sources.
+- Base every claim on the supplied official or community pages. Never add an invented mission or location.
+- If a source does not identify a mission or place, call that step a general cleanup or after-story task and use the
+  official description as the basis.
 
-## Validation
+## Protected files
 
-Run the build and kit check from the repository root:
+Do not edit `vendor/makefun-frontend.ts` or `LICENSE`. They are supplied entry assets. Keep all app rendering and
+data access in `app/`, and keep `out/` generated rather than hand-maintained.
+
+## Verification
+
+From the repository root, build and run the competition check:
 
 ```sh
 mkdir -p out
 MAKEFUN_OUTPUT_DIR=out node main.ts
 node /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit/cli/makefun.mjs check --kit /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit --repo .
 ```
+
+The entry is ready only when the kit reports `4 passed, 0 failed`, all app files are present, and the worktree is clean.
