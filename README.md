@@ -6,33 +6,36 @@
 
 This repository is an entry in [the GTA 6 trophy guide bounty on make.fun](https://make.fun/bounty/gta6-trophy-guide-01).
 
-Leonida Field Guide is a complete browser-only PlayStation 5 trophy reference for Grand Theft Auto VI. It provides
-the 55 official trophies, original route notes, spoiler-aware details, a missables ledger, and a nine-stage plan.
+Leonida Field Guide is an offline PlayStation 5 reference for the 55 Grand Theft Auto VI trophies.
+It combines official medal data with practical stages, sourced notes, a spoiler guard, and browser-local progress.
 
-## Preview
+## Run locally
 
-The app makes no build-time or runtime third-party requests. Serve the repository with:
+No package install or network request is required:
 
 ```sh
 node serve.ts
 ```
 
-The preview binds to `127.0.0.1:8080`. An alternate loopback port is available with `node serve.ts --port 8099`.
+The local preview listens on `127.0.0.1:8080`. Select another loopback port when needed:
 
-## Features
+```sh
+node serve.ts --port 8099
+```
 
-- A searchable checklist grouped by stage or medal grade.
-- Kind, grade, remaining, and spoiler controls.
-- A two-pane guide with official wording, steps, notes, and cited sources.
-- Separate missables, roadmap, and saved-progress views.
-- Local JSON export/import and keyboard navigation.
+## Included
+
+- A 55-row checklist with search, kind, grade, remaining, and stage or grade grouping.
+- A detail pane containing official text, guide steps, missable warnings, and references.
+- Dedicated missables, nine-stage roadmap, and local tracker views.
+- JSON export/import, local save recovery, and keyboard navigation.
+- No frameworks, hosted fonts, external artwork, or browser APIs beyond local storage.
 
 ## Validation
 
-Build the handoff with Node 22 and run the kit from the repository root:
+Build the dossier with Node 22:
 
 ```sh
 mkdir -p out
 MAKEFUN_OUTPUT_DIR=out node main.ts
-node /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit/cli/makefun.mjs check --kit /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit --repo .
 ```
