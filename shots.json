@@ -1,26 +1,6 @@
 [
-  {
-    "file": "1-checklist.jpg",
-    "path": "/#view=checklist&trophy=28&guard=off",
-    "note": "Checklist with a guide open and seeded progress",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "2-roadmap.jpg",
-    "path": "/#view=roadmap&stage=8&guard=off",
-    "note": "Nine-stage plan with the character-strands stage open",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "3-tracker.jpg",
-    "path": "/#view=tracker&guard=off",
-    "note": "Saved tracker totals and storage controls",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "4-spoilers.jpg",
-    "path": "/#view=checklist&trophy=2&kind=story&guard=on",
-    "note": "Story-guide source pane behind the spoiler guard",
-    "viewport": { "width": 1280, "height": 800 }
-  }
+  {"file":"1-checklist.jpg","path":"/#view=checklist&trophy=28&guard=off","note":"Checklist with a guide open and progress ticked","viewport":{"width":1280,"height":800}},
+  {"file":"2-roadmap.jpg","path":"/#view=roadmap&stage=8&guard=off","note":"Nine-stage roadmap","viewport":{"width":1280,"height":800}},
+  {"file":"3-tracker.jpg","path":"/#view=tracker&guard=off","note":"Tracker totals and save controls","viewport":{"width":1280,"height":800}},
+  {"file":"4-spoilers.jpg","path":"/#view=checklist&trophy=2&kind=story&guard=on","note":"Spoiler guard with a guide and sources","viewport":{"width":1280,"height":800}}
 ]
