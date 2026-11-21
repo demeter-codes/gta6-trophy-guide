@@ -18,15 +18,15 @@ const KIND_NAMES = {
 };
 
 const STAGES = [
-  { name: 'Opening hours', brief: 'Chapter 1: bank the first bronzes, take the balcony meditation and begin the first strands.' },
-  { name: 'The partnership opens', brief: 'Chapter 2: unlock Jason and Lucia together, then try the activities that open with it.' },
-  { name: 'The city opens', brief: 'Chapter 3: jewelry jobs, the Key Cloner and the first shop robberies with a partner.' },
-  { name: 'Chapter 4 and the vaults', brief: 'Play the optional vault mission before the chapter closes, then finish the story missions.' },
-  { name: 'Finale and credits', brief: 'Chapter 5 and the final mission. Free roam carries on afterwards.' },
-  { name: 'Robberies and money', brief: 'Gang operations, vaults, armored trucks, laundering, garages and shops.' },
-  { name: 'Activities and collections', brief: 'Stunts, ranges, races, scans, cards, challenges and the map.' },
-  { name: 'Strands and choices', brief: 'Final missions for each character strand, the stranger count and the choice-driven stats.' },
-  { name: 'Secrets and the long road', brief: 'One-off hidden events, then the 100% checklist that leads to the platinum.' },
+  { name: 'Opening hours', brief: 'Bank Chapter 1 story trophies and save after the first close-out events.' },
+  { name: 'The partnership opens', brief: 'Advance Chapter 2, then flag every activity that depends on the new partner.' },
+  { name: 'The city opens', brief: 'Finish Chapter 3 while optional strands are still available; save before major closes.' },
+  { name: 'Vaults and Chapter 4', brief: 'Play Chapter 4 optional work before the story moves on, then finish the chapter.' },
+  { name: 'Finale and credits', brief: 'Complete the last mission and keep a manual save for cleanup in free roam.' },
+  { name: 'Robberies and money', brief: 'Work robberies, shops, vehicles and income targets only after the campaign.' },
+  { name: 'Activities and collections', brief: 'Clear repeatable challenges and global counts in free roam.' },
+  { name: 'Strands and choices', brief: 'Finish remaining character strands and record any choice-driven result.' },
+  { name: 'The 100% long road', brief: 'Close hidden events and every remaining counter; the platinum follows at 100%.' },
 ];
 
 const store = {
@@ -136,7 +136,7 @@ function rowMarkup(t) {
   const masked = isMasked(t);
   const chips = masked
     ? '<span class="meta-chip">story</span>'
-    : `<span class="meta-chip">${esc(t.kind)}</span>${t.missable ? '<span class="meta-chip missable-chip">missable</span>' : ''}<span class="meta-chip">${esc(t.chapter)}</span>${t.count ? `<span class="counter-chip">${t.count} / 18</span>` : ''}`;
+    : `<span class="meta-chip">${esc(t.kind)}</span>${t.missable ? '<span class="meta-chip missable-chip">missable</span>' : ''}<span class="meta-chip">${esc(t.chapter)}</span>${t.count ? `<span class="counter-chip">Target ${Number(t.count).toLocaleString()}</span>` : ''}`;
   return `<div class="row${isEarned(t) ? ' done' : ''}${masked ? ' masked-row' : ''}">
     <label class="row-check"><input type="checkbox" data-earn="${t.id}"${isEarned(t) ? ' checked' : ''} aria-label="Earned: ${esc(masked ? 'hidden trophy' : t.name)}"></label>
     <button type="button" class="row-open" data-open="${t.id}" aria-current="${ui.selected === t.id}">
