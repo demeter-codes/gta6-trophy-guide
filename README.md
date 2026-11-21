@@ -1,4 +1,4 @@
-# Leonida Field Guide
+Leonida Field Guide
 
 [![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
 [![rank](https://make.fun/badge/gta6-trophy-guide-01/demeter-codes/gta6-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
@@ -6,34 +6,28 @@
 
 This repository is an entry in [the GTA 6 trophy guide bounty on make.fun](https://make.fun/bounty/gta6-trophy-guide-01).
 
-Leonida Field Guide is an offline PlayStation 5 reference for the 55 Grand Theft Auto VI trophies.
-It combines official medal data with practical stages, sourced notes, a spoiler guard, and browser-local progress.
+Leonida Field Guide is a local PlayStation 5 reference for all 55 Grand Theft Auto VI trophies. It combines the official roster with a nine-stage roadmap, missable warnings, cited guides, and browser-local progress.
 
 ## Run locally
 
 No package install or network request is required:
 
 ```sh
-node serve.ts
+node serve.ts --port 8080
 ```
 
-The local preview listens on `127.0.0.1:8080`. Select another loopback port when needed:
+Open `http://127.0.0.1:8080`. The server accepts loopback ports from 1 through 65535.
 
-```sh
-node serve.ts --port 8099
-```
+## Features
 
-## Included
+- Complete 55-trophy checklist with search, grade, kind, remaining, grouping, and spoiler controls.
+- Local progress in browser storage, plus JSON export and import.
+- Nine-stage roadmap, eleven missable records, and a tracker with medal totals.
+- Two-pane checklist and guide view with steps and HTTPS sources.
+- Keyboard navigation and honest empty states.
+- No framework, hosted font, external image, API, or runtime network dependency.
 
-- A 55-row checklist with search, kind, grade, remaining, and stage or grade grouping.
-- A detail pane containing official text, guide steps, missable warnings, and references.
-- Dedicated missables, nine-stage roadmap, and local tracker views.
-- JSON export/import, local save recovery, and keyboard navigation.
-- No frameworks, hosted fonts, external artwork, or browser APIs beyond local storage.
-
-## Validation
-
-Build the dossier with Node 22:
+## Build
 
 ```sh
 mkdir -p out
