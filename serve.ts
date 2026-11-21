@@ -1,37 +1,44 @@
-// Small loopback static server for the offline app.
+// Loopback-only preview for the Leonida Field Guide.
 import { createReadStream, existsSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize } from 'node:path';
 
-const root = new URL('.', import.meta.url).pathname;
-const args = process.argv.slice(2);
-const portIndex = args.indexOf('--port');
-const port = portIndex >= 0 ? Number(args[portIndex + 1]) : 8080;
+const appDir = normalize(join(new URL('.', import.meta.url).pathname, 'app'));
+const argumentsList = process.argv.slice(2);
+const portFlag = argumentsList.indexOf('--port');
+const port = portFlag === -1 ? 8080 : Number(argumentsList[portFlag + 1]);
 
-const mime: Record<string, string> = {
+if (!Number.isInteger(port) || port < 1 || port > 65535) {
+  throw new Error('Port must be an integer between 1 and 65535');
+}
+
+const types: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
-  '.png': 'image/png',
 };
 
-createServer((request, response) => {
-  const pathname = decodeURIComponent(new URL(request.url || '/', 'http://127.0.0.1').pathname);
-  const relative = pathname === '/' ? 'index.html' : pathname.replace(/^\/+/, '');
-  const file = normalize(join(root, 'app', relative));
-  if (!file.startsWith(join(root, 'app')) || !existsSync(file) || !statSync(file).isFile()) {
-    response.writeHead(404, { 'content-type': 'text/plain' });
+const server = createServer((request, response) => {
+  const url = new URL(request.url || '/', 'http://127.0.0.1');
+  const requested = url.pathname === '/' ? 'index.html' : url.pathname.replace(/^\/+/, '');
+  const file = normalize(join(appDir, decodeURIComponent(requested)));
+
+  if (!file.startsWith(appDir + '/') || !existsSync(file) || !statSync(file).isFile()) {
+    response.writeHead(404, { 'content-type': 'text/plain; charset=utf-8' });
     response.end('Not found');
     return;
   }
+
   response.writeHead(200, {
-    'content-type': mime[extname(file).toLowerCase()] || 'application/octet-stream',
+    'content-type': types[extname(file).toLowerCase()] || 'application/octet-stream',
     'cache-control': 'no-store',
   });
   createReadStream(file).pipe(response);
-}).listen(port, '127.0.0.1', () => {
+});
+
+server.listen(port, '127.0.0.1', () => {
   console.log(`Leonida Field Guide: http://127.0.0.1:${port}`);
 });
