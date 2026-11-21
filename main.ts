@@ -60,7 +60,7 @@ function validate(list: Trophy[]): string[] {
       problems.push(`${who}: blank guide`);
     } else {
       const words = t.guide.trim().split(/\s+/).length;
-      if (words < 50 || words > 180) problems.push(`${who}: guide has ${words} words; expected 50 to 180`);
+      if (words < 120 || words > 180) problems.push(`${who}: guide has ${words} words; expected 120 to 180`);
     }
     const steps = Array.isArray(t.steps) ? t.steps : [];
     if (steps.length < 2 || steps.length > 4 || steps.some((step) => typeof step !== 'string' || !step.trim())) {
