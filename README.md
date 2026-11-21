@@ -16,15 +16,15 @@ No package install or network request is required:
 node serve.ts --port 8080
 ```
 
-Open `http://127.0.0.1:8080`. The server accepts loopback ports from 1 through 65535.
+Open `http://127.0.0.1:8080`.
 
 ## Features
 
-- Complete 55-trophy checklist with search, grade, kind, remaining, grouping, and spoiler controls.
+- Complete 55-trophy checklist with search, grade, kind, remaining, and grouping controls.
 - Local progress in browser storage, plus JSON export and import.
-- Nine-stage roadmap, eleven missable records, and a tracker with medal totals.
+- Nine-stage roadmap, eleven missable records, and medal totals.
 - Two-pane checklist and guide view with steps and HTTPS sources.
-- Keyboard navigation and honest empty states.
+- Spoiler guard, keyboard navigation, and honest empty states.
 - No framework, hosted font, external image, API, or runtime network dependency.
 
 ## Build
