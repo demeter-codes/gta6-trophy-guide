@@ -25,11 +25,17 @@ type Source = { label?: unknown; url?: unknown };
 type Trophy = {
   id?: number;
   name?: string;
+  description?: string;
   grade?: string;
+  hidden?: boolean;
   guide?: unknown;
   steps?: unknown[];
   missable?: boolean;
   missableNote?: unknown;
+  kind?: string;
+  chapter?: unknown;
+  roadmapStage?: number;
+  hours?: number;
   sources?: Source[];
 };
 
@@ -67,8 +73,24 @@ function validate(list: Trophy[]): string[] {
       (s) => typeof s.label === 'string' && s.label.trim() && typeof s.url === 'string' && s.url.startsWith('https://'),
     );
     if (cited.length === 0) problems.push(`${who}: no source with a label and an https link`);
+    if (cited.length > 3) problems.push(`${who}: expected no more than three sources`);
     if (!GRADES.includes(t.grade as string)) problems.push(`${who}: unknown grade "${t.grade}"`);
+    if (typeof t.description !== 'string' || !t.description.trim()) problems.push(`${who}: missing official description`);
+    if (typeof t.hidden !== 'boolean') problems.push(`${who}: missing hidden flag`);
+    if (typeof t.kind !== 'string' || !t.kind.trim()) problems.push(`${who}: missing kind`);
+    if (typeof t.chapter !== 'string' || !t.chapter.trim()) problems.push(`${who}: missing chapter`);
+    if (!Number.isInteger(t.roadmapStage) || (t.roadmapStage as number) < 1 || (t.roadmapStage as number) > 9) {
+      problems.push(`${who}: roadmapStage must be from 1 to 9`);
+    }
   }
+  const gradeCounts = GRADES.map((grade) => list.filter((t) => t.grade === grade).length);
+  if (gradeCounts.join('/') !== '1/2/6/46') {
+    problems.push(`official grade counts changed: ${gradeCounts.join('/')}; expected 1/2/6/46`);
+  }
+  const hiddenCount = list.filter((t) => t.hidden === true).length;
+  if (hiddenCount !== 28) problems.push(`official hidden count changed: ${hiddenCount}; expected 28`);
+  const missableCount = list.filter((t) => t.missable === true).length;
+  if (missableCount !== 11) problems.push(`missable count changed: ${missableCount}; expected 11`);
   return problems;
 }
 
