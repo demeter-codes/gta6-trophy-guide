@@ -1,84 +1,31 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f2eddf">
-  <meta name="description" content="A local, offline GTA VI trophy field guide and tracker.">
-  <title>Leonida Field Guide</title>
-  <link rel="stylesheet" href="./style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f2eddf">
+<title>Leonida Field Guide</title>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header class="masthead">
-    <div class="brand">
-      <p class="kicker">Leonida · PlayStation 5 · Field edition</p>
-      <h1>Leonida Field Guide</h1>
-      <p class="subtitle">A clean route through the 55 official trophies.</p>
-    </div>
-    <section class="progress" aria-label="Trophy progress">
-      <div class="progress-head">
-        <strong id="earned-total">9 of 55</strong>
-        <button id="do-next" type="button">Do next <span>→</span></button>
-      </div>
-      <div id="progress-track" class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="9"><span></span></div>
-      <div id="grade-counts" class="grade-counts"></div>
-    </section>
-    <nav class="tabs" aria-label="Primary views">
-      <a href="#view=checklist" data-view="checklist" class="active">Checklist</a>
-      <a href="#view=roadmap" data-view="roadmap">Roadmap</a>
-      <a href="#view=missables" data-view="missables">Missables <b id="missable-count">11</b></a>
-      <a href="#view=tracker" data-view="tracker">Tracker</a>
-    </nav>
-  </header>
-
-  <main>
-    <section id="checklist-view" class="view">
-      <form id="filters" class="filters" onsubmit="return false">
-        <label class="search"><span>Search ledger</span><input id="search" type="search" placeholder="Name, description or chapter"></label>
-        <label><span>Grade</span><select id="grade"><option value="all">All medals</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-        <label><span>Group</span><select id="group"><option value="stage">By stage</option><option value="grade">By grade</option></select></label>
-        <label class="switch"><input id="remaining" type="checkbox"><span>Remaining</span></label>
-        <label class="switch"><input id="guard" type="checkbox" role="switch"><span>Spoiler guard</span></label>
-      </form>
-      <div id="kind-filters" class="kind-filters" aria-label="Trophy kind"></div>
-      <div class="ledger-layout">
-        <section class="ledger" aria-label="Trophy checklist">
-          <p id="results" class="results"></p>
-          <div id="rows"></div>
-        </section>
-        <aside id="guide" class="guide" aria-live="polite"></aside>
-      </div>
-    </section>
-
-    <section id="roadmap-view" class="view" hidden>
-      <header class="view-heading"><div><p class="kicker">Nine-stage route</p><h2>Roadmap to platinum</h2></div></header>
-      <p id="do-next-line" class="do-next"></p>
-      <div id="roadmap"></div>
-    </section>
-
-    <section id="missables-view" class="view" hidden>
-      <header class="view-heading"><div><p class="kicker">Close-out ledger</p><h2>Missables</h2></div><a href="#view=checklist">Back to checklist →</a></header>
-      <div id="missables"></div>
-    </section>
-
-    <section id="tracker-view" class="view" hidden>
-      <header class="view-heading"><div><p class="kicker">Local save</p><h2>Tracker</h2></div></header>
-      <div id="tracker"></div>
-    </section>
-  </main>
-
-  <footer>
-    <p>Unofficial guide. Trophy names and descriptions are reproduced verbatim from the official list.</p>
-    <p><button id="keys-button" type="button">Keyboard map</button> <kbd>J</kbd> <kbd>K</kbd> · <kbd>Space</kbd> · <kbd>/</kbd> · <kbd>G</kbd> <kbd>C/R/M/T</kbd></p>
-  </footer>
-
-  <dialog id="keys">
-    <form method="dialog">
-      <header><h2>Keyboard map</h2><button value="close" aria-label="Close">×</button></header>
-      <dl><div><dt>J / K</dt><dd>Move through rows</dd></div><div><dt>Space</dt><dd>Mark selected trophy earned</dd></div><div><dt>/</dt><dd>Focus search</dd></div><div><dt>G, C/R/M/T</dt><dd>Open a view</dd></div></dl>
-    </form>
-  </dialog>
-  <noscript><p>JavaScript is required for the local checklist.</p></noscript>
-  <script type="module" src="./app.js"></script>
+<header class="masthead">
+<div class="brand"><p class="kicker">Leonida · PS5 · Field edition</p><h1>Leonida Field Guide</h1><p class="subtitle">A clean route through the 55 official trophies.</p></div>
+<section class="progress" aria-label="Trophy progress"><div class="progress-head"><strong id="earned-total">0 of 55</strong><button id="do-next" type="button">Do next <span>→</span></button></div><div id="progress-track" class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0"><span></span></div><div id="grade-counts" class="grade-counts"></div></section>
+<nav class="tabs" aria-label="Primary views"><a href="#view=checklist" data-view="checklist" class="active">Checklist</a><a href="#view=roadmap" data-view="roadmap">Roadmap</a><a href="#view=missables" data-view="missables">Missables <b id="missable-count">11</b></a><a href="#view=tracker" data-view="tracker">Tracker</a></nav>
+</header>
+<main>
+<section id="checklist-view" class="view">
+<form id="filters" class="filters" onsubmit="return false"><label class="search"><span>Search ledger</span><input id="search" type="search" placeholder="Name, description or chapter"></label><label><span>Grade</span><select id="grade"><option value="all">All medals</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label><label><span>Group</span><select id="group"><option value="stage">By stage</option><option value="grade">By grade</option></select></label><label class="switch"><input id="remaining" type="checkbox"><span>Remaining</span></label><label class="switch"><input id="guard" type="checkbox" role="switch"><span>Spoiler guard</span></label></form>
+<div id="kind-filters" class="kind-filters"></div>
+<div class="ledger-layout"><section class="ledger"><p id="results" class="results"></p><div id="rows"></div></section><aside id="guide" class="guide"></aside></div>
+</section>
+<section id="roadmap-view" class="view" hidden><header class="view-heading"><div><p class="kicker">Nine-stage route</p><h2>Roadmap to platinum</h2></div></header><p id="do-next-line" class="do-next"></p><div id="roadmap"></div></section>
+<section id="missables-view" class="view" hidden><header class="view-heading"><div><p class="kicker">Close-out ledger</p><h2>Missables</h2></div></header><div id="missables"></div></section>
+<section id="tracker-view" class="view" hidden><header class="view-heading"><div><p class="kicker">Local save</p><h2>Tracker</h2></div></header><div id="tracker"></div></section>
+</main>
+<footer><p>Unofficial field guide. Trophy names and descriptions follow the official list.</p><p><button id="keys-button" type="button">Keyboard map</button> <kbd>J</kbd> <kbd>K</kbd> · <kbd>Space</kbd> · <kbd>/</kbd> · <kbd>G</kbd></p></footer>
+<dialog id="keys"><form method="dialog"><header><h2>Keyboard map</h2><button value="close" aria-label="Close">×</button></header><dl><div><dt>J / K</dt><dd>Move through rows</dd></div><div><dt>Space</dt><dd>Mark selected trophy earned</dd></div><div><dt>/</dt><dd>Focus search</dd></div><div><dt>G, C/R/M/T</dt><dd>Open a view</dd></div></dl></form></dialog>
+<noscript>Trophy tracking requires JavaScript.</noscript>
+<script type="module" src="./app.js"></script>
 </body>
 </html>
