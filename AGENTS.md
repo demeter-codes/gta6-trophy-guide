@@ -21,6 +21,8 @@ node ../gta6-trophy-guide-01-kit/cli/makefun.mjs check --kit ../gta6-trophy-guid
 
 ## Build notes
 
+Before writing a dossier, `main.ts` also checks the 55-, 1/2/6/46-, 28-hidden and 11-missable totals.
+
 A static field guide under `app/`: `index.html`, `style.css`, `app.js` and `data/trophies.json`. The page has four
 views, Checklist, Missables, Roadmap and Tracker, with a detail panel beside the checklist. All 55 trophies carry an
 original guide of 120 to 180 words, two to four steps, one to three sources and, for the eleven missables, a
