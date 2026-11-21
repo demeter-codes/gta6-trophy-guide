@@ -1,4 +1,4 @@
-// Local static server for app/ (Node 22, standard library only): `node serve.ts` listens on http://localhost:8080,
+// Leonida static server (Node 22, standard library only): `node serve.ts` listens on http://localhost:8080,
 // `node serve.ts --port 8099` elsewhere. It stays on loopback, answers only for files under app/, and sets the
 // content types a browser insists on. It is a development convenience, nothing more.
 import { createReadStream, statSync } from 'node:fs';
