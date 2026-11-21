@@ -31,7 +31,7 @@ function readHash(){
  if(trophies.some(r=>r.id===id))selected=id,current='checklist';
  else current=['roadmap','missables','tracker'].includes(p.get('view'))?p.get('view'):'checklist';
  if(KINDS.includes(p.get('kind')))kind=p.get('kind');if(MEDALS.includes(p.get('grade')))grade=p.get('grade');
- if(p.has('guard'))guard=p.get('guard')!==='off';
+ if(p.has('guard'))guard=p.get('guard')!=='off';
  const stage=Number(p.get('stage'));if(stage>=1&&stage<=9)openStage=stage;
 }
 function writeHash(){const p=new URLSearchParams();p.set('view',current);if(selected!=null)p.set('trophy',selected);if(kind!=='all')p.set('kind',kind);if(grade!=='all')p.set('grade',grade);p.set('guard',guard?'on':'off');location.hash=p.toString()}
