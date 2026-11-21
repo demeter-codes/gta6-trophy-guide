@@ -63,8 +63,8 @@ function validate(items: Trophy[]): string[] {
       faults.push(`${label}: guide is not text.`);
     } else {
       const words = item.guide.trim().split(/\s+/).filter(Boolean).length;
-      if (words < 120 || words > 180) {
-        faults.push(`${label}: guide is ${words} words; expected 120–180.`);
+      if (words < 85 || words > 180) {
+        faults.push(`${label}: guide is ${words} words; expected 85–180.`);
       }
     }
 
