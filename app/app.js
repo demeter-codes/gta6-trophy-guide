@@ -241,8 +241,8 @@ function bindChecklist() {
     };
   });
   document.querySelectorAll('[data-toggle]').forEach(input => {
-    input.onchange = input.onclick = event => {
-      event.prevent && event.prevent();
+    input.onchange = event => {
+      event.stopPropagation();
       toggle(Number(input.dataset.toggle));
     };
   });
