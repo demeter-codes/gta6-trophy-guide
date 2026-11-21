@@ -1,4 +1,4 @@
-// Leonida Field Guide build entry.
+// Build and validate the Leonida Field Guide entry.
 import { cpSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -6,36 +6,14 @@ import { buildDossier } from './vendor/makefun-frontend.ts';
 
 const root=fileURLToPath(new URL('.',import.meta.url));
 const target=process.env.MAKEFUN_OUTPUT_DIR??'/output';
-const medals=['platinum','gold','silver','bronze'];
-type Trophy={id?:unknown,name?:unknown,description?:unknown,grade?:unknown,hidden?:unknown,kind?:unknown,chapter?:unknown,roadmapStage?:unknown,missable?:unknown,missableNote?:unknown,guide?:unknown,steps?:unknown,sources?:{label?:unknown,url?:unknown}[]};
-function readTrophies():Trophy[]{const document=JSON.parse(readFileSync(join(root,'app','data','trophies.json'),'utf8'));return Array.isArray(document)?document:document.trophies}
-function audit(items:Trophy[]):string[]{
- const problems:string[]=[];
- if(!Array.isArray(items)||items.length!==55)return [`Expected 55 trophy records; found ${Array.isArray(items)?items.length:0}.`];
- const seen=new Set<number>();
- for(const trophy of items){
-  const caption=`#${String(trophy.id)} ${String(trophy.name)}`;
-  if(!Number.isInteger(trophy.id)||seen.has(trophy.id as number))problems.push(`${caption}: id is missing or repeated.`);else seen.add(trophy.id as number);
-  for(const key of ['name','description','grade','hidden','kind','chapter'] as const)if(trophy[key]===undefined||trophy[key]===null)problems.push(`${caption}: missing ${key}.`);
-  if(typeof trophy.guide!== 'string')problems.push(`${caption}: guide is missing.`);
-  else{const words=trophy.guide.trim().split(/\s+/).filter(Boolean).length;if(words<120||words>180)problems.push(`${caption}: guide has ${words} words; allowed range is 120–180.`)}
-  if(!Array.isArray(trophy.steps)||trophy.steps.length<2||trophy.steps.length>4||trophy.steps.some(step=>typeof step!=='string'||!step.trim()))problems.push(`${caption}: expected two to four practical steps.`);
-  if(trophy.missable===true&&(typeof trophy.missableNote!=='string'||!trophy.missableNote.trim()))problems.push(`${caption}: missable warning is missing.`);
-  if(!Number.isInteger(trophy.roadmapStage)||(trophy.roadmapStage as number)<1||(trophy.roadmapStage as number)>9)problems.push(`${caption}: roadmap stage must be 1–9.`);
-  if(!medals.includes(String(trophy.grade)))problems.push(`${caption}: unrecognized grade.`);
-  const references=Array.isArray(trophy.sources)?trophy.sources:[];
-  const usable=references.filter(source=>typeof source.label==='string'&&source.label.trim().length>0&&typeof source.url==='string'&&source.url.startsWith('https://'));
-  if(usable.length<1)problems.push(`${caption}: expected at least one HTTPS source.`);
-  if(usable.length>3)problems.push(`${caption}: more than three sources are not allowed.`);
- }
- const split=medals.map(medal=>items.filter(t=>t.grade===medal).length).join('/');
- if(split!=='1/2/6/46')problems.push(`Grade split is ${split}; expected 1/2/6/46.`);
- if(items.filter(t=>t.hidden===true).length!==28)problems.push('Hidden trophy count changed; expected 28.');
- if(items.filter(t=>t.missable===true).length!==11)problems.push('Missable trophy count changed; expected 11.');
- return problems;
-}
-const trophies=readTrophies();const errors=audit(trophies);
-if(!existsSync(join(root,'vendor','makefun-frontend.ts')))errors.push('vendor/makefun-frontend.ts is missing.');
+type Trophy={id:number,name:string,description:string,grade:string,hidden:boolean,kind:string,missable:boolean,missableNote:string,count:number|null,chapter:string,roadmapStage:number,hours:number,guide:string,steps:string[],sources:{label:string,url:string}[]};
+function readTrophies():Trophy[]{const data=JSON.parse(readFileSync(join(root,'app','data','trophies.json'),'utf8'));return Array.isArray(data)?data:data.trophies}
+function audit(items:Trophy[]):string[]{const problems:string[]=[];if(items.length!==55)problems.push(`Expected 55 trophy records; found ${items.length}.`);
+const medals=['platinum','gold','silver','bronze'];for(const grade of medals){const n=items.filter(r=>r.grade===grade).length;if(grade==='platinum'&&n!==1)problems.push(`Expected 1 ${grade}; found ${n}.`);if(grade==='gold'&&n!==2)problems.push(`Expected 2 ${grade}; found ${n}.`);if(grade==='silver'&&n!==6)problems.push(`Expected 6 ${grade}; found ${n}.`);if(grade==='bronze'&&n!==46)problems.push(`Expected 46 ${grade}; found ${n}.`)}
+if(items.filter(r=>r.hidden).length!==28)problems.push('Hidden trophy count is not 28.');
+if(items.filter(r=>r.missable).length!==11)problems.push('Missable trophy count is not 11.');
+const ids=new Set<number>();for(const r of items){const caption=`#${r.id} ${r.name}`;if(!Number.isInteger(r.id)||ids.has(r.id))problems.push(`${caption}: id is missing or repeated.`);ids.add(r.id);for(const key of ['name','description','grade','hidden','kind','chapter'] as const)if(r[key]===undefined||r[key]===null)problems.push(`${caption}: missing ${key}.`);const words=r.guide.trim().split(/\s+/).filter(Boolean).length;if(words<120||words>180)problems.push(`${caption}: guide has ${words} words; allowed range is 120–180.`);if(!Array.isArray(r.steps)||r.steps.length<2||r.steps.length>4||r.steps.some(s=>typeof s!=='string'||!s.trim()))problems.push(`${caption}: expected two to four steps.`);if(r.missable&&(!r.missableNote||!r.missableNote.trim()))problems.push(`${caption}: missable warning is missing.`);if(!Number.isInteger(r.roadmapStage)||r.roadmapStage<1||r.roadmapStage>9)problems.push(`${caption}: roadmap stage must be 1–9.`);if(!Array.isArray(r.sources)||r.sources.length<1||r.sources.length>3)problems.push(`${caption}: sources must contain 1–3 pages.`);else if(r.sources.some(s=>typeof s.label!=='string'||typeof s.url!=='string'||!s.url.startsWith('https://')))problems.push(`${caption}: source data must contain labels and HTTPS URLs.`)}return problems}
+const trophies=readTrophies();const errors=audit(trophies);if(!existsSync(join(root,'vendor','makefun-frontend.ts')))errors.push('vendor/makefun-frontend.ts is missing.');
 if(errors.length)throw new Error(`Guide validation failed:\n- ${errors.join('\n- ')}`);
 console.log(`Validated ${trophies.length} trophies and the complete guide contract.`);
 mkdirSync(target,{recursive:true});mkdirSync(join(target,'screenshots'),{recursive:true});
