@@ -63,4 +63,5 @@ and writes `dossier.json`.
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-The screenshots in `screenshots/` are real 1280x800 captures of the running app, saved as JPEG.
+The screenshots in `screenshots/` are real 1280x800 captures of the running app, saved as JPEG. They seed earned
+progress and are listed with their routes in `shots.json`.
