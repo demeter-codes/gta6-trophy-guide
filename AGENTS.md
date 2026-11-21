@@ -1,32 +1,27 @@
-# gta6-trophy-guide
+# Leonida Field Guide
 
-Entry for make.fun's bounty "Build the best GTA 6 trophy guide" (`gta6-trophy-guide-01`). The kit lives at
-`../gta6-trophy-guide-01-kit`; its `RULES.txt` is the spec.
+## Project shape
 
-## Ground rules
+This repository builds one offline trophy guide. The browser app lives entirely in `app/`. `main.ts` validates the
+data and assembles the handoff directory. `serve.ts` is a loopback-only static server for local preview.
 
-- Never run `makefun login`, `record`, `submit` or `init`. Never rewrite history.
-- Leave `vendor/makefun-frontend.ts` and `LICENSE` untouched.
-- Nothing the app loads may come from the network. Links a reader clicks are fine.
-- Keep official `name`, `description`, `grade` and `hidden` values exactly as they are in `app/data/trophies.json`.
-- Never invent a location, collectible spot or mission name; cite the source inline or mark the step "after the
-  story".
+## Working rules
 
-## Check before committing
+- Never load a font, image, script, stylesheet or API from another origin.
+- Preserve the 55 official trophy names, descriptions, grades and hidden flags.
+- Keep the count, grade and missable totals matching PlayStation's published list.
+- Write original guidance. Cite sources beside a claim and avoid unverified missions or locations.
+- When the available sources do not establish a step, say the official description is the only basis and keep it
+  as an after-story or general cleanup task.
+- Keep `vendor/makefun-frontend.ts` and `LICENSE` byte-for-byte untouched.
+- Do not use network-fetching build tools in the app.
 
+## Validation
+
+Run the build and kit check from the repository root:
+
+```sh
+mkdir -p out
+MAKEFUN_OUTPUT_DIR=out node main.ts
+node /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit/cli/makefun.mjs check --kit /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit --repo .
 ```
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-node ../gta6-trophy-guide-01-kit/cli/makefun.mjs check --kit ../gta6-trophy-guide-01-kit --repo .
-```
-
-## Build notes
-
-Before writing a dossier, `main.ts` also checks the 55-, 1/2/6/46-, 28-hidden and 11-missable totals.
-
-A static field guide under `app/`: `index.html`, `style.css`, `app.js` and `data/trophies.json`. The page has four
-views, Checklist, Missables, Roadmap and Tracker, with a detail panel beside the checklist. All 55 trophies carry an
-original guide of 120 to 180 words, two to four steps, one to three sources and, for the eleven missables, a
-`missableNote`. Progress lives in `localStorage` under `leonida-field-guide:v1` as `{v, earned, guard}`, and the
-hash holds the view (`#trophy=`, `#view=`, plus `kind`, `grade`, `stage`, `spoilers`). The spoiler guard masks every
-unearned story trophy. `main.ts` validates the data and then writes the dossier; `serve.ts` is a loopback static
-server. Screenshots are 1280x800 JPEG renders of the running app, listed in `shots.json`.
