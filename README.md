@@ -1,67 +1,46 @@
 # Leonida Field Guide
 
-[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
-[![rank](https://make.fun/badge/gta6-trophy-guide-01/demeter-codes/gta6-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
-[![reward](https://make.fun/badge/gta6-trophy-guide-01/demeter-codes/gta6-trophy-guide/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
+A complete, offline PlayStation 5 field guide for Grand Theft Auto VI. It tracks all 55 trophies, separates
+missables, maps a nine-stage route and keeps saved progress on the player's own device.
 
-An offline guide and tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI, set like an editorial
-field guide: warm paper, ink text, one coral accent and medal-coloured grade pills. It is plain HTML, CSS and
-JavaScript with no build step and nothing fetched at run time.
+## Run it
 
-## What is in it
+The app has no build step. Either open `app/index.html` from a static server or run:
 
-- **Checklist**: all 55 trophies with the official name, description and grade. Search, kind filter (including
-  "Missable"), grade filter, ordering by roadmap stage or grade, a remaining-only switch and a progress bar. A
-  spoiler guard shows unearned story trophies as "Hidden trophy".
-- **Roadmap**: nine stages toward the platinum, each with a short brief, its trophies, an earned count and a
-  "Missable at this stage" callout where one applies.
-- **Tracker**: earned total, planning hours left, missables remaining, breakdowns by grade and stage, JSON export
-  and import, and reset.
-- **Missables**: all 11 close-out trophies in stage order, with the loss point, what to do and direct links to the
-  guide and checklist.
-- **Detail panel**: a grade pill, kind and chapter chips, a guide, numbered steps, the missable warning and links
-  to the sources behind the claims.
-- Eleven trophies are flagged missable: the six character strands, the two partnership actions, the two
-  choice-driven trophies and the chapter event. Each carries a note on what closes it and what to do first.
-
-## Using it
-
-Serve the `app/` folder and open the page:
-
-```
-node serve.ts            # http://localhost:8080
-node serve.ts --port 8099
+```sh
+node serve.ts
 ```
 
-Progress is stored in `localStorage` under `leonida-field-guide:v1`. Export writes
-`leonida-trophy-progress.json`; import reads it back. Links go straight to a view:
+The preview listens only on `127.0.0.1:8080`. Use `node serve.ts --port 8099` for another loopback port.
 
-| Hash | Shows |
-| --- | --- |
-| `#trophy=28` | a trophy's guide beside the checklist |
-| `#view=roadmap` (with `&stage=8`) | the roadmap, optionally with a stage open |
-| `#view=tracker` | the tracker |
-| `&kind=story`, `&grade=gold`, `&spoilers=on` | filters and the spoiler guard |
+## Views
 
-Keys: `j`/`k` move through the checklist, `Space` marks the selected trophy, `/` focuses search, `g` then
-`c`/`m`/`r`/`t` opens a view, and `?` opens the shortcut sheet.
+- **Checklist** combines search, grade and kind filters, roadmap grouping and a two-pane trophy guide.
+- **Missables** lists every close-out item and links directly to its detail.
+- **Roadmap** presents nine stages with a live "Do next" target.
+- **Tracker** exports or imports progress and summarizes grades, stages and remaining targets.
 
-## Data and sources
+The spoiler guard hides unearned story entries until either earned or disabled. Earned checks and the guard are
+stored under `leonida-field-guide:v1`.
 
-`app/data/trophies.json` holds the 55 trophies. Names, descriptions and grades are the official ones. Each guide
-names where its facts come from: GTABase's trophy list and guide, the KeenGamer platinum roadmap, the official list
-on Exophase and the GTAside list. Where those sources are thin, the guide says so and leaves the step until after
-the story.
+## Hash links
 
-## Checks
+Use `#trophy=28` for a detail, `#view=roadmap&stage=8` for a stage, or `#view=tracker` for saved totals. Hash
+parameters may also set `kind`, `grade`, and `spoilers=on|off`.
 
-`main.ts` validates the data before writing anything: it fails if there are not 55 trophies, or if any has a
-blank guide, no https source or an unknown grade. Then it copies `app/` and `screenshots/` to the output folder
-and writes `dossier.json`.
+## Keyboard map
 
+`J` and `K` move through the checklist. `Space` toggles the selected trophy. `/` focuses search. `G` followed by
+`C`, `M`, `R`, or `T` changes view. `?` opens the shortcut sheet.
+
+## Files and checks
+
+`app/data/trophies.json` contains the official records and original guides. `main.ts` checks the 55-item list,
+grade and hidden totals, missable count and guide lengths before copying the app and screenshots into an output
+directory and creating `dossier.json`.
+
+```sh
+mkdir -p out
+MAKEFUN_OUTPUT_DIR=out node main.ts
+node /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit/cli/makefun.mjs check --kit /Users/kq/makefun-work/gta6/gta6-trophy-guide-01-kit --repo .
 ```
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
-The screenshots in `screenshots/` are real 1280x800 captures of the running app, saved as JPEG. They seed earned
-progress and are listed with their routes in `shots.json`.
