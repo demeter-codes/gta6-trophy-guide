@@ -6,44 +6,30 @@
 
 This repository is an entry in [the GTA 6 trophy guide bounty on make.fun](https://make.fun/bounty/gta6-trophy-guide-01).
 
-This is a complete, offline PlayStation 5 field guide for Grand Theft Auto VI. It tracks all 55 trophies,
-separates missables, maps a nine-stage route and stores earned checks and spoiler settings on the player's device.
+Leonida Field Guide is a complete browser-only PlayStation 5 trophy reference for Grand Theft Auto VI. It provides
+the 55 official trophies, original route notes, spoiler-aware details, a missables ledger, and a nine-stage plan.
 
-## Run it
+## Preview
 
-The app has no build step. Either open `app/index.html` from a static server or run:
+The app makes no build-time or runtime third-party requests. Serve the repository with:
 
 ```sh
 node serve.ts
 ```
 
-The preview listens only on `127.0.0.1:8080`. Use `node serve.ts --port 8099` for another loopback port.
+The preview binds to `127.0.0.1:8080`. An alternate loopback port is available with `node serve.ts --port 8099`.
 
-## Views
+## Features
 
-- **Checklist** combines search, grade and kind filters, roadmap grouping and a two-pane trophy guide.
-- **Missables** lists every close-out item and links directly to its detail.
-- **Roadmap** presents nine stages with a live "Do next" target.
-- **Tracker** exports or imports progress and summarizes grades, stages and remaining targets.
+- A searchable checklist grouped by stage or medal grade.
+- Kind, grade, remaining, and spoiler controls.
+- A two-pane guide with official wording, steps, notes, and cited sources.
+- Separate missables, roadmap, and saved-progress views.
+- Local JSON export/import and keyboard navigation.
 
-The spoiler guard hides unearned story entries until either earned or disabled. Earned checks and the guard are
-stored under `leonida-field-guide:v1`.
+## Validation
 
-## Hash links
-
-Use `#trophy=28` for a detail, `#view=roadmap&stage=8` for a stage, or `#view=tracker` for saved totals. Hash
-parameters may also set `kind`, `grade`, and `spoilers=on|off`.
-
-## Keyboard map
-
-`J` and `K` move through the checklist. `Space` toggles the selected trophy. `/` focuses search. `G` followed by
-`C`, `M`, `R`, or `T` changes view. `?` opens the shortcut sheet.
-
-## Files and checks
-
-`app/data/trophies.json` contains the official records and original guides. `main.ts` checks the 55-item list,
-grade and hidden totals, missable count and guide lengths before copying the app and screenshots into an output
-directory and creating `dossier.json`.
+Build the handoff with Node 22 and run the kit from the repository root:
 
 ```sh
 mkdir -p out
