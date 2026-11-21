@@ -3,48 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f1ead8">
-  <meta name="description" content="An offline Leonida trophy route and checklist for Grand Theft Auto VI.">
+  <meta name="theme-color" content="#efe7d2">
+  <meta name="description" content="An offline Leonida trophy checklist and route.">
   <title>Leonida Field Guide</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23bd593f'/%3E%3Cpath d='M16 6l3 7 7 3-7 3-3 7-3-7-7-3 7-3z' fill='%23f7f1df'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="title-block">
-      <p class="kicker">Leonida / PlayStation 5 / unofficial</p>
+  <header class="masthead">
+    <div class="identity">
+      <p class="edition">Leonida / PS5 / field edition</p>
       <h1>Leonida Field Guide</h1>
-      <p class="subtitle">A working route through all 55 trophies.</p>
+      <p class="deck">A working route through all 55 trophies.</p>
     </div>
-    <section class="progress-block" aria-label="Trophy progress">
-      <div class="progress-line">
-        <strong id="earned-figure">9 of 55</strong>
-        <button id="do-next-button" type="button">Do next <span>→</span></button>
+    <section class="completion" aria-label="Trophy completion">
+      <div class="completion-top">
+        <strong id="earned-total">9 of 55</strong>
+        <button id="next-trophy" type="button">Do next <span aria-hidden="true">→</span></button>
       </div>
-      <div id="progress-track" class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="9">
+      <div id="completion-bar" class="completion-bar" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="9">
         <span></span>
       </div>
-      <div id="grade-totals" class="grade-totals"></div>
+      <div id="medal-counts" class="medal-counts"></div>
     </section>
-    <nav class="tabs" aria-label="Views">
-      <a href="#view=checklist" data-view="checklist" class="active">Checklist</a>
-      <a href="#view=missables" data-view="missables">Missables <b id="missables-left">11</b></a>
+    <nav class="view-nav" aria-label="Primary views">
+      <a href="#view=checklist" data-view="checklist" class="selected">Checklist</a>
+      <a href="#view=missables" data-view="missables">Missables <span id="missables-remaining">11</span></a>
       <a href="#view=roadmap" data-view="roadmap">Roadmap</a>
       <a href="#view=tracker" data-view="tracker">Tracker</a>
     </nav>
   </header>
 
   <main>
-    <section id="checklist-view" class="view">
-      <form id="filter-bar" class="filter-bar" onsubmit="return false">
-        <label class="search-field">
-          <span>Search</span>
-          <input id="search" type="search" placeholder="Name, description or chapter" autocomplete="off">
+    <section id="checklist-view" class="workspace">
+      <form id="filters" class="filters" autocomplete="off" onsubmit="return false">
+        <label class="search-box">
+          <span>Search the ledger</span>
+          <input id="search-input" type="search" placeholder="Name, description or chapter">
         </label>
         <label>
-          <span>Medal</span>
-          <select id="grade-filter">
-            <option value="all">All grades</option>
+          <span>Grade</span>
+          <select id="grade-select">
+            <option value="all">All medals</option>
             <option value="platinum">Platinum</option>
             <option value="gold">Gold</option>
             <option value="silver">Silver</option>
@@ -52,66 +51,66 @@
           </select>
         </label>
         <label>
-          <span>Group by</span>
-          <select id="group-filter">
-            <option value="stage">Stage</option>
-            <option value="grade">Grade</option>
+          <span>Arrange</span>
+          <select id="group-select">
+            <option value="stage">By stage</option>
+            <option value="grade">By grade</option>
           </select>
         </label>
-        <label class="toggle"><input id="remaining-filter" type="checkbox"><span>Remaining</span></label>
-        <label class="toggle"><input id="guard-filter" type="checkbox" role="switch"><span>Spoiler guard</span></label>
+        <label class="check-control"><input id="remaining-only" type="checkbox"><span>Remaining</span></label>
+        <label class="check-control"><input id="spoiler-toggle" type="checkbox" role="switch"><span>Guard spoilers</span></label>
       </form>
-      <div id="kind-tabs" class="kind-tabs" aria-label="Kind filters"></div>
-      <div class="columns">
-        <div class="list-column">
-          <p id="result-count" class="result-count"></p>
-          <div id="trophy-list"></div>
-        </div>
-        <aside id="detail-panel" class="detail-panel" aria-live="polite"></aside>
+      <div id="kind-filter" class="kind-filter" aria-label="Trophy kind"></div>
+      <div class="ledger-layout">
+        <section class="ledger" aria-label="Trophy records">
+          <p id="result-summary" class="result-summary"></p>
+          <div id="trophy-rows"></div>
+        </section>
+        <aside id="guide-pane" class="guide-pane" aria-live="polite"></aside>
       </div>
     </section>
 
-    <section id="missables-view" class="view" hidden>
-      <header class="section-head">
-        <div><p class="kicker">Close-out ledger</p><h2>Missables</h2></div>
-        <a href="#view=checklist">Back to checklist →</a>
+    <section id="missables-view" class="workspace" hidden>
+      <header class="section-heading">
+        <div><p class="edition">Close-out ledger</p><h2>Missables</h2></div>
+        <a href="#view=checklist">Return to checklist →</a>
       </header>
-      <div id="missable-list"></div>
+      <div id="missable-cards"></div>
     </section>
 
-    <section id="roadmap-view" class="view" hidden>
-      <header class="section-head">
-        <div><p class="kicker">Nine-stage route</p><h2>Roadmap to the platinum</h2></div>
+    <section id="roadmap-view" class="workspace" hidden>
+      <header class="section-heading">
+        <div><p class="edition">Nine-stage route</p><h2>Roadmap to platinum</h2></div>
       </header>
-      <p id="do-next-line" class="do-next"></p>
-      <div id="roadmap-list"></div>
+      <p id="roadmap-next" class="roadmap-next"></p>
+      <div id="roadmap-stages"></div>
     </section>
 
-    <section id="tracker-view" class="view" hidden>
-      <header class="section-head">
-        <div><p class="kicker">Local save</p><h2>Tracker</h2></div>
+    <section id="tracker-view" class="workspace" hidden>
+      <header class="section-heading">
+        <div><p class="edition">Local save</p><h2>Tracker</h2></div>
       </header>
-      <div id="tracker-content"></div>
+      <div id="tracker-cards"></div>
     </section>
   </main>
 
-  <footer>
-    <p>An unofficial guide. Official names, descriptions and medal grades belong to the publisher.</p>
-    <p><button id="shortcut-open" type="button">Keyboard map</button> <kbd>J</kbd>/<kbd>K</kbd> move · <kbd>Space</kbd> mark · <kbd>/</kbd> search · <kbd>G</kbd> then <kbd>C/M/R/T</kbd></p>
+  <footer class="page-foot">
+    <p>Unofficial guide. Trophy names and official descriptions remain property of the publisher.</p>
+    <p><button id="open-shortcuts" type="button">Keyboard map</button> <kbd>J</kbd> <kbd>K</kbd> · <kbd>Space</kbd> · <kbd>/</kbd> · <kbd>G</kbd> <kbd>C/M/R/T</kbd></p>
   </footer>
 
   <dialog id="shortcut-dialog">
     <form method="dialog">
-      <header><h2>Keyboard map</h2><button aria-label="Close">×</button></header>
+      <header><h2>Keyboard map</h2><button aria-label="Close" value="close">×</button></header>
       <dl>
-        <div><dt>J / K</dt><dd>Move through trophy rows</dd></div>
-        <div><dt>Space</dt><dd>Toggle the selected trophy</dd></div>
-        <div><dt>/</dt><dd>Focus search</dd></div>
-        <div><dt>G, C/M/R/T</dt><dd>Checklist, Missables, Roadmap or Tracker</dd></div>
+        <div><dt>J / K</dt><dd>Move through the visible rows</dd></div>
+        <div><dt>Space</dt><dd>Mark the selected trophy earned</dd></div>
+        <div><dt>/</dt><dd>Focus checklist search</dd></div>
+        <div><dt>G, C/M/R/T</dt><dd>Open a primary view</dd></div>
       </dl>
     </form>
   </dialog>
-  <noscript><p class="noscript">Enable JavaScript to use the offline checklist.</p></noscript>
-  <script type="module" src="app.js"></script>
+  <noscript><p class="noscript">JavaScript is required for the local checklist.</p></noscript>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>
